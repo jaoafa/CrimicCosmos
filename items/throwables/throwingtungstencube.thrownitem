@@ -1,0 +1,31 @@
+{
+  "itemName" : "throwingtungstencube",
+  "price" : 30,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "throwingtungstencube.png",
+  "image" : "throwingtungstencube.png",
+  "shortdescription" : "Tungsten Cube",
+  "description" : "Useful for combat or just showing off.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 3,
+
+  "projectileType" : "throwingtungstencube",
+  "projectileConfig" : {
+    "speed" : 10,
+    "power" : 50,
+	"knockback" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_huge.ogg" ]
+      }
+    ]
+  }
+}

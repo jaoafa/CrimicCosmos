@@ -1,0 +1,14 @@
+{
+  "itemName" : "nztile",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "nztile.png",
+  "description" : "a Tile used in NakaZashi HD buildings.",
+  "shortdescription" : "NZ Tile",
+  "glitchdescription" : "a Tile used in NakaZashi HD buildings.",
+  "florandescription" : "a Tile used in NakaZashi HD buildings.",
+  "novakiddescription" : "a Tile used in NakaZashi HD buildings.",
+
+  "materialId" : 1708
+}

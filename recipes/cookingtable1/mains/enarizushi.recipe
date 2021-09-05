@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "boiledrice", "count" : 1 },
+    { "item" : "salvagebody", "count" : 2 }
+  ],
+  "output" : { "item" : "enarizushi", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

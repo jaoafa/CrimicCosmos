@@ -1,0 +1,9 @@
+{
+  "name" : "namahamu",
+  "category" : "namahamu",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "namahamu.png"
+  }
+}

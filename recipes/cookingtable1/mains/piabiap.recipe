@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "pizza", "count" : 3 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "hamburger", "count" : 1 }
+  ],
+  "output" : { "item" : "piabiap", "count" : 1 },
+  "groups" : [ "craftingfood", "mains" ]
+}

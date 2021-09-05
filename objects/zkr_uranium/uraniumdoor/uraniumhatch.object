@@ -1,0 +1,58 @@
+{
+  "objectName" : "uraniumhatch",
+  "colonyTags" : ["uranium","door"],
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 200,
+  "description" : "A hatch made from Uranium.",
+  "shortdescription" : "Uranium Hatch",
+  "race" : "generic",
+
+  "apexDescription" : "A hatch made from Uranium.",
+  "avianDescription" : "A hatch made from Uranium.",
+  "floranDescription" : "A hatch made from Uranium.",
+  "glitchDescription" : "A hatch made from Uranium.",
+  "humanDescription" : "A hatch made from Uranium.",
+  "hylotlDescription" : "A hatch made from Uranium.",
+  "novakidDescription" : "A hatch made from Uranium.",
+
+  "inventoryIcon" : "uraniumhatchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "uraniumhatch.png:default",
+      "imagePosition" : [-16, -20],
+      "renderLayer" : "Object+5",
+
+      "spaces" : [ 
+                    [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], 
+                    [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
+      ],
+      "anchors" : [ "left", "right" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/apexcooldoor_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "uraniumhatch.png"
+  },
+  "animationPosition" : [-16, -20],
+
+  "inputNodes" : [ [-2, 0] ],
+  "outputNodes" : [ [2, -1] ]
+}

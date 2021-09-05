@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 5 },
+	{ "item" : "poop", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "hambanner",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups"  : [ "craftingfurniture", "decoration", "all" ]
+}

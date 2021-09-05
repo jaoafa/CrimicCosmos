@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 8 }
+  ],
+  "output" : {
+    "item" : "tomasign",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups"  : [ "craftingfurniture", "decoration", "all" ]
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 8 },
+	{ "item" : "uraniumrod", "count" : 1 },
+	{ "item" : "durasteelbar", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "nztile",
+    "count" : 50
+  },
+  "duration" : 0.25,
+  "groups"  : [ "craftingfurniture", "materials", "all" ]
+}

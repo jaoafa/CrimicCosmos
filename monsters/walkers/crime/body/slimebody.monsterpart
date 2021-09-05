@@ -1,0 +1,9 @@
+{
+  "name" : "srime",
+  "category" : "srime",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "srime.png"
+  }
+}

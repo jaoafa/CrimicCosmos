@@ -1,0 +1,30 @@
+
+[
+  {
+    "op": "add",
+    "path": "/collectables/namahamu",
+    "value": {
+      "order": 80,
+      "monsterType": "namahamu",
+      "icon": "/monsters/walkers/namahamu/body/namahamu.png:idle.1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/crime",
+    "value": {
+      "order": 80,
+      "monsterType": "crime",
+      "icon": "/monsters/walkers/crime/body/crime.png:idle.1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/srime",
+    "value": {
+      "order": 81,
+      "monsterType": "srime",
+      "icon": "//monsters/walkers/crime/body/srime.png:idle.1"
+    }
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "itemName" : "piabiap",
+  "rarity" : "Common",
+  "price" : 500,
+  "category" : "preparedFood",
+  "inventoryIcon" : "piabiap.png",
+  "description" : "Ever wonder what it tastes like to have an entire double sided pizza inside a burger?",
+  "shortdescription" : "PIZZA INSIDE A BURGER INSIDE A PIZZA",
+  "foodValue" : 844,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

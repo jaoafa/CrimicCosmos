@@ -1,0 +1,10 @@
+{
+  "name" : "zakurohat",
+  "path" : ".",
+  "dependencies" : [],
+  "metadata" : {
+    "author" : "Micni",
+    "version" : "1.5.2",
+    "description" : "Zakurohat."
+  }
+}

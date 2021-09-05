@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "rawpoultry", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "ahiru",
+    "count" : 1
+  },
+  "groups" : [  "craftinganvil", "weapons", "all" ]
+}

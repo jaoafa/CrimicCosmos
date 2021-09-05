@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "uraniumore", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "uraniumbookcase",
+    "count" : 1
+  },
+  "duration" : 0.25,
+  "groups"  : [ "craftingfurniture", "storage", "all" ]
+}

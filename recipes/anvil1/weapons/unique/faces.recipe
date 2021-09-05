@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "poop", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "fecessound",
+    "count" : 1
+  },
+  "groups" : [  "craftinganvil", "weapons", "all" ]
+}

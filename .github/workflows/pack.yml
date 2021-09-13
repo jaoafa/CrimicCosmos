@@ -1,0 +1,65 @@
+name: Pack
+
+on:
+  push:
+    branches:
+      - main
+  pull_request_target:
+    branches:
+      - main
+    types: [opened, synchronize]
+
+jobs:
+  pack:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - uses: actions/checkout@v2
+        with:
+          path: Starbound-ZakuroHatMod
+
+      - uses: actions/checkout@v2
+        with:
+          repository: damianb/sbpak
+          path: sbpak
+
+      - name: Install sbpak
+        run: |
+          cd sbpak
+          npm i
+          cd ..
+
+      - name: Get metadata
+        id: metadata
+        run: |
+          NAME=`cat Starbound-ZakuroHatMod/_metadata | jq -r .name`
+          VERSION=`cat Starbound-ZakuroHatMod/_metadata | jq -r .version`
+          echo "::set-output name=NAME::${NAME}"
+          echo "::set-output name=VERSION::${VERSION}"
+          echo "::set-output name=FILENAME::${NAME}-${VERSION}.pak"
+
+      - name: Pack
+        run: npx sbpak pack Starbound-ZakuroHatMod ${{ steps.metadata.outputs.FILENAME }}
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: ${{ steps.metadata.outputs.FILENAME }}
+          path: ${{ steps.metadata.outputs.FILENAME }}
+          retention-days: 5
+
+      - name: Comment
+        if: github.event_name == 'pull_request_target'
+        uses: actions/github-script@v4
+        with:
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `# ビルドに成功しました\n\n- VERSION: ${{ steps.metadata.outputs.VERSION }}\n- FILENAME: ${{ steps.metadata.outputs.FILENAME }}\n\n# pakファイル\n\nhttps://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}#artifacts`
+            })

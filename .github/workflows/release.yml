@@ -53,25 +53,25 @@ jobs:
           echo "::set-output name=FILENAME::${NAME}-${VERSION}.pak"
           echo "VERSION: ${VERSION}"
 
-      - name: Check changed version
-        if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
-        run: exit 1
-
       - uses: actions/checkout@v2
+        if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
         with:
           repository: damianb/sbpak
           path: sbpak
 
       - name: Install sbpak
+        if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
         run: |
           cd sbpak
           npm i
           cd ..
 
       - name: Pack
+        if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
         run: npx sbpak pack Starbound-ZakuroHatMod ${{ steps.metadata.outputs.FILENAME }}
 
       - name: Create a Release
+        if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
         id: create_release
         uses: actions/create-release@v1
         env:
@@ -83,6 +83,7 @@ jobs:
           prerelease: false
 
       - name: Upload Release Asset
+        if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
         uses: actions/upload-release-asset@v1.0.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -93,6 +94,7 @@ jobs:
           asset_content_type: application/octet-stream
 
       - name: Released comment
+        if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
         uses: actions/github-script@v4
         with:
           script: |

@@ -28,6 +28,12 @@ jobs:
           ref: main
           fetch-depth: 0
 
+      - name: Reset latest merge
+        run: |
+          cd Starbound-ZakuroHatMod-main
+          git reset --hard HEAD~1
+          cd ..
+
       - name: Get main metadata
         id: mainMetadata
         run: |
@@ -44,12 +50,6 @@ jobs:
           echo "::set-output name=NAME::${NAME}"
           echo "::set-output name=VERSION::${VERSION}"
           echo "::set-output name=FILENAME::${NAME}-${VERSION}.pak"
-
-      - name: Reset latest merge
-        run: |
-          cd Starbound-ZakuroHatMod-main
-          git reset --hard HEAD~1
-          cd ..
 
       - name: Check changed version
         if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}

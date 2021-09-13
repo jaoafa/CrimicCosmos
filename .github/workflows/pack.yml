@@ -40,16 +40,16 @@ jobs:
         run: |
           NAME=`cat Starbound-ZakuroHatMod/_metadata | jq -r .name`
           VERSION=`cat Starbound-ZakuroHatMod/_metadata | jq -r .version`
-          echo "::set-output name=${NAME}"
-          echo "::set-output version=${VERSION}"
-          echo "::set-output filename=${NAME}-${VERSION}.pak"
+          echo "::set-output name=NAME::${NAME}"
+          echo "::set-output name=VERSION::${VERSION}"
+          echo "::set-output name=FILENAME::${NAME}-${VERSION}.pak"
 
       - name: Pack
-        run: npx sbpak pack Starbound-ZakuroHatMod ${{ steps.metadata.outputs.filename }}
+        run: npx sbpak pack Starbound-ZakuroHatMod ${{ steps.metadata.outputs.FILENAME }}
 
       - uses: actions/upload-artifact@v2
         with:
-          path: ${{ steps.metadata.outputs.filename }}
+          path: ${{ steps.metadata.outputs.FILENAME }}
 
       - name: Upload Pull request artifact
         if: github.event_name == 'pull_request_target'
@@ -60,5 +60,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `# pakファイル\n\nhttps://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}#artifacts`
+              body: `- VERSION: ${{ steps.metadata.outputs.VERSION }}\n- FILENAME: ${{ steps.metadata.outputs.FILENAME }}\n\n# pakファイル\n\nhttps://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}#artifacts`
             })

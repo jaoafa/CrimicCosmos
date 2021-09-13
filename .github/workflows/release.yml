@@ -41,6 +41,7 @@ jobs:
           VERSION=`cat Starbound-ZakuroHatMod-main/_metadata | jq -r .version`
           echo "::set-output name=NAME::${NAME}"
           echo "::set-output name=VERSION::${VERSION}"
+          echo "VERSION: ${VERSION}"
 
       - name: Get current metadata
         id: metadata
@@ -50,6 +51,7 @@ jobs:
           echo "::set-output name=NAME::${NAME}"
           echo "::set-output name=VERSION::${VERSION}"
           echo "::set-output name=FILENAME::${NAME}-${VERSION}.pak"
+          echo "VERSION: ${VERSION}"
 
       - name: Check changed version
         if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}

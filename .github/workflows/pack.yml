@@ -54,7 +54,7 @@ jobs:
 
       - name: Upload Pull request artifact
         if: github.event_name == 'pull_request_target'
-        uses: actions/github-script@0.8.0
+        uses: actions/github-script@v4
         with:
           script: |
             github.issues.createComment({

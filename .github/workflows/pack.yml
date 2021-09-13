@@ -1,6 +1,14 @@
 name: Pack
 
-on: [ push, pull_request ]
+on:
+  push:
+    branches:
+      - main
+  pull_request_target:
+    branches:
+      - main
+    types:
+      - closed
 
 jobs:
   main:
@@ -27,10 +35,28 @@ jobs:
           npm i
           cd ..
 
+      - name: Get metadata
+        id: metadata
+        run: |
+          echo "::set-output name=`cat _metadata | jq -r .name`"
+          echo "::set-output version=`cat _metadata | jq -r .version`"
+          echo "::set-output filename=${{ steps.metadata.outputs.name }}-${{ steps.metadata.outputs.version }}.pak"
+
       - name: Pack
-        run: npx sbpak pack Starbound-ZakuroHatMod packed.pak
+        run: npx sbpak pack Starbound-ZakuroHatMod ${{ steps.metadata.outputs.filename }}
 
       - uses: actions/upload-artifact@v2
         with:
-          name: pak
-          path: packed.pak
+          path: ${{ steps.metadata.outputs.filename }}
+
+      - name: Upload Pull request artifact
+        if: github.event_name == 'pull_request_target'
+        uses: actions/github-script@0.8.0
+        with:
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `# pakファイル\n\nhttps://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}#artifacts`
+            })

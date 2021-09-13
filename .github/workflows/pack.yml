@@ -10,7 +10,7 @@ on:
     types: [opened, synchronize]
 
 jobs:
-  main:
+  pack:
     runs-on: ubuntu-latest
 
     steps:
@@ -52,7 +52,7 @@ jobs:
           path: ${{ steps.metadata.outputs.FILENAME }}
           retention-days: 5
 
-      - name: Upload Pull request artifact
+      - name: Comment
         if: github.event_name == 'pull_request_target'
         uses: actions/github-script@v4
         with:
@@ -61,5 +61,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `- VERSION: ${{ steps.metadata.outputs.VERSION }}\n- FILENAME: ${{ steps.metadata.outputs.FILENAME }}\n\n# pakファイル\n\nhttps://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}#artifacts`
+              body: `# ビルドに成功しました\n\n- VERSION: ${{ steps.metadata.outputs.VERSION }}\n- FILENAME: ${{ steps.metadata.outputs.FILENAME }}\n\n# pakファイル\n\nhttps://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}#artifacts`
             })

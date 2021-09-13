@@ -1,4 +1,4 @@
-name: Pack
+name: Release
 
 on:
   pull_request_target:
@@ -8,7 +8,7 @@ on:
       - closed
 
 jobs:
-  main:
+  release:
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged == true
 
@@ -62,18 +62,6 @@ jobs:
       - name: Pack
         run: npx sbpak pack Starbound-ZakuroHatMod ${{ steps.metadata.outputs.FILENAME }}
 
-      - name: Upload Pull request artifact
-        if: github.event_name == 'pull_request_target'
-        uses: actions/github-script@v4
-        with:
-          script: |
-            github.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `- VERSION: ${{ steps.metadata.outputs.VERSION }}\n- FILENAME: ${{ steps.metadata.outputs.FILENAME }}\n\n# pakファイル\n\nhttps://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}#artifacts`
-            })
-
       - name: Create a Release
         id: create_release
         uses: actions/create-release@v1
@@ -94,3 +82,14 @@ jobs:
           asset_path: ${{ steps.metadata.outputs.FILENAME }}
           asset_name: ${{ steps.metadata.outputs.FILENAME }}
           asset_content_type: application/octet-stream
+
+      - name: Released comment
+        uses: actions/github-script@v4
+        with:
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `# リリースが完了しました\n\n${{ steps.create_release.outputs.html_url }}`
+            })

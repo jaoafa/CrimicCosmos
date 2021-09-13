@@ -38,8 +38,8 @@ jobs:
       - name: Get metadata
         id: metadata
         run: |
-          echo "::set-output name=`cat _metadata | jq -r .name`"
-          echo "::set-output version=`cat _metadata | jq -r .version`"
+          echo "::set-output name=`cat Starbound-ZakuroHatMod/_metadata | jq -r .name`"
+          echo "::set-output version=`cat Starbound-ZakuroHatMod/_metadata | jq -r .version`"
           echo "::set-output filename=${{ steps.metadata.outputs.name }}-${{ steps.metadata.outputs.version }}.pak"
 
       - name: Pack

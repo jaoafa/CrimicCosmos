@@ -44,6 +44,12 @@ jobs:
           echo "::set-output name=VERSION::${VERSION}"
           echo "::set-output name=FILENAME::${NAME}-${VERSION}.pak"
 
+      - name: Reset latest merge
+        run: |
+          cd Starbound-ZakuroHatMod-main
+          git reset --hard ORIG_HEAD
+          cd ..
+
       - name: Check changed version
         if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
         run: exit 1

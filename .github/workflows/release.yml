@@ -47,7 +47,7 @@ jobs:
       - name: Reset latest merge
         run: |
           cd Starbound-ZakuroHatMod-main
-          git reset --hard ORIG_HEAD
+          git reset --hard HEAD~1
           cd ..
 
       - name: Check changed version

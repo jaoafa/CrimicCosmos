@@ -7,8 +7,7 @@ on:
   pull_request_target:
     branches:
       - main
-    types:
-      - closed
+    types: [opened, synchronize]
 
 jobs:
   main:
@@ -49,7 +48,9 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
+          name: ${{ steps.metadata.outputs.FILENAME }}.zip
           path: ${{ steps.metadata.outputs.FILENAME }}
+          retention-days: 5
 
       - name: Upload Pull request artifact
         if: github.event_name == 'pull_request_target'

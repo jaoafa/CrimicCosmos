@@ -1,0 +1,36 @@
+name: Pack
+
+on: [ push, pull_request ]
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - uses: actions/checkout@v2
+        with:
+          path: Starbound-ZakuroHatMod
+
+      - uses: actions/checkout@v2
+        with:
+          repository: damianb/sbpak
+          path: sbpak
+
+      - name: Install sbpak
+        run: |
+          cd sbpak
+          npm i
+          cd ..
+
+      - name: Pack
+        run: npx sbpak pack Starbound-ZakuroHatMod packed.pak
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: pak
+          path: packed.pak

@@ -1,0 +1,95 @@
+name: Pack
+
+on:
+  pull_request_target:
+    branches:
+      - main
+    types:
+      - closed
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup node
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - uses: actions/checkout@v2
+        with:
+          path: Starbound-ZakuroHatMod
+
+      - uses: actions/checkout@v2
+        with:
+          path: Starbound-ZakuroHatMod-main
+          ref: main
+
+      - name: Get main metadata
+        id: mainMetadata
+        run: |
+          NAME=`cat Starbound-ZakuroHatMod-main/_metadata | jq -r .name`
+          VERSION=`cat Starbound-ZakuroHatMod-main/_metadata | jq -r .version`
+          echo "::set-output name=NAME::${NAME}"
+          echo "::set-output name=VERSION::${VERSION}"
+
+      - name: Get current metadata
+        id: metadata
+        run: |
+          NAME=`cat Starbound-ZakuroHatMod/_metadata | jq -r .name`
+          VERSION=`cat Starbound-ZakuroHatMod/_metadata | jq -r .version`
+          echo "::set-output name=NAME::${NAME}"
+          echo "::set-output name=VERSION::${VERSION}"
+          echo "::set-output name=FILENAME::${NAME}-${VERSION}.pak"
+
+      - name: Check changed version
+        if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
+        run: exit 1
+
+      - uses: actions/checkout@v2
+        with:
+          repository: damianb/sbpak
+          path: sbpak
+
+      - name: Install sbpak
+        run: |
+          cd sbpak
+          npm i
+          cd ..
+
+      - name: Pack
+        run: npx sbpak pack Starbound-ZakuroHatMod ${{ steps.metadata.outputs.FILENAME }}
+
+      - name: Upload Pull request artifact
+        if: github.event_name == 'pull_request_target'
+        uses: actions/github-script@v4
+        with:
+          script: |
+            github.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `- VERSION: ${{ steps.metadata.outputs.VERSION }}\n- FILENAME: ${{ steps.metadata.outputs.FILENAME }}\n\n# pakファイル\n\nhttps://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}#artifacts`
+            })
+
+      - name: Create a Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ steps.metadata.outputs.VERSION }}
+          release_name: v${{ steps.metadata.outputs.VERSION }}
+          draft: false
+          prerelease: false
+
+      - name: Upload Release Asset
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ${{ steps.metadata.outputs.FILENAME }}
+          asset_name: ${{ steps.metadata.outputs.FILENAME }}
+          asset_content_type: application/octet-stream

@@ -38,9 +38,11 @@ jobs:
       - name: Get metadata
         id: metadata
         run: |
-          echo "::set-output name=`cat Starbound-ZakuroHatMod/_metadata | jq -r .name`"
-          echo "::set-output version=`cat Starbound-ZakuroHatMod/_metadata | jq -r .version`"
-          echo "::set-output filename=${{ steps.metadata.outputs.name }}-${{ steps.metadata.outputs.version }}.pak"
+          NAME=`cat Starbound-ZakuroHatMod/_metadata | jq -r .name`
+          VERSION=`cat Starbound-ZakuroHatMod/_metadata | jq -r .version`
+          echo "::set-output name=${NAME}"
+          echo "::set-output version=${VERSION}"
+          echo "::set-output filename=${NAME}-${VERSION}.pak"
 
       - name: Pack
         run: npx sbpak pack Starbound-ZakuroHatMod ${{ steps.metadata.outputs.filename }}

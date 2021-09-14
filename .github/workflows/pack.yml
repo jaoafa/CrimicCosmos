@@ -19,11 +19,21 @@ jobs:
         with:
           node-version: '14'
 
-      - uses: actions/checkout@v2
+      - name: Checkout (Push)
+        uses: actions/checkout@v2
+        if: github.event == null
         with:
           path: Starbound-ZakuroHatMod
 
-      - uses: actions/checkout@v2
+      - name: Checkout (Pull request)
+        uses: actions/checkout@v2
+        if: github.event != null
+        with:
+          path: Starbound-ZakuroHatMod
+          ref: ${{ github.event.pull_request.head.ref }}
+
+      - name: Checkout damianb/sbpak
+        uses: actions/checkout@v2
         with:
           repository: damianb/sbpak
           path: sbpak

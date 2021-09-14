@@ -10,7 +10,7 @@
   "actionOnReap" : [
     {
       "action" : "config",
-      "file" : "/projectiles/explosions/bouldersmashexplosion/bouldersmashexplosionuniversal.config"
+      "file" : "/projectiles/explosions/tungstencube/tungstenexplosionuniversal.config"
     }
   ],
   "power" : 16.0,

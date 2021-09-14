@@ -8,5 +8,32 @@
           [ 0.111, "namahamu" ]  
         ]
 		}
+},
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{ 
+      
+        "select" : 3,
+        "pool" : [ 
+          [ 0.111, "kamesuta" ]  
+        ]
+		}
+},
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{ 
+      
+        "select" : 3,
+        "pool" : [ 
+          [ 0.111, "659" ]  
+        ]
+		}
+},
+{"op":"add","path":"/spawnProfile/groups/-",
+"value":{ 
+      
+        "select" : 3,
+        "pool" : [ 
+          [ 0.111, "crime" ]  
+        ]
+		}
 }
 ]

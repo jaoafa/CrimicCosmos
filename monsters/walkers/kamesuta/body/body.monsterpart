@@ -1,0 +1,9 @@
+{
+  "name" : "kamesuta",
+  "category" : "kamesuta",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "kamesuta.png"
+  }
+}

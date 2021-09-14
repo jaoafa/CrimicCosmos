@@ -20,6 +20,24 @@
   },
   {
     "op": "add",
+    "path": "/collectables/659",
+    "value": {
+      "order": 80,
+      "monsterType": "659",
+      "icon": "/monsters/walkers/659/body/659.png:idle.1"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/collectables/kamesuta",
+    "value": {
+      "order": 80,
+      "monsterType": "kamesuta",
+      "icon": "/monsters/walkers/kamesuta/body/kamesuta.png:idle.1"
+    }
+  },
+  {
+    "op": "add",
     "path": "/collectables/srime",
     "value": {
       "order": 81,

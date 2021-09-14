@@ -21,13 +21,13 @@ jobs:
 
       - name: Checkout (Push)
         uses: actions/checkout@v2
-        if: github.event == null
+        if: github.event.pull_request == null
         with:
           path: Starbound-ZakuroHatMod
 
       - name: Checkout (Pull request)
         uses: actions/checkout@v2
-        if: github.event != null
+        if: github.event.pull_request != null
         with:
           path: Starbound-ZakuroHatMod
           ref: ${{ github.event.pull_request.head.ref }}

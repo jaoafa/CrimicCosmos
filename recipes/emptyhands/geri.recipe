@@ -1,7 +1,7 @@
 {
   "input" : [
     { "item" : "poop", "count" : 3 },
-	{ "item" : "cobblestonematerial", "liquidwater" : 1 }
+	{ "item" : "liquidwater", "count" : 1 }
   ],
   "output" : {
     "item" : "liquidgeri",

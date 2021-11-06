@@ -4,7 +4,7 @@
 	{ "item" : "reddye", "count" : 1 }
   ],
   "output" : {
-    "item" : "ahiru",
+    "item" : "sovietsound",
     "count" : 1
   },
   "groups" : [  "craftinganvil", "weapons", "all" ]

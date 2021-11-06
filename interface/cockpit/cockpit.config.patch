@@ -1,0 +1,18 @@
+[
+	[
+		{	"op" : "add",
+			"path" : "/visitableTypeDescription/crimic",
+			"value" : [
+				"A very dangerous planet. Crime. You had better not to go. People who visit here are crazy. ^red;It would be unwise to explore the surface of here, even if it was unavoidable."
+			]
+		},
+		{	"op" : "add",
+			"path" : "/planetTypeNames/crimic",
+			"value" : "Crimic"
+		},
+		{	"op" : "add",
+			"path" : "/planetTypeColors/crimic",
+			"value" : [231, 76, 60]
+		}
+	]
+]

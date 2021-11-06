@@ -30,7 +30,7 @@ jobs:
         if: github.event.pull_request != null
         with:
           path: Starbound-ZakuroHatMod
-          ref: ${{ github.event.pull_request.head.ref }}
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Checkout damianb/sbpak
         uses: actions/checkout@v2

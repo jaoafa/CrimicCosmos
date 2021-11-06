@@ -1,0 +1,19 @@
+{
+  "itemName" : "airhornsound",
+  "price" : 0,
+  "category" : "musicalInstrument",
+  "inventoryIcon" : "airhornicon.png",
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Puuun!!",
+  "shortdescription" : "Airhorn",
+  "largeImage" : "airhorn.png",
+  "image" : "airhorn.png",
+  "tooltipKind" : "tool",
+  "activeImage" : "airhorn.png",
+  "activeAngle" : 0,
+  "activeHandPosition" : [0, 0],
+  "handPosition" : [0, 0],
+  "twoHanded" : true,
+  "kind" : "airhorn"
+}

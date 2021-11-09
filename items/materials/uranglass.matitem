@@ -1,14 +1,13 @@
 {
-  "itemName" : "uranglass",
-  "price" : 0,
-  "category" : "block",
-  "rarity" : "Common",
-  "inventoryIcon" : "uranglass.png",
-  "description" : "Beautifully shines green",
-  "shortdescription" : "Uranium Glass Block",
-  "glitchdescription" : "Beautiful. It is a glass that shines beautifully in green.",
-  "florandescription" : "Beautiful. It is a glass that shines beautifully in green.",
-  "novakiddescription" : "Beautiful. It is a glass that shines beautifully in green.",
-
-  "materialId" : 1707
+  "itemName": "uranglass",
+  "price": 0,
+  "category": "block",
+  "rarity": "Common",
+  "inventoryIcon": "uranglass.png",
+  "description": "Beautifully shines green",
+  "shortdescription": "Uranium Glass Block",
+  "glitchdescription": "Beautiful. It is a glass that shines beautifully in green.",
+  "florandescription": "Beautiful. It is a glass that shines beautifully in green.",
+  "novakiddescription": "Beautiful. It is a glass that shines beautifully in green.",
+  "materialId": 1707
 }

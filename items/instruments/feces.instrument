@@ -1,19 +1,25 @@
 {
-  "itemName" : "fecessound",
-  "price" : 0,
-  "category" : "musicalInstrument",
-  "inventoryIcon" : "fecesicon.png",
-  "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : ".",
-  "shortdescription" : "Feces",
-  "largeImage" : "feces.png",
-  "image" : "feces.png",
-  "tooltipKind" : "tool",
-  "activeImage" : "feces.png",
-  "activeAngle" : 0,
-  "activeHandPosition" : [0, 0],
-  "handPosition" : [0, 0],
-  "twoHanded" : true,
-  "kind" : "feces"
+  "itemName": "fecessound",
+  "price": 0,
+  "category": "musicalInstrument",
+  "inventoryIcon": "fecesicon.png",
+  "maxStack": 1,
+  "rarity": "Common",
+  "description": ".",
+  "shortdescription": "Feces",
+  "largeImage": "feces.png",
+  "image": "feces.png",
+  "tooltipKind": "tool",
+  "activeImage": "feces.png",
+  "activeAngle": 0,
+  "activeHandPosition": [
+    0,
+    0
+  ],
+  "handPosition": [
+    0,
+    0
+  ],
+  "twoHanded": true,
+  "kind": "feces"
 }

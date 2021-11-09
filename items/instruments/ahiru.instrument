@@ -1,19 +1,25 @@
 {
-  "itemName" : "ahiru",
-  "price" : 0,
-  "category" : "musicalInstrument",
-  "inventoryIcon" : "ahiruicon.png",
-  "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : ".",
-  "shortdescription" : "AHIRU",
-  "largeImage" : "ahiru.png",
-  "image" : "ahiru.png",
-  "tooltipKind" : "tool",
-  "activeImage" : "ahiru.png",
-  "activeAngle" : 0,
-  "activeHandPosition" : [0, 0],
-  "handPosition" : [0, 0],
-  "twoHanded" : true,
-  "kind" : "ahiru"
+  "itemName": "ahiru",
+  "price": 0,
+  "category": "musicalInstrument",
+  "inventoryIcon": "ahiruicon.png",
+  "maxStack": 1,
+  "rarity": "Common",
+  "description": ".",
+  "shortdescription": "AHIRU",
+  "largeImage": "ahiru.png",
+  "image": "ahiru.png",
+  "tooltipKind": "tool",
+  "activeImage": "ahiru.png",
+  "activeAngle": 0,
+  "activeHandPosition": [
+    0,
+    0
+  ],
+  "handPosition": [
+    0,
+    0
+  ],
+  "twoHanded": true,
+  "kind": "ahiru"
 }

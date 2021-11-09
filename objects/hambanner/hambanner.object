@@ -1,33 +1,32 @@
 {
-  "objectName" : "hambanner",
-  "colonyTags" : ["Crime"],
-  "rarity" : "Common",
-  "category" : "decorative",
-  "price" : 0,
+  "objectName": "hambanner",
+  "colonyTags": ["Crime"],
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
 
-  "description" : "OHAMUU.",
-  "shortdescription" : "Ham Empire Banner",
-  "race" : "generic",
+  "description": "OHAMUU.",
+  "shortdescription": "Ham Empire Banner",
+  "race": "generic",
 
-  "apexDescription" : "OHAMUU.",
-  "avianDescription" : "OHAMUU.",
-  "floranDescription" : "OHAMUU.",
-  "glitchDescription" : "OHAMUU.",
-  "humanDescription" : "OHAMUU.",
-  "hylotlDescription" : "OHAMUU.",
-  "novakidDescription" : "OHAMUU.",
+  "apexDescription": "OHAMUU.",
+  "avianDescription": "OHAMUU.",
+  "floranDescription": "OHAMUU.",
+  "glitchDescription": "OHAMUU.",
+  "humanDescription": "OHAMUU.",
+  "hylotlDescription": "OHAMUU.",
+  "novakidDescription": "OHAMUU.",
 
-  "inventoryIcon" : "hambannericon.png",
-  "orientations" : [
+  "inventoryIcon": "hambannericon.png",
+  "orientations": [
     {
-      "image" : "hambanner.png",
-      "imagePosition" : [-16, -8],
-      "frames" : 1,
-      "animationCycle" : 0.5,
+      "image": "hambanner.png",
+      "imagePosition": [-16, -8],
+      "frames": 1,
+      "animationCycle": 0.5,
 
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
-
+      "spaceScan": 0.1,
+      "anchors": ["background"]
     }
   ]
 }

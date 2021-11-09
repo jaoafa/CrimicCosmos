@@ -1,90 +1,85 @@
 [
- {"op" : "add", 
-  "path" : "/-",
-    "value" : 
   {
-    "name" : "crime",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "name": "crime",
 
-    "spawnParameters" : {
-      "area" : "surface",
-      "region" : "all",
-      "time" : "all"
-    },
+      "spawnParameters": {
+        "area": "surface",
+        "region": "all",
+        "time": "all"
+      },
 
-    "groupSize" : [1, 2],
-    "spawnChance" : 0.08,
-    "monsterType" : [
-      [0.99, "crime"],
-      [0.01, "srime"]
-    ],
-    "monsterParameters" : {
-      "aggressive" : true
+      "groupSize": [1, 2],
+      "spawnChance": 0.08,
+      "monsterType": [
+        [0.99, "crime"],
+        [0.01, "srime"]
+      ],
+      "monsterParameters": {
+        "aggressive": true
+      }
     }
-  }  
- },
- {"op" : "add", 
-  "path" : "/-",
-    "value" : 
+  },
   {
-    "name" : "namahamu",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "name": "namahamu",
 
-    "spawnParameters" : {
-      "area" : "surface",
-      "region" : "all",
-      "time" : "all"
-    },
+      "spawnParameters": {
+        "area": "surface",
+        "region": "all",
+        "time": "all"
+      },
 
-    "groupSize" : [1, 2],
-    "spawnChance" : 0.08,
-    "monsterType" : "namahamu",
-    "monsterParameters" : {
-      "aggressive" : true
+      "groupSize": [1, 2],
+      "spawnChance": 0.08,
+      "monsterType": "namahamu",
+      "monsterParameters": {
+        "aggressive": true
+      }
     }
-  }  
- },
- {"op" : "add", 
-  "path" : "/-",
-    "value" : 
+  },
   {
-    "name" : "659",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "name": "659",
 
-    "spawnParameters" : {
-      "area" : "surface",
-      "region" : "all",
-      "time" : "all"
-    },
+      "spawnParameters": {
+        "area": "surface",
+        "region": "all",
+        "time": "all"
+      },
 
-    "groupSize" : [1, 2],
-    "spawnChance" : 0.08,
-    "monsterType" : "659",
-    "monsterParameters" : {
-      "aggressive" : true
+      "groupSize": [1, 2],
+      "spawnChance": 0.08,
+      "monsterType": "659",
+      "monsterParameters": {
+        "aggressive": true
+      }
     }
-  }  
- },
- {"op" : "add", 
-  "path" : "/-",
-    "value" : 
+  },
   {
-    "name" : "kamesuta",
+    "op": "add",
+    "path": "/-",
+    "value": {
+      "name": "kamesuta",
 
-    "spawnParameters" : {
-      "area" : "surface",
-      "region" : "all",
-      "time" : "all"
-    },
+      "spawnParameters": {
+        "area": "surface",
+        "region": "all",
+        "time": "all"
+      },
 
-    "groupSize" : [1, 2],
-    "spawnChance" : 0.08,
-    "monsterType" : "kamesuta",
-    "monsterParameters" : {
-      "aggressive" : true
+      "groupSize": [1, 2],
+      "spawnChance": 0.08,
+      "monsterType": "kamesuta",
+      "monsterParameters": {
+        "aggressive": true
+      }
     }
-  }  
- }
- 
-
-
-
- 
+  }
 ]

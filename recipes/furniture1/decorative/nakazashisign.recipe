@@ -1,13 +1,13 @@
 {
-  "input" : [
-    { "item" : "ironbar", "count" : 5 },
-	{ "item" : "uraniumrod", "count" : 1 },
-	{ "item" : "durasteelbar", "count" : 1 }
+  "input": [
+    { "item": "ironbar", "count": 5 },
+    { "item": "uraniumrod", "count": 1 },
+    { "item": "durasteelbar", "count": 1 }
   ],
-  "output" : {
-    "item" : "nakazashihdsign",
-    "count" : 1
+  "output": {
+    "item": "nakazashihdsign",
+    "count": 1
   },
-  "duration" : 0.25,
-  "groups"  : [ "craftingfurniture", "decoration", "all" ]
+  "duration": 0.25,
+  "groups": ["craftingfurniture", "decoration", "all"]
 }

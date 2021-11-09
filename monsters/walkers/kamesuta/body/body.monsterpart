@@ -1,9 +1,9 @@
 {
-  "name" : "kamesuta",
-  "category" : "kamesuta",
-  "type" : "body",
+  "name": "kamesuta",
+  "category": "kamesuta",
+  "type": "body",
 
-  "frames" : {
-    "body" : "kamesuta.png"
+  "frames": {
+    "body": "kamesuta.png"
   }
 }

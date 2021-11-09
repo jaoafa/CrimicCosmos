@@ -1,18 +1,20 @@
 {
-  "itemName" : "enarizushi",
-  "rarity" : "Common",
-  "price" : 100,
-  "category" : "preparedFood",
-  "inventoryIcon" : "enarizushi.png",
-  "description" : "(･_･)",
-  "shortdescription" : "Enari Sushi",
-  "foodValue" : 30,
-  "tooltipKind" : "food",
-  "builder" : "/items/buildscripts/buildfood.lua",
-  "maxStack" : 1,
-  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
-  "rottingMultiplier" : 1.0,
-  "blockingEffects" : [
+  "itemName": "enarizushi",
+  "rarity": "Common",
+  "price": 100,
+  "category": "preparedFood",
+  "inventoryIcon": "enarizushi.png",
+  "description": "(･_･)",
+  "shortdescription": "Enari Sushi",
+  "foodValue": 30,
+  "tooltipKind": "food",
+  "builder": "/items/buildscripts/buildfood.lua",
+  "maxStack": 1,
+  "itemAgingScripts": [
+    "/scripts/items/rotting.lua"
+  ],
+  "rottingMultiplier": 1.0,
+  "blockingEffects": [
     "wellfed"
   ]
 }

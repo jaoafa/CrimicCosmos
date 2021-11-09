@@ -1,12 +1,12 @@
 {
-  "input" : [
-    { "item" : "poop", "count" : 3 },
-	{ "item" : "liquidwater", "count" : 1 }
+  "input": [
+    { "item": "poop", "count": 3 },
+    { "item": "liquidwater", "count": 1 }
   ],
-  "output" : {
-    "item" : "liquidgeri",
-    "count" : 1
+  "output": {
+    "item": "liquidgeri",
+    "count": 1
   },
-  "duration" : 0.25,
-  "groups"  : [ "plain", "all" ]
+  "duration": 0.25,
+  "groups": ["plain", "all"]
 }

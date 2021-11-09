@@ -1,6 +1,9 @@
 {
   "objectName": "uraniumbed",
-  "colonyTags": ["uranium", "bed"],
+  "colonyTags": [
+    "uranium",
+    "bed"
+  ],
   "printable": false,
   "rarity": "rare",
   "description": "A bed made from Uranium.",
@@ -8,7 +11,6 @@
   "race": "generic",
   "category": "furniture",
   "price": 200,
-
   "apexDescription": "A bed made from Uranium.",
   "avianDescription": "A bed made from Uranium.",
   "floranDescription": "A bed made from Uranium.",
@@ -16,28 +18,36 @@
   "humanDescription": "A bed made from Uranium.",
   "hylotlDescription": "A bed made from Uranium.",
   "novakidDescription": "A bed made from Uranium.",
-
   "inventoryIcon": "uraniumbedicon.png",
   "orientations": [
     {
       "dualImage": "uraniumbed.png:<color>",
-
-      "imagePosition": [-24, 0],
+      "imagePosition": [
+        -24,
+        0
+      ],
       "frames": 1,
       "animationCycle": 1.0,
-
       "spaceScan": 0.1,
-      "anchors": ["bottom"]
+      "anchors": [
+        "bottom"
+      ]
     }
   ],
-
   "objectType": "loungeable",
   "sitFlipDirection": true,
-  "sitPosition": [-10, 14],
+  "sitPosition": [
+    -10,
+    14
+  ],
   "sitOrientation": "lay",
   "sitAngle": 90,
   "sitCoverImage": "/objects/zkr_uranium/uraniumbed/uraniumbedcover.png",
   "sitEmote": "sleep",
-  "sitStatusEffects": ["bed4"],
-  "sitEffectEmitters": ["sleepbubbles"]
+  "sitStatusEffects": [
+    "bed4"
+  ],
+  "sitEffectEmitters": [
+    "sleepbubbles"
+  ]
 }

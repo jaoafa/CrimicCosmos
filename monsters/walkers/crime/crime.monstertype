@@ -2,28 +2,30 @@
   "type": "crime",
   "shortdescription": "Crime",
   "description": "Kurime...",
-
-  "categories": ["crime"],
-  "parts": ["body"],
-
+  "categories": [
+    "crime"
+  ],
+  "parts": [
+    "body"
+  ],
   "animation": "crime.animation",
-
-  "dropPools": [{ "default": "empty" }],
-
+  "dropPools": [
+    {
+      "default": "empty"
+    }
+  ],
   "baseParameters": {
-    "scripts": ["/monsters/monster.lua"],
-
+    "scripts": [
+      "/monsters/monster.lua"
+    ],
     "behavior": "monster",
-
     "behaviorConfig": {
       "damageOnTouch": true,
-
       "targetQueryRange": 20,
       "targetOnDamage": true,
       "keepTargetInSight": true,
       "keepTargetInRange": 50,
       "targetOutOfSightTime": 5.0,
-
       "spawnActions": [
         {
           "name": "action-nudge",
@@ -35,13 +37,18 @@
           }
         }
       ],
-
-      "foundTargetActions": [{ "name": "action-aggrohop" }],
-
+      "foundTargetActions": [
+        {
+          "name": "action-aggrohop"
+        }
+      ],
       "hostileActions": [
         {
           "name": "action-hop",
-          "cooldown": [0.0, 0.25],
+          "cooldown": [
+            0.0,
+            0.25
+          ],
           "parameters": {
             "verticalSpeed": 20,
             "horizontalSpeed": 10,
@@ -53,11 +60,13 @@
           }
         }
       ],
-
       "periodicActions": [
         {
           "name": "action-hop",
-          "cooldown": [0.25, 0.5],
+          "cooldown": [
+            0.25,
+            0.5
+          ],
           "parameters": {
             "verticalSpeed": 25,
             "horizontalSpeed": 10,
@@ -67,68 +76,112 @@
         }
       ]
     },
-
     "touchDamage": {
       "poly": [
-        [-0.6875, -0.375],
-        [-0.4375, -0.625],
-        [0.4375, -0.625],
-        [0.6875, -0.375],
-        [0.6875, 0.25],
-        [0.4375, 0.5],
-        [-0.4375, 0.5],
-        [-0.6875, 0.25]
+        [
+          -0.6875,
+          -0.375
+        ],
+        [
+          -0.4375,
+          -0.625
+        ],
+        [
+          0.4375,
+          -0.625
+        ],
+        [
+          0.6875,
+          -0.375
+        ],
+        [
+          0.6875,
+          0.25
+        ],
+        [
+          0.4375,
+          0.5
+        ],
+        [
+          -0.4375,
+          0.5
+        ],
+        [
+          -0.6875,
+          0.25
+        ]
       ],
       "damage": 5,
-
       "teamType": "enemy",
       "damageSourceKind": "lash",
       "knockback": 20,
       "statusEffects": []
     },
-
-    "metaBoundBox": [-4, -4, 4, 4],
+    "metaBoundBox": [
+      -4,
+      -4,
+      4,
+      4
+    ],
     "scale": 1.0,
-
     "movementSettings": {
       "collisionPoly": [
-        [-0.6875, -0.375],
-        [-0.4375, -0.625],
-        [0.4375, -0.625],
-        [0.6875, -0.375],
-        [0.6875, 0.25],
-        [0.4375, 0.5],
-        [-0.4375, 0.5],
-        [-0.6875, 0.25]
+        [
+          -0.6875,
+          -0.375
+        ],
+        [
+          -0.4375,
+          -0.625
+        ],
+        [
+          0.4375,
+          -0.625
+        ],
+        [
+          0.6875,
+          -0.375
+        ],
+        [
+          0.6875,
+          0.25
+        ],
+        [
+          0.4375,
+          0.5
+        ],
+        [
+          -0.4375,
+          0.5
+        ],
+        [
+          -0.6875,
+          0.25
+        ]
       ],
-
       "mass": 1.0,
       "walkSpeed": 5,
       "runSpeed": 5,
       "jumpSpeed": 5
     },
-
     "bodyMaterialKind": "organic",
-
     "knockoutTime": 0.3,
     "knockoutAnimationStates": {
       "damage": "stunned"
     },
     "deathParticles": "deathPoof",
     "knockoutEffect": "",
-
     "statusSettings": {
       "statusProperties": {
         "targetMaterialKind": "organic"
       },
-
       "appliesEnvironmentStatusEffects": false,
       "appliesWeatherStatusEffects": true,
       "minimumLiquidStatusEffectPercentage": 0.1,
-
-      "primaryScriptSources": ["/stats/monster_primary.lua"],
+      "primaryScriptSources": [
+        "/stats/monster_primary.lua"
+      ],
       "primaryScriptDelta": 5,
-
       "stats": {
         "knockbackStunTime": {
           "baseValue": 0.25
@@ -176,7 +229,6 @@
           "baseValue": 0.0
         }
       },
-
       "resources": {
         "stunned": {
           "deltaValue": -1.0,
@@ -189,12 +241,23 @@
         }
       }
     },
-
-    "mouthOffset": [0, 0],
-    "feetOffset": [0, -8],
+    "mouthOffset": [
+      0,
+      0
+    ],
+    "feetOffset": [
+      0,
+      -8
+    ],
     "capturable": true,
     "captureHealthFraction": 0.5,
-    "nametagColor": [64, 200, 255],
-    "captureCollectables": { "monsters": "crime" }
+    "nametagColor": [
+      64,
+      200,
+      255
+    ],
+    "captureCollectables": {
+      "monsters": "crime"
+    }
   }
 }

@@ -1,17 +1,23 @@
 {
   "objectName": "uraniumchestsmall",
-  "colonyTags": ["uranium", "storage"],
+  "colonyTags": [
+    "uranium",
+    "storage"
+  ],
   "rarity": "rare",
   "objectType": "container",
   "tooltipKind": "container",
-  "lightColor": [26, 240, 165],
+  "lightColor": [
+    26,
+    240,
+    165
+  ],
   "category": "storage",
   "price": 200,
   "description": "A small chest made from Uranium.",
   "shortdescription": "Uranium Chest",
   "race": "generic",
   "health": 3.0,
-
   "apexDescription": "A chest made from Uranium.",
   "avianDescription": "A chest made from Uranium.",
   "floranDescription": "A chest made from Uranium.",
@@ -19,20 +25,26 @@
   "humanDescription": "A chest made from Uranium.",
   "hylotlDescription": "A chest made from Uranium.",
   "novakidDescription": "A chest made from Uranium.",
-
   "inventoryIcon": "uraniumchestsmallicon.png",
   "orientations": [
     {
       "dualImage": "uraniumchestsmall.png:<color>.<key>",
-      "imagePosition": [-8, 0],
-
+      "imagePosition": [
+        -8,
+        0
+      ],
       "spaceScan": 0.1,
-      "anchors": ["bottom"]
+      "anchors": [
+        "bottom"
+      ]
     }
   ],
-
-  "openSounds": ["/sfx/objects/chest_small_open.ogg"],
-  "closeSounds": ["/sfx/objects/chest_small_close.ogg"],
+  "openSounds": [
+    "/sfx/objects/chest_small_open.ogg"
+  ],
+  "closeSounds": [
+    "/sfx/objects/chest_small_close.ogg"
+  ],
   "slotCount": 24,
   "uiConfig": "/interface/chests/chest<slots>.config",
   "frameCooldown": 6,

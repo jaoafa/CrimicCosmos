@@ -1,9 +1,18 @@
 {
-  "input": [{ "item": "uraniumore", "count": 20 }],
+  "input": [
+    {
+      "item": "uraniumore",
+      "count": 20
+    }
+  ],
   "output": {
     "item": "uraniumtable",
     "count": 1
   },
   "duration": 0.25,
-  "groups": ["craftingfurniture", "decoration", "all"]
+  "groups": [
+    "craftingfurniture",
+    "decoration",
+    "all"
+  ]
 }

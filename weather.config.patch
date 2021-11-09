@@ -3,16 +3,46 @@
     "op": "add",
     "path": "/crimic",
     "value": [
-      [0.1, "poptoprain"],
-      [0.1, "ironstorm"],
-      [0.1, "heavyrain"],
-      [0.1, "sandstorm"],
-      [0.1, "spacejunk"],
-      [0.1, "slimestormlesser"],
-      [0.1, "hailstones"],
-      [0.1, "cosmicblast"],
-      [0.1, "insanitystorm"],
-      [0.1, "crystalstormmajor"]
+      [
+        0.1,
+        "poptoprain"
+      ],
+      [
+        0.1,
+        "ironstorm"
+      ],
+      [
+        0.1,
+        "heavyrain"
+      ],
+      [
+        0.1,
+        "sandstorm"
+      ],
+      [
+        0.1,
+        "spacejunk"
+      ],
+      [
+        0.1,
+        "slimestormlesser"
+      ],
+      [
+        0.1,
+        "hailstones"
+      ],
+      [
+        0.1,
+        "cosmicblast"
+      ],
+      [
+        0.1,
+        "insanitystorm"
+      ],
+      [
+        0.1,
+        "crystalstormmajor"
+      ]
     ]
   }
 ]

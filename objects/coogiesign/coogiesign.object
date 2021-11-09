@@ -1,33 +1,32 @@
 {
-  "objectName" : "coogiesign",
-  "colonyTags" : ["Crime"],
-  "rarity" : "Common",
-  "category" : "decorative",
-  "price" : 0,
+  "objectName": "coogiesign",
+  "colonyTags": ["Crime"],
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 0,
 
-  "description" : "gieeeeeeeeeeeee",
-  "shortdescription" : "Aunt Zakuro's Coogie sign",
-  "race" : "generic",
+  "description": "gieeeeeeeeeeeee",
+  "shortdescription": "Aunt Zakuro's Coogie sign",
+  "race": "generic",
 
-  "apexDescription" : "gieeeeeeeeeeeee",
-  "avianDescription" : "gieeeeeeeeeeeee",
-  "floranDescription" : "gieeeeeeeeeeeee",
-  "glitchDescription" : "gieeeeeeeeeeeee",
-  "humanDescription" : "gieeeeeeeeeeeee",
-  "hylotlDescription" : "gieeeeeeeeeeeee",
-  "novakidDescription" : "gieeeeeeeeeeeee",
+  "apexDescription": "gieeeeeeeeeeeee",
+  "avianDescription": "gieeeeeeeeeeeee",
+  "floranDescription": "gieeeeeeeeeeeee",
+  "glitchDescription": "gieeeeeeeeeeeee",
+  "humanDescription": "gieeeeeeeeeeeee",
+  "hylotlDescription": "gieeeeeeeeeeeee",
+  "novakidDescription": "gieeeeeeeeeeeee",
 
-  "inventoryIcon" : "coogiesignicon.png",
-  "orientations" : [
+  "inventoryIcon": "coogiesignicon.png",
+  "orientations": [
     {
-      "image" : "coogiesign.png",
-      "imagePosition" : [-16, -8],
-      "frames" : 1,
-      "animationCycle" : 0.5,
+      "image": "coogiesign.png",
+      "imagePosition": [-16, -8],
+      "frames": 1,
+      "animationCycle": 0.5,
 
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
-
+      "spaceScan": 0.1,
+      "anchors": ["background"]
     }
   ]
 }

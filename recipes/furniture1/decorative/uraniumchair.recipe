@@ -1,11 +1,9 @@
 {
-  "input" : [
-    { "item" : "uraniumore", "count" : 20 }
-  ],
-  "output" : {
-    "item" : "uraniumchair",
-    "count" : 1
+  "input": [{ "item": "uraniumore", "count": 20 }],
+  "output": {
+    "item": "uraniumchair",
+    "count": 1
   },
-  "duration" : 0.25,
-  "groups"  : [ "craftingfurniture", "decoration", "all" ]
+  "duration": 0.25,
+  "groups": ["craftingfurniture", "decoration", "all"]
 }

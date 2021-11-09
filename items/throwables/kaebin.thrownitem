@@ -1,21 +1,23 @@
 {
-  "itemName" : "kaebin",
-  "rarity" : "Common",
-  "price" : 30,
-  "inventoryIcon" : "kaebin.png",
-  "image" : "kaebin.png",
-  "shortdescription" : "Kaepippi molotov",
-  "description" : "Bo Bo Bo Bo Bo Bonfire!",
-  "ammoUsage" : 1,
-  "edgeTrigger" : true,
-  "windupTime" : 0.0,
-  "cooldown" : 0.4,
-  "itemTags" : [ "thrown_grenade" ], 
-  "category" : "throwableItem",
-  "projectileType" : "kaebin",
-  "projectileConfig" : {
-    "speed" : 65,
-    "power" : 11,
-    "level" : 4
+  "itemName": "kaebin",
+  "rarity": "Common",
+  "price": 30,
+  "inventoryIcon": "kaebin.png",
+  "image": "kaebin.png",
+  "shortdescription": "Kaepippi molotov",
+  "description": "Bo Bo Bo Bo Bo Bonfire!",
+  "ammoUsage": 1,
+  "edgeTrigger": true,
+  "windupTime": 0.0,
+  "cooldown": 0.4,
+  "itemTags": [
+    "thrown_grenade"
+  ],
+  "category": "throwableItem",
+  "projectileType": "kaebin",
+  "projectileConfig": {
+    "speed": 65,
+    "power": 11,
+    "level": 4
   }
 }

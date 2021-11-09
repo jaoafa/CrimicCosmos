@@ -1,9 +1,9 @@
 {
-  "frameGrid" : {
-    "size" : [16, 16],
-    "dimensions" : [4, 6],
+  "frameGrid": {
+    "size": [16, 16],
+    "dimensions": [4, 6],
 
-    "names" : [
+    "names": [
       [null, "idle.1", null, "hurt.1"],
       [null, "prep.1", "prep.2", null],
       [null, "hop.1", "hop.2", "hop.3"],

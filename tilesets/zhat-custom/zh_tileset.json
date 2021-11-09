@@ -1,152 +1,128 @@
-{ "columns":0,
- "grid":
-    {
-     "height":1,
-     "orientation":"orthogonal",
-     "width":1
-    },
- "margin":0,
- "name":"zhtileset",
- "spacing":0,
- "tilecount":7,
- "tileheight":88,
- "tileproperties":
-    {
-     "0":
-        {
-         "imagePositionX":"-16",
-         "imagePositionY":"-8",
-         "object":"nakazashihdsign",
-         "tilesetdirection":"right"
-        },
-     "1":
-        {
-         "imagePositionX":"-16",
-         "imagePositionY":"-8",
-         "object":"coogiesign",
-         "tilesetdirection":"right"
-        },
-     "2":
-        {
-         "imagePositionX":"-88",
-         "imagePositionY":"0",
-         "object":"crimart",
-         "tilesetdirection":"left"
-        },
-     "3":
-        {
-         "material":"nztile"
-        },
-     "4":
-        {
-         "imagePositionX":"-16",
-         "imagePositionY":"-16",
-         "object":"tomasign",
-         "tilesetdirection":"right"
-        },
-     "5":
-        {
-         "material":"uranglass"
-        },
-     "6":
-        {
-         "imagePositionX":"-56",
-         "imagePositionY":"0",
-         "object":"coogieshop",
-         "tilesetdirection":"right"
-        }
-    },
- "tilepropertytypes":
-    {
-     "0":
-        {
-         "imagePositionX":"string",
-         "imagePositionY":"string",
-         "object":"string",
-         "tilesetdirection":"string"
-        },
-     "1":
-        {
-         "imagePositionX":"string",
-         "imagePositionY":"string",
-         "object":"string",
-         "tilesetdirection":"string"
-        },
-     "2":
-        {
-         "imagePositionX":"string",
-         "imagePositionY":"string",
-         "object":"string",
-         "tilesetdirection":"string"
-        },
-     "3":
-        {
-         "material":"string"
-        },
-     "4":
-        {
-         "imagePositionX":"string",
-         "imagePositionY":"string",
-         "object":"string",
-         "tilesetdirection":"string"
-        },
-     "5":
-        {
-         "material":"string"
-        },
-     "6":
-        {
-         "imagePositionX":"string",
-         "imagePositionY":"string",
-         "object":"string",
-         "tilesetdirection":"string"
-        }
-    },
- "tiles":
-    {
-     "0":
-        {
-         "image":"..\/..\/objects\/nakazashisign\/nakazashisign.png",
-         "imageheight":40,
-         "imagewidth":64
-        },
-     "1":
-        {
-         "image":"..\/..\/objects\/coogiesign\/coogiesign.png",
-         "imageheight":80,
-         "imagewidth":80
-        },
-     "2":
-        {
-         "image":"..\/..\/tiled\/zhat-custom\/material\/crimart.png",
-         "imageheight":88,
-         "imagewidth":176
-        },
-     "3":
-        {
-         "image":"..\/..\/tiled\/zhat-custom\/material\/nztile.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "4":
-        {
-         "image":"..\/..\/tiled\/zhat-custom\/material\/tomasign.png",
-         "imageheight":40,
-         "imagewidth":32
-        },
-     "5":
-        {
-         "image":"..\/..\/tiled\/zhat-custom\/material\/uranglass.png",
-         "imageheight":8,
-         "imagewidth":8
-        },
-     "6":
-        {
-         "image":"..\/..\/tiled\/zhat-custom\/material\/coogieshop.png",
-         "imageheight":87,
-         "imagewidth":124
-        }
-    },
- "tilewidth":176,
- "type":"tileset"
+{
+   "columns": 0,
+   "grid": {
+      "height": 1,
+      "orientation": "orthogonal",
+      "width": 1
+   },
+   "margin": 0,
+   "name": "zhtileset",
+   "spacing": 0,
+   "tilecount": 7,
+   "tileheight": 88,
+   "tileproperties": {
+      "0": {
+         "imagePositionX": "-16",
+         "imagePositionY": "-8",
+         "object": "nakazashihdsign",
+         "tilesetdirection": "right"
+      },
+      "1": {
+         "imagePositionX": "-16",
+         "imagePositionY": "-8",
+         "object": "coogiesign",
+         "tilesetdirection": "right"
+      },
+      "2": {
+         "imagePositionX": "-88",
+         "imagePositionY": "0",
+         "object": "crimart",
+         "tilesetdirection": "left"
+      },
+      "3": {
+         "material": "nztile"
+      },
+      "4": {
+         "imagePositionX": "-16",
+         "imagePositionY": "-16",
+         "object": "tomasign",
+         "tilesetdirection": "right"
+      },
+      "5": {
+         "material": "uranglass"
+      },
+      "6": {
+         "imagePositionX": "-56",
+         "imagePositionY": "0",
+         "object": "coogieshop",
+         "tilesetdirection": "right"
+      }
+   },
+   "tilepropertytypes": {
+      "0": {
+         "imagePositionX": "string",
+         "imagePositionY": "string",
+         "object": "string",
+         "tilesetdirection": "string"
+      },
+      "1": {
+         "imagePositionX": "string",
+         "imagePositionY": "string",
+         "object": "string",
+         "tilesetdirection": "string"
+      },
+      "2": {
+         "imagePositionX": "string",
+         "imagePositionY": "string",
+         "object": "string",
+         "tilesetdirection": "string"
+      },
+      "3": {
+         "material": "string"
+      },
+      "4": {
+         "imagePositionX": "string",
+         "imagePositionY": "string",
+         "object": "string",
+         "tilesetdirection": "string"
+      },
+      "5": {
+         "material": "string"
+      },
+      "6": {
+         "imagePositionX": "string",
+         "imagePositionY": "string",
+         "object": "string",
+         "tilesetdirection": "string"
+      }
+   },
+   "tiles": {
+      "0": {
+         "image": "..\/..\/objects\/nakazashisign\/nakazashisign.png",
+         "imageheight": 40,
+         "imagewidth": 64
+      },
+      "1": {
+         "image": "..\/..\/objects\/coogiesign\/coogiesign.png",
+         "imageheight": 80,
+         "imagewidth": 80
+      },
+      "2": {
+         "image": "..\/..\/tiled\/zhat-custom\/material\/crimart.png",
+         "imageheight": 88,
+         "imagewidth": 176
+      },
+      "3": {
+         "image": "..\/..\/tiled\/zhat-custom\/material\/nztile.png",
+         "imageheight": 8,
+         "imagewidth": 8
+      },
+      "4": {
+         "image": "..\/..\/tiled\/zhat-custom\/material\/tomasign.png",
+         "imageheight": 40,
+         "imagewidth": 32
+      },
+      "5": {
+         "image": "..\/..\/tiled\/zhat-custom\/material\/uranglass.png",
+         "imageheight": 8,
+         "imagewidth": 8
+      },
+      "6": {
+         "image": "..\/..\/tiled\/zhat-custom\/material\/coogieshop.png",
+         "imageheight": 87,
+         "imagewidth": 124
+      }
+   },
+   "tilewidth": 176,
+   "type": "tileset"
 }

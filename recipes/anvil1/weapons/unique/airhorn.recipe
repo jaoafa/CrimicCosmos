@@ -1,10 +1,8 @@
 {
-  "input" : [
-    { "item" : "ironbar", "count" : 10 }
-  ],
-  "output" : {
-    "item" : "airhornsound",
-    "count" : 1
+  "input": [{ "item": "ironbar", "count": 10 }],
+  "output": {
+    "item": "airhornsound",
+    "count": 1
   },
-  "groups" : [  "craftinganvil", "weapons", "all" ]
+  "groups": ["craftinganvil", "weapons", "all"]
 }

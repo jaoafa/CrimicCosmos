@@ -1,8 +1,8 @@
 {
-"name" : "zakurohat",
-"friendlyName" : "Zakuro hat",
-"version" : "1.7.0",
-"link" : "",
-"description" : "add Zakuro hat",
-"author" : "Micni"
+    "name": "zakurohat",
+    "friendlyName": "Zakuro hat",
+    "version": "1.7.0",
+    "link": "",
+    "description": "add Zakuro hat",
+    "author": "Micni"
 }

@@ -1,89 +1,113 @@
 {
-  "objectName" : "crimart",
-  "colonyTags" : ["commerce"],
-  "rarity" : "Common",
-  "category" : "other",
-  "description" : "This is NakaZashi's Crime store.",
-  "shortdescription" : "Crimart",
-  "race" : "generic",
+  "objectName": "crimart",
+  "colonyTags": ["commerce"],
+  "rarity": "Common",
+  "category": "other",
+  "description": "This is NakaZashi's Crime store.",
+  "shortdescription": "Crimart",
+  "race": "generic",
 
-  "apexDescription" : "This is NakaZashi's Crime store.",
-  "avianDescription" : "This is NakaZashi's Crime store.",
-  "floranDescription" : "This is NakaZashi's Crime store.",
-  "glitchDescription" : "This is NakaZashi's Crime store.",
-  "humanDescription" : "This is NakaZashi's Crime store.",
-  "hylotlDescription" : "This is NakaZashi's Crime store.",
-  "novakidDescription" : "This is NakaZashi's Crime store.",
+  "apexDescription": "This is NakaZashi's Crime store.",
+  "avianDescription": "This is NakaZashi's Crime store.",
+  "floranDescription": "This is NakaZashi's Crime store.",
+  "glitchDescription": "This is NakaZashi's Crime store.",
+  "humanDescription": "This is NakaZashi's Crime store.",
+  "hylotlDescription": "This is NakaZashi's Crime store.",
+  "novakidDescription": "This is NakaZashi's Crime store.",
 
-  "interactAction" : "OpenMerchantInterface",
-  "interactData" : {
-    "config" : "/interface/windowconfig/merchant.config",
-    "paneLayoutOverride" : {
-      "windowtitle" : {
-        "title" : " Crimart",
-        "subtitle" : " ^#b9b5b2;Crime item specialty store"
+  "interactAction": "OpenMerchantInterface",
+  "interactData": {
+    "config": "/interface/windowconfig/merchant.config",
+    "paneLayoutOverride": {
+      "windowtitle": {
+        "title": " Crimart",
+        "subtitle": " ^#b9b5b2;Crime item specialty store"
       }
     },
-    "buyFactor" : 5.0,
-    "sellFactor" : 0.2,
-    "items" : [
-      { "item" : "pizzapic" },
-      { "item" : "tomasign" },
-      { "item" : "enarizushi" },
-      { "item" : "piabiap" },
-	  { "item" : "zakurohat" },
-	  { "item" : "throwingtungstencube" },
-    { "item" : "kaebin" },
-      { "item" : "itemuraniumglass" }
+    "buyFactor": 5.0,
+    "sellFactor": 0.2,
+    "items": [
+      { "item": "pizzapic" },
+      { "item": "tomasign" },
+      { "item": "enarizushi" },
+      { "item": "piabiap" },
+      { "item": "zakurohat" },
+      { "item": "throwingtungstencube" },
+      { "item": "kaebin" },
+      { "item": "itemuraniumglass" }
     ]
   },
-  "printable" : false,
-  "lightColor" : [175, 175, 175],
+  "printable": false,
+  "lightColor": [175, 175, 175],
   // Masking Fullbright Transparency Values: 0% brightness on lights, 75% brightness on posters in window, 70% on window
 
-
-  "inventoryIcon" : "icon.png",
-  "orientations" : [
+  "inventoryIcon": "icon.png",
+  "orientations": [
     {
-      "imageLayers" : [ { "image" : "crimartleft.png:<color>", "fullbright" : true }, { "image" : "crimartleftlit.png:<color>" } ],
-      "direction" : "left",
-
-      "lightPosition" : [-2, 4],
-
-      "imagePosition" : [-88, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
-      "spaceScan" : 0.1,
-      "interactiveSpaces": [ 
-        [0, 0], [1, 0], [2, 0],
-        [0, 1], [1, 1], [2, 1],
-        [0, 2], [1, 2], [2, 2],
-        [0, 3], [1, 3], [2, 3],
-        [0, 4], [1, 4], [2, 4]
+      "imageLayers": [
+        { "image": "crimartleft.png:<color>", "fullbright": true },
+        { "image": "crimartleftlit.png:<color>" }
       ],
-      "anchors" : [ "bottom" ]
+      "direction": "left",
+
+      "lightPosition": [-2, 4],
+
+      "imagePosition": [-88, 0],
+      "frames": 1,
+      "animationCycle": 1.0,
+
+      "spaceScan": 0.1,
+      "interactiveSpaces": [
+        [0, 0],
+        [1, 0],
+        [2, 0],
+        [0, 1],
+        [1, 1],
+        [2, 1],
+        [0, 2],
+        [1, 2],
+        [2, 2],
+        [0, 3],
+        [1, 3],
+        [2, 3],
+        [0, 4],
+        [1, 4],
+        [2, 4]
+      ],
+      "anchors": ["bottom"]
     },
     {
-      "imageLayers" : [ { "image" : "crimartright.png:<color>", "fullbright" : true }, { "image" : "crimartrightlit.png:<color>" } ],
-      "direction" : "right",
-
-      "lightPosition" : [1, 4],
-
-      "imagePosition" : [-88, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
-      "spaceScan" : 0.1,
-      "interactiveSpaces": [ 
-        [-3, 0], [-2, 0], [-1, 0],
-        [-3, 1], [-2, 1], [-1, 1],
-        [-3, 2], [-2, 2], [-1, 2],
-        [-3, 3], [-2, 3], [-1, 3],
-        [-3, 4], [-2, 4], [-1, 4]
+      "imageLayers": [
+        { "image": "crimartright.png:<color>", "fullbright": true },
+        { "image": "crimartrightlit.png:<color>" }
       ],
-      "anchors" : [ "bottom" ]
+      "direction": "right",
+
+      "lightPosition": [1, 4],
+
+      "imagePosition": [-88, 0],
+      "frames": 1,
+      "animationCycle": 1.0,
+
+      "spaceScan": 0.1,
+      "interactiveSpaces": [
+        [-3, 0],
+        [-2, 0],
+        [-1, 0],
+        [-3, 1],
+        [-2, 1],
+        [-1, 1],
+        [-3, 2],
+        [-2, 2],
+        [-1, 2],
+        [-3, 3],
+        [-2, 3],
+        [-1, 3],
+        [-3, 4],
+        [-2, 4],
+        [-1, 4]
+      ],
+      "anchors": ["bottom"]
     }
   ]
-
 }

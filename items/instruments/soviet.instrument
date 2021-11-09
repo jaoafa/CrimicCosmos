@@ -1,19 +1,25 @@
 {
-  "itemName" : "sovietsound",
-  "price" : 0,
-  "category" : "musicalInstrument",
-  "inventoryIcon" : "sovieticon.png",
-  "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "deeeeeeeeeeeeen!!",
-  "shortdescription" : "Hammer and sickle",
-  "largeImage" : "soviet.png",
-  "image" : "soviet.png",
-  "tooltipKind" : "tool",
-  "activeImage" : "soviet.png",
-  "activeAngle" : 0,
-  "activeHandPosition" : [0, 0],
-  "handPosition" : [0, 0],
-  "twoHanded" : true,
-  "kind" : "soviet"
+  "itemName": "sovietsound",
+  "price": 0,
+  "category": "musicalInstrument",
+  "inventoryIcon": "sovieticon.png",
+  "maxStack": 1,
+  "rarity": "Common",
+  "description": "deeeeeeeeeeeeen!!",
+  "shortdescription": "Hammer and sickle",
+  "largeImage": "soviet.png",
+  "image": "soviet.png",
+  "tooltipKind": "tool",
+  "activeImage": "soviet.png",
+  "activeAngle": 0,
+  "activeHandPosition": [
+    0,
+    0
+  ],
+  "handPosition": [
+    0,
+    0
+  ],
+  "twoHanded": true,
+  "kind": "soviet"
 }

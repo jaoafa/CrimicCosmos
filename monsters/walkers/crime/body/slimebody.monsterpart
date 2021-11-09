@@ -1,9 +1,9 @@
 {
-  "name" : "srime",
-  "category" : "srime",
-  "type" : "body",
+  "name": "srime",
+  "category": "srime",
+  "type": "body",
 
-  "frames" : {
-    "body" : "srime.png"
+  "frames": {
+    "body": "srime.png"
   }
 }

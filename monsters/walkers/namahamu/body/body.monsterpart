@@ -1,9 +1,9 @@
 {
-  "name" : "namahamu",
-  "category" : "namahamu",
-  "type" : "body",
+  "name": "namahamu",
+  "category": "namahamu",
+  "type": "body",
 
-  "frames" : {
-    "body" : "namahamu.png"
+  "frames": {
+    "body": "namahamu.png"
   }
 }

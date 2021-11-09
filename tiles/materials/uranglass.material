@@ -1,24 +1,24 @@
 {
-  "materialId" : 1707,
-  "materialName" : "uranglass",
-  "particleColor" : [251, 255, 202, 255],
-  "itemDrop" : "uranglass",
-  "description" : "Beautifully shines green",
-  "shortdescription" : "Uranium Glass Block",
-  "glitchDescription" : "Beautiful. It is a glass that shines beautifully in green.",
-  "floranDescription" : "Beautiful. It is a glass that shines beautifully in green.",
-  "novakidDescription" : "Beautiful. It is a glass that shines beautifully in green.",
-  "footstepSound" : "/sfx/blocks/footstep_glass.ogg",
-  "health" : 4,
-  "category" : "materials",
+  "materialId": 1707,
+  "materialName": "uranglass",
+  "particleColor": [251, 255, 202, 255],
+  "itemDrop": "uranglass",
+  "description": "Beautifully shines green",
+  "shortdescription": "Uranium Glass Block",
+  "glitchDescription": "Beautiful. It is a glass that shines beautifully in green.",
+  "floranDescription": "Beautiful. It is a glass that shines beautifully in green.",
+  "novakidDescription": "Beautiful. It is a glass that shines beautifully in green.",
+  "footstepSound": "/sfx/blocks/footstep_glass.ogg",
+  "health": 4,
+  "category": "materials",
 
-  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
-  "renderParameters" : {
-    "texture" : "uranglass.png",
-    "variants" : 5,
-    "lightTransparent" : true,
-    "occludesBelow" : false,
-    "multiColored" : true,
-    "zLevel" : 470
+  "renderTemplate": "/tiles/classicmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "uranglass.png",
+    "variants": 5,
+    "lightTransparent": true,
+    "occludesBelow": false,
+    "multiColored": true,
+    "zLevel": 470
   }
 }

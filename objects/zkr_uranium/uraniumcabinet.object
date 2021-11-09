@@ -1,6 +1,9 @@
 {
   "objectName": "uraniumcabinet",
-  "colonyTags": ["uranium", "storage"],
+  "colonyTags": [
+    "uranium",
+    "storage"
+  ],
   "printable": false,
   "objectType": "container",
   "tooltipKind": "container",
@@ -11,7 +14,6 @@
   "category": "furniture",
   "price": 200,
   "health": 1.5,
-
   "apexDescription": "A cabinet made from Uranium.",
   "avianDescription": "A cabinet made from Uranium.",
   "floranDescription": "A cabinet made from Uranium.",
@@ -19,21 +21,27 @@
   "humanDescription": "A cabinet made from Uranium.",
   "hylotlDescription": "A cabinet made from Uranium.",
   "novakidDescription": "A cabinet made from Uranium.",
-
   "inventoryIcon": "uraniumcabineticon.png",
   "orientations": [
     {
       "dualImage": "uraniumcabinet.png:<color>.<key>",
-      "imagePosition": [-16, 0],
-
+      "imagePosition": [
+        -16,
+        0
+      ],
       "spaceScan": 0.1,
-      "anchors": ["bottom"],
+      "anchors": [
+        "bottom"
+      ],
       "collision": "platform"
     }
   ],
-
-  "openSounds": ["/sfx/objects/chest_small_open.ogg"],
-  "closeSounds": ["/sfx/objects/chest_small_close.ogg"],
+  "openSounds": [
+    "/sfx/objects/chest_small_open.ogg"
+  ],
+  "closeSounds": [
+    "/sfx/objects/chest_small_close.ogg"
+  ],
   "slotCount": 32,
   "uiConfig": "/interface/chests/chest<slots>.config",
   "frameCooldown": 5,

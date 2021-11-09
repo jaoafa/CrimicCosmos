@@ -1,6 +1,9 @@
 {
   "objectName": "uraniumtable",
-  "colonyTags": ["uranium", "commerce"],
+  "colonyTags": [
+    "uranium",
+    "commerce"
+  ],
   "printable": false,
   "rarity": "rare",
   "description": "A table made from Uranium.",
@@ -8,7 +11,6 @@
   "race": "generic",
   "category": "furniture",
   "price": 200,
-
   "apexDescription": "A table made from Uranium.",
   "avianDescription": "A table made from Uranium.",
   "floranDescription": "A table made from Uranium.",
@@ -16,18 +18,20 @@
   "humanDescription": "A table made from Uranium.",
   "hylotlDescription": "A table made from Uranium.",
   "novakidDescription": "A table made from Uranium.",
-
   "inventoryIcon": "uraniumtableicon.png",
   "orientations": [
     {
       "dualImage": "uraniumtable.png:<color>",
-
-      "imagePosition": [-16, 0],
+      "imagePosition": [
+        -16,
+        0
+      ],
       "frames": 1,
       "animationCycle": 1.0,
-
       "spaceScan": 0.1,
-      "anchors": ["bottom"],
+      "anchors": [
+        "bottom"
+      ],
       "collision": "platform"
     }
   ]

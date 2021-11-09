@@ -1,9 +1,8 @@
 {
-  "name" : "659",
-  "category" : "659",
-  "type" : "body",
-
-  "frames" : {
-    "body" : "659.png"
+  "name": "659",
+  "category": "659",
+  "type": "body",
+  "frames": {
+    "body": "659.png"
   }
 }

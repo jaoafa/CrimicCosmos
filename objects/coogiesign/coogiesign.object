@@ -1,14 +1,14 @@
 {
   "objectName": "coogiesign",
-  "colonyTags": ["Crime"],
+  "colonyTags": [
+    "Crime"
+  ],
   "rarity": "Common",
   "category": "decorative",
   "price": 0,
-
   "description": "gieeeeeeeeeeeee",
   "shortdescription": "Aunt Zakuro's Coogie sign",
   "race": "generic",
-
   "apexDescription": "gieeeeeeeeeeeee",
   "avianDescription": "gieeeeeeeeeeeee",
   "floranDescription": "gieeeeeeeeeeeee",
@@ -16,17 +16,20 @@
   "humanDescription": "gieeeeeeeeeeeee",
   "hylotlDescription": "gieeeeeeeeeeeee",
   "novakidDescription": "gieeeeeeeeeeeee",
-
   "inventoryIcon": "coogiesignicon.png",
   "orientations": [
     {
       "image": "coogiesign.png",
-      "imagePosition": [-16, -8],
+      "imagePosition": [
+        -16,
+        -8
+      ],
       "frames": 1,
       "animationCycle": 0.5,
-
       "spaceScan": 0.1,
-      "anchors": ["background"]
+      "anchors": [
+        "background"
+      ]
     }
   ]
 }

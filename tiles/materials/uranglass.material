@@ -1,7 +1,12 @@
 {
   "materialId": 1707,
   "materialName": "uranglass",
-  "particleColor": [251, 255, 202, 255],
+  "particleColor": [
+    251,
+    255,
+    202,
+    255
+  ],
   "itemDrop": "uranglass",
   "description": "Beautifully shines green",
   "shortdescription": "Uranium Glass Block",
@@ -11,7 +16,6 @@
   "footstepSound": "/sfx/blocks/footstep_glass.ogg",
   "health": 4,
   "category": "materials",
-
   "renderTemplate": "/tiles/classicmaterialtemplate.config",
   "renderParameters": {
     "texture": "uranglass.png",

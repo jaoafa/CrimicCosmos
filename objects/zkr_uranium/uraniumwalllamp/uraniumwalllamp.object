@@ -1,65 +1,83 @@
 {
-  "objectName" : "uraniumwalllamp",
-  "colonyTags" : ["uranium", "light"],
-  "rarity" : "rare",
-  "category" : "light",
-  "price" : 200,
-  "description" : "A Uranium Wall Lamp.",
-  "shortdescription" : "Uranium Wall Lamp",
-  "race" : "generic",
-
-  "apexDescription" : "A Uranium Wall Lamp.",
-  "avianDescription" : "A Uranium Wall Lamp.",
-  "floranDescription" : "A Uranium Wall Lamp.",
-  "glitchDescription" : "A Uranium Wall Lamp.",
-  "humanDescription" : "A Uranium Wall Lamp.",
-  "hylotlDescription" : "A Uranium Wall Lamp.",
-  "novakidDescription" : "A Uranium Wall Lamp.",
-
-  "inventoryIcon" : "uraniumwalllampicon.png",
-  "orientations" : [
+  "objectName": "uraniumwalllamp",
+  "colonyTags": [
+    "uranium",
+    "light"
+  ],
+  "rarity": "rare",
+  "category": "light",
+  "price": 200,
+  "description": "A Uranium Wall Lamp.",
+  "shortdescription": "Uranium Wall Lamp",
+  "race": "generic",
+  "apexDescription": "A Uranium Wall Lamp.",
+  "avianDescription": "A Uranium Wall Lamp.",
+  "floranDescription": "A Uranium Wall Lamp.",
+  "glitchDescription": "A Uranium Wall Lamp.",
+  "humanDescription": "A Uranium Wall Lamp.",
+  "hylotlDescription": "A Uranium Wall Lamp.",
+  "novakidDescription": "A Uranium Wall Lamp.",
+  "inventoryIcon": "uraniumwalllampicon.png",
+  "orientations": [
     {
-      "image" : "uraniumwalllamp.png:<color>.<frame>",
-      "imagePosition" : [-8, 0],
-      "animationParts" : {
-        "bg" : "uraniumwalllamp.png",
-        "fg" : "uraniumwalllamplit.png"
+      "image": "uraniumwalllamp.png:<color>.<frame>",
+      "imagePosition": [
+        -8,
+        0
+      ],
+      "animationParts": {
+        "bg": "uraniumwalllamp.png",
+        "fg": "uraniumwalllamplit.png"
       },
-      "animationPosition" : [-8, 0],
-
-      "direction" : "left",
-      "flipImages" : true,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
+      "animationPosition": [
+        -8,
+        0
+      ],
+      "direction": "left",
+      "flipImages": true,
+      "spaceScan": 0.1,
+      "anchors": [
+        "background"
+      ]
     },
     {
-      "image" : "uraniumwalllamp.png:<color>.<frame>",
-      "imagePosition" : [-8, 0],
-      "animationParts" : {
-        "bg" : "uraniumwalllamp.png",
-        "fg" : "uraniumwalllamplit.png"
+      "image": "uraniumwalllamp.png:<color>.<frame>",
+      "imagePosition": [
+        -8,
+        0
+      ],
+      "animationParts": {
+        "bg": "uraniumwalllamp.png",
+        "fg": "uraniumwalllamplit.png"
       },
-      "animationPosition" : [-8, 0],
-
-      "direction" : "right",
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "background" ]
+      "animationPosition": [
+        -8,
+        0
+      ],
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": [
+        "background"
+      ]
     }
   ],
-  
-  "animation" : "/objects/wired/light/lighttoggle.animation",
-  "animationParts" : {
-    "light" : "uraniumwalllamp.png"
+  "animation": "/objects/wired/light/lighttoggle.animation",
+  "animationParts": {
+    "light": "uraniumwalllamp.png"
   },
-  "animationPosition" : [0, 0],
-
-  "scripts" : [ "/objects/wired/light/light.lua" ],
-  "scriptDelta" : 60,
-  
-  "interactive" : true,
-
-  "inputNodes" : [ [0, 0] ]
-  
+  "animationPosition": [
+    0,
+    0
+  ],
+  "scripts": [
+    "/objects/wired/light/light.lua"
+  ],
+  "scriptDelta": 60,
+  "interactive": true,
+  "inputNodes": [
+    [
+      0,
+      0
+    ]
+  ]
 }

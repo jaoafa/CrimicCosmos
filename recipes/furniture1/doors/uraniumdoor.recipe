@@ -1,13 +1,26 @@
 {
   "input": [
-    { "item": "smallbattery", "count": 2 },
-    { "item": "wire", "count": 5 },
-    { "item": "uraniumore", "count": 20 }
+    {
+      "item": "smallbattery",
+      "count": 2
+    },
+    {
+      "item": "wire",
+      "count": 5
+    },
+    {
+      "item": "uraniumore",
+      "count": 20
+    }
   ],
   "output": {
     "item": "uraniumdoor",
     "count": 1
   },
   "duration": 0.25,
-  "groups": ["craftingfurniture", "doors", "all"]
+  "groups": [
+    "craftingfurniture",
+    "doors",
+    "all"
+  ]
 }

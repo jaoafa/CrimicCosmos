@@ -1,10 +1,12 @@
 {
   "verticalOrigin": -15,
-
   "layers": [
     {
       "kind": "divider/alienrock",
-      "offset": [0, 200],
+      "offset": [
+        0,
+        200
+      ],
       "nohueshift": true,
       "lightMapped": true,
       "parallax": 1.199
@@ -17,37 +19,52 @@
       "tileLimitTop": 125,
       "parallax": 1.2
     },
-
     {
       "kind": "alienback",
-      "offset": [0, 450],
+      "offset": [
+        0,
+        450
+      ],
       "parallax": 12,
       "directives": "?brightness=20?saturation=-10",
       "fadePercent": 0.15
     },
     {
       "kind": "oilrig",
-      "offset": [0, 450],
-      "parallax": [9, 9],
+      "offset": [
+        0,
+        450
+      ],
+      "parallax": [
+        9,
+        9
+      ],
       "directives": "",
       "fadePercent": 0.95,
       "nohueshift": true
     },
     {
       "kind": "oilrig",
-      "offset": [0, 525],
-      "parallax": [8, 8],
+      "offset": [
+        0,
+        525
+      ],
+      "parallax": [
+        8,
+        8
+      ],
       "directives": "",
       "fadePercent": 0.8,
       "nohueshift": true
     },
-
     // Day Clouds
-
     {
       "kind": "acidclouds3",
       "baseCount": 2,
-      "offset": [0, 240],
+      "offset": [
+        0,
+        240
+      ],
       "parallax": 9,
       "minSpeed": 1000,
       "maxSpeed": 5000,
@@ -58,7 +75,10 @@
     {
       "kind": "acidclouds2",
       "baseCount": 2,
-      "offset": [0, 280],
+      "offset": [
+        0,
+        280
+      ],
       "parallax": 14,
       "minSpeed": 500,
       "maxSpeed": 2500,
@@ -69,7 +89,10 @@
     {
       "kind": "acidclouds1",
       "baseCount": 2,
-      "offset": [0, 300],
+      "offset": [
+        0,
+        300
+      ],
       "parallax": 6,
       "minSpeed": 1000,
       "maxSpeed": 5000,
@@ -80,7 +103,10 @@
     {
       "kind": "acidclouds3",
       "baseCount": 2,
-      "offset": [0, 120],
+      "offset": [
+        0,
+        120
+      ],
       "parallax": 9,
       "minSpeed": 1000,
       "maxSpeed": 5000,
@@ -91,7 +117,10 @@
     {
       "kind": "acidclouds2",
       "baseCount": 2,
-      "offset": [0, 160],
+      "offset": [
+        0,
+        160
+      ],
       "parallax": 14,
       "minSpeed": 500,
       "maxSpeed": 2500,
@@ -102,7 +131,10 @@
     {
       "kind": "acidclouds1",
       "baseCount": 2,
-      "offset": [0, 200],
+      "offset": [
+        0,
+        200
+      ],
       "parallax": 6,
       "minSpeed": 1000,
       "maxSpeed": 5000,
@@ -113,7 +145,10 @@
     {
       "kind": "acidclouds3",
       "baseCount": 2,
-      "offset": [0, 2],
+      "offset": [
+        0,
+        2
+      ],
       "parallax": 9,
       "minSpeed": 1000,
       "maxSpeed": 5000,
@@ -124,7 +159,10 @@
     {
       "kind": "acidclouds2",
       "baseCount": 2,
-      "offset": [0, 40],
+      "offset": [
+        0,
+        40
+      ],
       "parallax": 14,
       "minSpeed": 500,
       "maxSpeed": 2500,
@@ -135,7 +173,10 @@
     {
       "kind": "acidclouds1",
       "baseCount": 2,
-      "offset": [0, 80],
+      "offset": [
+        0,
+        80
+      ],
       "parallax": 6,
       "minSpeed": 1000,
       "maxSpeed": 5000,
@@ -143,13 +184,14 @@
       "unlit": true,
       "timeOfDayCorrelation": "dayCloudVisible"
     },
-
     // Night Clouds
-
     {
       "kind": "acidclouds3",
       "baseCount": 2,
-      "offset": [0, 240],
+      "offset": [
+        0,
+        240
+      ],
       "parallax": 9,
       "minSpeed": 1000,
       "maxSpeed": 5000,
@@ -160,7 +202,10 @@
     {
       "kind": "acidclouds2",
       "baseCount": 2,
-      "offset": [0, 280],
+      "offset": [
+        0,
+        280
+      ],
       "parallax": 14,
       "minSpeed": 500,
       "maxSpeed": 2500,
@@ -171,7 +216,10 @@
     {
       "kind": "acidclouds1",
       "baseCount": 2,
-      "offset": [0, 300],
+      "offset": [
+        0,
+        300
+      ],
       "parallax": 6,
       "minSpeed": 1000,
       "maxSpeed": 5000,
@@ -182,7 +230,10 @@
     {
       "kind": "acidclouds3",
       "baseCount": 2,
-      "offset": [0, 120],
+      "offset": [
+        0,
+        120
+      ],
       "parallax": 9,
       "minSpeed": 1000,
       "maxSpeed": 5000,
@@ -193,7 +244,10 @@
     {
       "kind": "acidclouds2",
       "baseCount": 2,
-      "offset": [0, 160],
+      "offset": [
+        0,
+        160
+      ],
       "parallax": 14,
       "minSpeed": 500,
       "maxSpeed": 2500,
@@ -204,7 +258,10 @@
     {
       "kind": "acidclouds1",
       "baseCount": 2,
-      "offset": [0, 200],
+      "offset": [
+        0,
+        200
+      ],
       "parallax": 6,
       "minSpeed": 1000,
       "maxSpeed": 5000,
@@ -215,7 +272,10 @@
     {
       "kind": "acidclouds3",
       "baseCount": 2,
-      "offset": [0, 2],
+      "offset": [
+        0,
+        2
+      ],
       "parallax": 9,
       "minSpeed": 1000,
       "maxSpeed": 5000,
@@ -226,7 +286,10 @@
     {
       "kind": "acidclouds2",
       "baseCount": 2,
-      "offset": [0, 40],
+      "offset": [
+        0,
+        40
+      ],
       "parallax": 14,
       "minSpeed": 500,
       "maxSpeed": 2500,
@@ -237,7 +300,10 @@
     {
       "kind": "acidclouds1",
       "baseCount": 2,
-      "offset": [0, 80],
+      "offset": [
+        0,
+        80
+      ],
       "parallax": 6,
       "minSpeed": 1000,
       "maxSpeed": 5000,

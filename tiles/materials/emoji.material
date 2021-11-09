@@ -1,7 +1,12 @@
 {
   "materialId": 1709,
   "materialName": "emoji",
-  "particleColor": [142, 142, 142, 255],
+  "particleColor": [
+    142,
+    142,
+    142,
+    255
+  ],
   "itemDrop": "emoji",
   "description": "Crime emojis...",
   "shortdescription": "Emojis",
@@ -11,7 +16,6 @@
   "footstepSound": "/sfx/blocks/water_puddlemod.ogg",
   "health": 4,
   "category": "materials",
-
   "renderTemplate": "/tiles/classicmaterialtemplate.config",
   "renderParameters": {
     "texture": "emoji.png",

@@ -1,11 +1,21 @@
 {
   "input": [
-    { "item": "sand2", "count": 2 },
-    { "item": "uraniumore", "count": 2 }
+    {
+      "item": "sand2",
+      "count": 2
+    },
+    {
+      "item": "uraniumore",
+      "count": 2
+    }
   ],
   "output": {
     "item": "itemuraniumglass",
     "count": 1
   },
-  "groups": ["craftingfurnace", "ingredients", "all"]
+  "groups": [
+    "craftingfurnace",
+    "ingredients",
+    "all"
+  ]
 }

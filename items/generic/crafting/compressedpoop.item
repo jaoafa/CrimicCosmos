@@ -1,0 +1,10 @@
+{
+  "itemName" : "compressedpoop",
+  "price" : 10,
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "compressedpoop.png",
+  "description" : "A tremendously compressed poop.",
+  "shortdescription" : "Compressed poop",
+  "itemTags" : [ "reagent" ]
+}

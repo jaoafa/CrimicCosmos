@@ -1,0 +1,58 @@
+[
+{"op" : "add",
+"path" : "/planetTypes/crimic",     // your biome "name" (not "friendlyname")
+"value" :
+{
+"threatRange" : [8, 8],  //what tier is your planet? if its only tier 1, use 1,1. Otherwise, use what you want.
+"layers" : {
+"surface" : {
+"primaryRegion" : [ "crimic" ],   //its own "name" is used here.
+"secondaryRegions" : [ "elder", "atropus", "penumbra" ],  //here are your sub-biomes
+
+//what dungeons does it pull from when it does generate them? This is the new format for Nightly/1.0
+"dungeons" : [
+[1.0, "apextestfacility"], [1.0, "apexbase"],
+[1.0, "dungeoncrawler"],
+[1.0, "glitchsewer"]
+]
+},
+"subsurface" : {
+"primaryRegion" : [ "crimicunderground" ]  //what is the core underground biome? you can ignore this and all below if desired and it will use the default values set in celestial.config
+},
+"underground1" : {  //underground sub-biomes are now generated
+"secondaryRegion" : [ "crimicunderground" ]
+},
+"underground2" : {
+"secondaryRegion" : [ "crimicunderground" ]
+},
+"underground3" : {
+"secondaryRegion" : [ "crimicunderground" ]
+}
+}
+}
+},
+{"op" : "add",
+"path" : "/regionTypes/crimic",   //again, your biomes "name" value
+"value" :
+{
+"caveLiquid" : [ "geriliquid" ], //what liquids appear on your biome surface?
+"caveLiquidChanceRange" : [1, 30],  //how often does your liquid appear on the surface?
+"blockSelector" : [ "remixedMildSurface" ],  //surface terrain generation
+"fgCaveSelector" : [ "surfaceCaves" ], //foreground cave terrain generation
+"biome" : [
+[0, [ "crimic" ]]    // and one more case of the "name" value
+]
+}
+},
+{"op" : "add",
+"path" : "/regionTypes/crimicunderground",   //again, your biomes "name" value
+"value" :
+{
+"caveLiquid" : [ "geriliquid" ], //what liquids appear on your biome surface?
+"caveLiquidChanceRange" : [2.0, 2.0],  //how often does your liquid appear on the surface?
+"biome" : [
+[0, [ "crimicunderground" ]]    // and one more case of the "name" value
+]
+}
+}
+]

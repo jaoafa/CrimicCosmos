@@ -1,0 +1,10 @@
+{
+  "itemName" : "liquidgeri",
+  "rarity" : "Common",
+  "category" : "liquid",
+  "inventoryIcon" : "liquidgeriicon.png",
+  "shortdescription" : "Geri",
+  "description" : "Very smelly...",
+
+  "liquid" : "geriliquid"
+}

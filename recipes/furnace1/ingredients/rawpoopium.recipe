@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "compressedpoop", "count" : 10 }
+  ],
+  "output" : {
+    "item" : "rawpoopium",
+    "count" : 1
+  },
+  "groups" : [ "craftingfurnace", "ingredients", "all" ]
+}

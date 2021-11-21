@@ -41,6 +41,50 @@
       "aggressive" : true
     }
   }  
+ },
+ {"op" : "add", 
+  "path" : "/-",
+    "value" : 
+  {
+    "name" : "659",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "spawnChance" : 0.08,
+    "monsterType" : "659",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  }  
+ },
+ {"op" : "add", 
+  "path" : "/-",
+    "value" : 
+  {
+    "name" : "kamesuta",
+
+    "spawnParameters" : {
+      "area" : "surface",
+      "region" : "all",
+      "time" : "all"
+    },
+
+    "groupSize" : [1, 2],
+    "spawnChance" : 0.08,
+    "monsterType" : "kamesuta",
+    "monsterParameters" : {
+      "aggressive" : true
+    }
+  }  
  }
+ 
+
+
+
  
 ]

@@ -1,0 +1,39 @@
+{
+  "metadata" : {
+    "name" : "crimicmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "crimart", "nzhd", "shopcoogie" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "crimart",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "crimart.json" ]
+    },
+	{
+      "name" : "shopcoogie",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "shopcoogie.json" ]
+    },
+    {
+      "name" : "nzhd",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "nzhd.json" ]
+    }
+  ]
+}

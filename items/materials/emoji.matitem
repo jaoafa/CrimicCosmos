@@ -1,0 +1,14 @@
+{
+  "itemName" : "emoji",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "emoji.png",
+  "description" : "Crime emojis...",
+  "shortdescription" : "Emojis",
+  "glitchdescription" : "Crime emojis...",
+  "florandescription" : "Crime emojis...",
+  "novakiddescription" : "Crime emojis...",
+
+  "materialId" : 1709
+}

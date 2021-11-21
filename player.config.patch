@@ -25,6 +25,11 @@
  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "enarizushi" } },
  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "pizza" } },
  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "piabiap" } },
+ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "liquidgeri" } },
+ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "coogiesign" } },
+ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "sovietsound" } },
+ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "airhornsound" } },
+ { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "coogieshop" } },
  { "op": "add", "path": "/defaultBlueprints/tier1/-", "value": { "item": "nztile" } }
 ]
 

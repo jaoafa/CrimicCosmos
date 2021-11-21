@@ -1,0 +1,227 @@
+{
+  "name" : "crimic",
+  "friendlyName" : "Crimic",
+
+  "statusEffects" : [ "radioactiveweathernew3", "ffbiomeheat3", "ffbiomecold3" ],
+
+  "spawnProfile" : {
+    "groups" : [
+      {
+        "select" : 12,
+        "pool" : [
+          [ 0.1111, "namahamu" ],
+          [ 0.1111, "kamesuta" ],
+          [ 0.1111, "659" ],
+          [ 0.1111, "crime" ],
+          [ 0.1111, "pogolem" ],
+          [ 0.8111, "heavydrone" ],
+          [ 0.3111, "fucorruptflylarge" ],
+          [ 0.1111, "gasbag" ],
+          [ 0.1111, "gasbagstat" ],
+          [ 0.2111, "darkmetroid" ],
+          [ 0.1111, "po" ]
+        ]
+      }
+    ],
+    "monsterParameters" : {
+      "colors" : "alien",
+      "statusSettings" : {
+        "stats" : {
+          "poisonStatusImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
+    }
+  },
+
+  "hueShiftOptions" : [-54, -120, 0, 20],
+
+  "weather" : [
+    [0, [
+      "/weather.config:crimic"
+    ]]
+  ],
+
+  "skyOptions" : [
+    {
+      // dark peachy massacre
+      "mainColor" : [255, 0, 255],
+
+      "morningColors" : [ [255, 0, 255], [128, 128, 128] ],
+      "dayColors" : [ [0, 255, 0], [255, 255, 255] ],
+      "eveningColors" : [ [255, 0, 255], [128, 128, 128] ],
+      "nightColors" : [ [0, 0, 0, 0], [0, 0, 0, 0] ],
+
+      "morningLightColor" : [255, 0, 255],
+      "dayLightColor" : [0, 255, 0],
+      "eveningLightColor" : [255, 0, 255],
+      "nightLightColor" : [0, 0, 0]
+    }
+  ],
+
+  "mainBlock" : "emoji",
+  "subBlocks" : [ "obsidian", "rock12" ],
+  "ores" : "crimic_ores",
+
+  "parallax" : "/parallax/surface/crimic.parallax",
+
+  "ambientNoises" : {
+    "day" : {
+      "tracks" : [ "/sfx/environmental/aviantomb.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/sfx/environmental/aviantemple.ogg" ]
+    }
+  },
+
+  "musicTrack" : {
+    "day" : {
+      "tracks" : [ "/music/tentacle-exploration1.ogg", "/music/swansong.ogg", "/music/scorian-flow.ogg", "/music/lava-exploration2.ogg", "/music/ultramarine.ogg", "/music/body-electric-loop.ogg" ]
+    },
+    "night" : {
+      "tracks" : [ "/music/tentacle-exploration1.ogg", "/music/swansong.ogg", "/music/scorian-flow.ogg", "/music/lava-exploration2.ogg", "/music/ultramarine.ogg", "/music/body-electric-loop.ogg" ]
+    }
+  },
+
+  "surfacePlaceables" : {
+    "grassMod" : [ ],
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundweaponChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:overgroundRareChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:surfaceCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:scatteredLarge",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "smokegen" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+
+      // MICRO DUNGEONS
+		{
+        "mode" : "floor",
+        "priority" : 1,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:mainBiomeMicrodungeon",
+
+        "type" : "microdungeon",
+        "microdungeons" : [ "crimicmicrodungeons" ]
+      }
+      
+    ]
+  },
+  "undergroundPlaceables" : {
+    "grassMod" : [ ],
+
+    "items" : [
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "basicChest" ]
+      },
+
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundtechChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "techChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 0.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundweaponChests",
+
+        "type" : "treasureBox",
+        "treasureBoxSets" : [ "weaponChest" ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundChests",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [1, "statuspod" ] ],
+            "parameters" : { }
+          }
+        ]
+      },
+      {
+        "mode" : "floor",
+        "priority" : 1.0,
+        "variants" : 1,
+        "distribution" : "/biomes/distributions.config:undergroundCapsules",
+
+        "type" : "object",
+        "objectSets" : [
+          {
+            "pool" : [ [0.35, "capsulesmall" ], [0.35, "capsulemed" ], [0.35, "capsulebig" ] ],
+            "parameters" : { }
+          }
+        ]
+      }
+    ]
+  }
+}

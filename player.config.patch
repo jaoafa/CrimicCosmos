@@ -220,6 +220,48 @@
     "op": "add",
     "path": "/defaultBlueprints/tier1/-",
     "value": {
+      "item": "poopiumbroadsword"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "poopiumassaultrifle"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "poopiumrifle"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "compressedpoop"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "rawpoopium"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "poopiumbar"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
       "item": "nztile"
     }
   }

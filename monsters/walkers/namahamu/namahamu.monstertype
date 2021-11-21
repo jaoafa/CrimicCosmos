@@ -9,11 +9,7 @@
     "body"
   ],
   "animation": "namahamu.animation",
-  "dropPools": [
-    {
-      "default": "empty"
-    }
-  ],
+  "dropPools" : [ "zhnamahamutreasure" ],
   "baseParameters": {
     "scripts": [
       "/monsters/monster.lua"

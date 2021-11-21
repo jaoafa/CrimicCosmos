@@ -1,0 +1,10 @@
+{
+  "itemName" : "poopiumbar",
+  "price" : 100,
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "inventoryIcon" : "poopiumbar.png",
+  "description" : "Poopium is a metal made by super-compressing and refining poop.",
+  "shortdescription" : "Poopium Bar",
+  "itemTags" : [ "reagent" ]
+}

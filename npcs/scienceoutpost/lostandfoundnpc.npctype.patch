@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/scriptConfig/offeredQuests", 
+    "value": {
+      "fu_t10_initial"
+    }
+  }
+]

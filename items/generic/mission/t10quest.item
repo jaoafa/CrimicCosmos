@@ -1,6 +1,6 @@
 {
   "itemName" : "t10quest",
-  "rarity" : "Common",
+  "rarity" : "Legendary",
   "category" : "quest",
   "inventoryIcon" : "t10quest.png",
   "description" : "Who sent this invitation from where and for what purpose...?",

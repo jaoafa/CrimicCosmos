@@ -4,7 +4,8 @@
       "pool" : [
         {"weight" : 0.15, "item" : [ "poop", 50]},
         {"weight" : 0.35, "item" : [ "rawham", 1]},
-        {"weight" : 0.15, "item" : [ "rawham", 3]},
+        {"weight" : 0.145, "item" : [ "rawham", 3]},
+        {"weight" : 0.005, "item" : [ "t10quest", 1]},
         {"weight" : 0.35, "item" : [ "poop", 25]}     
       ],
       "allowDuplication" : false

@@ -1,11 +1,11 @@
 {
   "objectName" : "eyespasmtrap",
   "colonyTags" : ["crime","evil"],
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
   "category" : "trap",
   "price" : 300,
 
-  "description" : "EYE BZZZZZZZZZZT...",
+  "description" : "EYE INSTA-DEATH BZZT...",
   "shortdescription" : "EyeSpasm",
   "race" : "generic",
 

@@ -1,0 +1,356 @@
+{
+  "name": "terminusland",
+  "friendlyName": "Terminus Land",
+  "statusEffects": [
+    "biomeheat",
+    "ffbiomeheat3",
+    "ffbiomeheat2",
+    "ffbiomeheat1",
+    "desertweathernew",
+    "desertweathernew",
+    "heatweathernew",
+    "heatweathernew2",
+    "sulphuricweathernew5",
+    "sulphuricweathernew4",
+    "sulphuricweathernew3",
+    "sulphuricweathernew2",
+    "sulphuricweathernew",
+    "burning",
+    "melting",
+    "pandorasboxweakdoomed",
+    "pandorasboxstrongdoomed",
+    "pandorasboxmoderatedoomed",
+    "weakpoison",
+    "biomeairless",
+    "biomeradiation",
+    "radioactiveweathernew",
+    "radioactiveweathernew2",
+    "radioactiveweathernew3",
+    "protoweather",
+    "protoweather2",
+    "biomepoison1",
+    "biomepoison2",
+    "biomepoison3",
+    "biomepoisongas",
+    "poisonweathernew",
+    "sulphuricweatherstorm",
+    "sulphuricweatherstorm2",
+    "sulphuricweatherstorm3",
+    "heatwave3",
+    "heatwave2",
+    "heatwave1"
+  ],
+  "spawnProfile": {
+    "groups": [
+      {
+        "select": 10,
+        "pool": [
+          [
+            0.1111,
+            "crabcano"
+          ],
+          [
+            0.1111,
+            "pyromantle"
+          ],
+          [
+            0.1111,
+            "ignome"
+          ],
+          [
+            0.1111,
+            "fennix"
+          ],
+          [
+            0.1111,
+            "magmaslime"
+          ],
+          [
+            0.8111,
+            "firetop"
+          ],
+          [
+            0.3111,
+            "crisper"
+          ],
+          [
+            0.1111,
+            "gasbag"
+          ],
+          [
+            0.1111,
+            "gasbagstat"
+          ]
+        ]
+      }
+    ],
+    "monsterParameters": {
+      "colors": "magma",
+      "statusSettings": {
+        "stats": {
+          "lavaImmunity" : {
+            "baseValue" : 1.0
+          },
+          "fireStatusImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
+    }
+  },
+  "hueShiftOptions": [
+    -54,
+    -120,
+    0,
+    20
+  ],
+  "weather": [
+    [
+      0,
+      [
+        "/weather.config:terminusland"
+      ]
+    ]
+  ],
+  "skyOptions" : [
+    {
+      // light reddish
+      "mainColor" : [255, 0, 0],
+
+      "morningColors" : [ [201, 42, 14], [125, 27, 10] ],
+      "dayColors" : [ [201, 42, 14], [125, 27, 10] ],
+      "eveningColors" : [ [201, 42, 14], [125, 27, 10] ],
+      "nightColors" : [ [117, 4, 4, 60], [51, 1, 1, 160] ],
+      "morningLightColor": [
+        255,
+        0,
+        0
+      ],
+      "dayLightColor": [
+        255,
+        0,
+        0
+      ],
+      "eveningLightColor": [
+        255,
+        0,
+        0
+      ],
+      "nightLightColor": [
+        64,
+        0,
+        0
+      ]
+    }
+  ],
+  "mainBlock": "moltensand",
+  "subBlocks": [
+    "moltensteel",
+    "redhotcobblestone",
+    "moltenmetal"
+  ],
+  "ores": "terminusland_ores",
+  "parallax": "/parallax/surface/terminusland.parallax",
+  "ambientNoises": {
+    "day": {
+      "tracks": [
+        "/sfx/weather/sandstorm.ogg"
+      ]
+    },
+    "night": {
+      "tracks": [
+        "/sfx/weather/sandstorm.ogg"
+      ]
+    }
+  },
+  "musicTrack": {
+    "day": {
+      "tracks": [
+        "/music/drosera.ogg",
+        "/music/error-0xbfaf000.ogg",
+        "/music/forest-battle2.ogg",
+        "/music/impact-event.ogg",
+        "/music/ocean-battle1-loop.ogg",
+        "/music/scorian-flow.ogg"
+      ]
+    },
+    "night": {
+      "tracks": [
+        "/music/drosera.ogg",
+        "/music/error-0xbfaf000.ogg",
+        "/music/forest-battle2.ogg",
+        "/music/impact-event.ogg",
+        "/music/ocean-battle1-loop.ogg",
+        "/music/scorian-flow.ogg"
+      ]
+    }
+  },
+  "surfacePlaceables": {
+    "grassMod": [],
+    "items": [
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:overgroundChests",
+        "type": "treasureBox",
+        "treasureBoxSets": [
+          "basicChest"
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundweaponChests",
+        "type": "treasureBox",
+        "treasureBoxSets": [
+          "weaponChest"
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:overgroundRareChests",
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [
+                1,
+                "statuspod"
+              ]
+            ],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:surfaceCapsules",
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [
+                0.35,
+                "capsulesmall"
+              ],
+              [
+                0.35,
+                "capsulemed"
+              ],
+              [
+                0.35,
+                "capsulebig"
+              ]
+            ],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:scatteredLarge",
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [
+                0.35,
+                "smokegen"
+              ]
+            ],
+            "parameters": {}
+          }
+        ]
+      }
+      // MICRO DUNGEONS
+      
+    ]
+  },
+  "undergroundPlaceables": {
+    "grassMod": [],
+    "items": [
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundChests",
+        "type": "treasureBox",
+        "treasureBoxSets": [
+          "basicChest"
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundtechChests",
+        "type": "treasureBox",
+        "treasureBoxSets": [
+          "techChest"
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundweaponChests",
+        "type": "treasureBox",
+        "treasureBoxSets": [
+          "weaponChest"
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundChests",
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [
+                1,
+                "statuspod"
+              ]
+            ],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundCapsules",
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [
+                0.35,
+                "capsulesmall"
+              ],
+              [
+                0.35,
+                "capsulemed"
+              ],
+              [
+                0.35,
+                "capsulebig"
+              ]
+            ],
+            "parameters": {}
+          }
+        ]
+      }
+    ]
+  }
+}

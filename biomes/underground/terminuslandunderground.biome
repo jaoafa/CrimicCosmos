@@ -1,0 +1,306 @@
+{
+  "name": "terminuslandunderground",
+  "friendlyName": "Terminus Land Underground",
+  "spawnProfile": {
+    "groups": [
+      {
+        "select": 10,
+        "pool": [
+          [
+            0.1111,
+            "crabcano"
+          ],
+          [
+            0.1111,
+            "pyromantle"
+          ],
+          [
+            0.1111,
+            "ignome"
+          ],
+          [
+            0.1111,
+            "fennix"
+          ],
+          [
+            0.1111,
+            "magmaslime"
+          ],
+          [
+            0.8111,
+            "firetop"
+          ],
+          [
+            0.3111,
+            "crisper"
+          ],
+          [
+            0.1111,
+            "gasbag"
+          ],
+          [
+            0.1111,
+            "gasbagstat"
+          ]
+        ]
+      }
+    ],
+    "monsterParameters": {
+      "colors": "magma",
+      "statusSettings": {
+        "stats": {
+          "lavaImmunity" : {
+            "baseValue" : 1.0
+          },
+          "fireStatusImmunity" : {
+            "baseValue" : 1.0
+          }
+        }
+      }
+    }
+  },
+  "parallax": "/parallax/underground/underground0a.parallax",
+  "mainBlock": "moltensand",
+  "subBlocks": [
+    "moltensteel",
+    "redhotcobblestone",
+    "moltenmetal"
+  ],
+  "ores": "crimic_ores",
+  "ambientNoises": {
+    "day": {
+      "tracks": [
+        "/sfx/environmental/sandstorm.ogg"
+      ]
+    },
+    "night": {
+      "tracks": [
+        "/sfx/environmental/sandstorm.ogg"
+      ]
+    }
+  },
+  "musicTrack": {
+    "day": {
+      "tracks": [
+        "/music/drosera.ogg",
+        "/music/error-0xbfaf000.ogg",
+        "/music/forest-battle2.ogg",
+        "/music/impact-event.ogg",
+        "/music/ocean-battle1-loop.ogg",
+        "/music/scorian-flow.ogg"
+      ]
+    },
+    "night": {
+      "tracks": [
+        "/music/drosera.ogg",
+        "/music/error-0xbfaf000.ogg",
+        "/music/forest-battle2.ogg",
+        "/music/impact-event.ogg",
+        "/music/ocean-battle1-loop.ogg",
+        "/music/scorian-flow.ogg"
+      ]
+    }
+  },
+  "undergroundPlaceables": {
+    "grassMod": [],
+    "items": [
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundCapsules",
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [
+                0.35,
+                "capsulesmall"
+              ],
+              [
+                0.35,
+                "capsulemed"
+              ],
+              [
+                0.35,
+                "capsulebig"
+              ]
+            ],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundOreRocks",
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [
+                0.60,
+                "copperrocksmall"
+              ],
+              [
+                0.20,
+                "copperrock"
+              ],
+              [
+                0.15,
+                "silverrocksmall"
+              ],
+              [
+                0.5,
+                "silverrock"
+              ]
+            ],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "mode": "background",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundFossils",
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [
+                0.15,
+                "dirtyfossil1"
+              ],
+              [
+                0.15,
+                "dirtyfossil2"
+              ],
+              [
+                0.15,
+                "dirtyfossil3"
+              ],
+              [
+                0.15,
+                "dirtyfossil4"
+              ],
+              [
+                0.1,
+                "dirtyfossil5"
+              ],
+              [
+                0.1,
+                "dirtyfossil6"
+              ],
+              [
+                0.1,
+                "dirtyfossil7"
+              ],
+              [
+                0.1,
+                "dirtyfossil8"
+              ]
+            ],
+            "parameters": {
+              "materials": [
+                "dirt",
+                "cobblestone",
+                "bonematerial"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:layer1Chests",
+        "type": "treasureBox",
+        "treasureBoxSets": [
+          "basicChest"
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundweaponChests",
+        "type": "treasureBox",
+        "treasureBoxSets": [
+          "weaponChest"
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 1.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundChests",
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [
+                1,
+                "statuspod"
+              ]
+            ],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 0.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundChallengeDoors",
+        "type": "object",
+        "objectSets": [
+          {
+            "pool": [
+              [
+                1,
+                "challengedoor"
+              ]
+            ],
+            "parameters": {}
+          }
+        ]
+      },
+      {
+        "mode": "ceiling",
+        "priority": 2.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:undergroundVines",
+        "type": "tree",
+        "treeFoliageHueShiftMax": 180,
+        "treeStemHueShiftMax": 180,
+        "treeStemList": [
+          "vine",
+          "vine2",
+          "vine3",
+          "vine4"
+        ],
+        "treeFoliageList": [
+          "flowery",
+          "starry",
+          "dreamy"
+        ]
+      },
+      {
+        "mode": "floor",
+        "priority": 99.0,
+        "variants": 1,
+        "distribution": "/biomes/distributions.config:denseSmall",
+        "type": "microdungeon",
+        "microdungeons": [
+          "underground0amicrodungeons"
+        ]
+      }
+    ]
+  },
+  "hueShiftOptions": [
+    0
+  ]
+}

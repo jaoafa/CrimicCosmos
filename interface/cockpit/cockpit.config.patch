@@ -20,6 +20,28 @@
         76,
         60
       ]
+    },
+	
+	{
+      "op": "add",
+      "path": "/visitableTypeDescription/terminusland",
+      "value": [
+        "An incredibly hot planet. It is an environment that refuses all who come. ^red;If you come to this planet, you will instantly ash and die."
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/planetTypeNames/terminusland",
+      "value": "Terminus Land"
+    },
+    {
+      "op": "add",
+      "path": "/planetTypeColors/terminusland",
+      "value": [
+        255,
+        62,
+        0
+      ]
     }
   ]
 ]

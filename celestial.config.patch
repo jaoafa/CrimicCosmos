@@ -51,5 +51,59 @@
     "op": "add",
     "path": "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
     "value": "crimic"
+  },
+  
+  {
+    "op": "add",
+    "path": "/terrestrialHorizonGraphics/terminusland",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/terminusland_<selector>.png",
+      "maskPerPlanetRange": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/terminusland",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/terminusland/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [
+        1,
+        4
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "terminusland"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
+    "value": "terminusland"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "terminusland"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
+    "value": "terminusland"
+  },
+  {
+    "op": "add",
+    "path": "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "terminusland"
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
+    "value": "terminusland"
   }
 ]

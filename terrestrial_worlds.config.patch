@@ -108,5 +108,102 @@
         ] // and one more case of the "name" value
       ]
     }
+  },
+  
+
+  {
+    "op": "add",
+    "path": "/planetTypes/terminusland", // your biome "name" (not "friendlyname")
+    "value": {
+      "threatRange": [
+        10,
+        10
+      ], //what tier is your planet? if its only tier 1, use 1,1. Otherwise, use what you want.
+      "layers": {
+        "surface": {
+          "primaryRegion": [
+            "terminusland"
+          ], //its own "name" is used here.
+          "secondaryRegions": [
+            "volcanic",
+            "infernus",
+            "sulphuric",
+            "crimic",
+            "magma"
+          ], //here are your sub-biomes
+          //what dungeons does it pull from when it does generate them? This is the new format for Nightly/1.0
+          "dungeons": []
+        },
+        "subsurface": {
+          "primaryRegion": [
+            "terminuslandunderground"
+          ] //what is the core underground biome? you can ignore this and all below if desired and it will use the default values set in celestial.config
+        },
+        "underground1": {
+          //underground sub-biomes are now generated
+          "secondaryRegion": [
+            "terminuslandunderground"
+          ]
+        },
+        "underground2": {
+          "secondaryRegion": [
+            "terminuslandunderground"
+          ]
+        },
+        "underground3": {
+          "secondaryRegion": [
+            "terminuslandunderground"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/terminusland", //again, your biomes "name" value
+    "value": {
+      "caveLiquid": [
+        "lava"
+      ], //what liquids appear on your biome surface?
+      "caveLiquidChanceRange": [
+        1,
+        30
+      ], //how often does your liquid appear on the surface?
+      "blockSelector": [
+        "remixedMildSurface"
+      ], //surface terrain generation
+      "fgCaveSelector": [
+        "surfaceCaves"
+      ], //foreground cave terrain generation
+      "biome": [
+        [
+          0,
+          [
+            "terminusland"
+          ]
+        ] // and one more case of the "name" value
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/regionTypes/terminuslandunderground", //again, your biomes "name" value
+    "value": {
+      "caveLiquid": [
+        "lava"
+      ], //what liquids appear on your biome surface?
+      "caveLiquidChanceRange": [
+        2.0,
+        2.0
+      ], //how often does your liquid appear on the surface?
+      "biome": [
+        [
+          0,
+          [
+            "terminuslandunderground"
+          ]
+        ] // and one more case of the "name" value
+      ]
+    }
   }
 ]

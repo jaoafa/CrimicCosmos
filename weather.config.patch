@@ -44,5 +44,35 @@
         "crystalstormmajor"
       ]
     ]
+  },
+  {
+    "op": "add",
+    "path": "/terminusland",
+    "value": [
+      [
+        0.1,
+        "meteorshower"
+      ],
+      [
+        0.3,
+        "largemeteor"
+      ],
+      [
+        0.1,
+        "fuearthquake"
+      ],
+      [
+        0.1,
+        "fuearthquakelesser"
+      ],
+      [
+        0.3,
+        "fuearthquakesevere"
+      ],
+      [
+        0.1,
+        "ironstorm"
+      ]
+    ]
   }
 ]

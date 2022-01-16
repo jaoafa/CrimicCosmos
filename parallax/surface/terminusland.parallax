@@ -1,0 +1,60 @@
+{
+  "verticalOrigin": -15,
+  "layers": [
+    {
+      "kind" : "divider/dirt",
+      "offset" : [0, 150],
+      "nohueshift" : true,
+      "lightMapped" : true,
+      "parallax" : 1.199
+    },
+    {
+      "kind": "tile/rock",
+      "nohueshift": true,
+      "lightMapped": true,
+      "repeatY": true,
+      "tileLimitTop": 125,
+      "parallax": 1.2
+    },
+    {
+      "kind": "alienback",
+      "offset": [
+        0,
+        450
+      ],
+      "parallax": 12,
+      "directives": "?brightness=20?saturation=-10",
+      "fadePercent": 0.15
+    },
+    {
+      "kind": "oilrig",
+      "offset": [
+        0,
+        450
+      ],
+      "parallax": [
+        9,
+        9
+      ],
+      "directives": "",
+      "fadePercent": 0.95,
+      "nohueshift": true
+    },
+    {
+      "kind": "oilrig",
+      "offset": [
+        0,
+        525
+      ],
+      "parallax": [
+        8,
+        8
+      ],
+      "directives": "",
+      "fadePercent": 0.8,
+      "nohueshift": true
+    }
+    // Day Clouds
+    
+  ]
+}

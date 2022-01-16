@@ -262,6 +262,104 @@
     "op": "add",
     "path": "/defaultBlueprints/tier1/-",
     "value": {
+      "item": "t10station"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "fu_t10_apex_mission2beacon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "fu_t10_avian_mission2beacon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "fu_t10_floran_mission2beacon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "fu_t10_floranarena1beacon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "fu_t10_floranarena2beacon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "fu_t10_floranarena3beacon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "fu_t10_gaterepairbeacon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "fu_t10_glitch_mission2beacon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "fu_t10_human_mission1beacon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "fu_t10_hylotl_mission2beacon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "fu_t10_precursorbeacon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "fu_t10_fupenguinmission1t10_mission2beacon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "fu_t10_fueldershoggotht10_mission2beacon"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
       "item": "nztile"
     }
   }

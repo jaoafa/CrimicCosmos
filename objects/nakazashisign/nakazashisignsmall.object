@@ -19,7 +19,7 @@
   "inventoryIcon": "nakazashisignicon.png",
   "orientations": [
     {
-      "image": "nakazashisign.png",
+      "image": "nakazashisignsmall.png",
       "imagePosition": [
         -20,
         -8

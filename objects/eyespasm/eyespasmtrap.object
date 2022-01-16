@@ -1,0 +1,189 @@
+{
+  "objectName" : "eyespasmtrap",
+  "colonyTags" : ["crime","evil"],
+  "rarity" : "Uncommon",
+  "category" : "trap",
+  "price" : 300,
+
+  "description" : "EYE INSTA-DEATH BZZT...",
+  "shortdescription" : "EyeSpasm",
+  "race" : "generic",
+
+  "apexDescription" : "BZZZZZZZZZZT...",
+  "avianDescription" : "BZZZZZZZZZZT...",
+  "floranDescription" : "BZZZZZZZZZZT...",
+  "glitchDescription" : "BZZZZZZZZZZT...",
+  "humanDescription" : "BZZZZZZZZZZT...",
+  "hylotlDescription" : "BZZZZZZZZZZT...",
+  "novakidDescription" : "BZZZZZZZZZZT...",
+
+  "lightColor" : [128, 128, 128],
+
+  "health" : 2,
+
+  "flickerPeriod" : 0.1,
+  "flickerMinIntensity" : 0.25,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.05,
+  "flickerIntensityVariance" : 0.025,
+
+  "inventoryIcon" : "eyespasmicon.png",
+  "orientations" : [
+    
+    // PREVIEW ORIENTATION
+    {
+      "image" : "eyespasm.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "fgAnchors" : [ [0, 0] ]
+    },
+
+    // NORMAL ORIENTATIONS
+    {
+      "image" : "eyespasm.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "left" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 6590,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "eyespasm.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top", "right" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 6590,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "eyespasm.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "left" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 6590,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "eyespasm.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "right" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 6590,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "eyespasm.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 6590,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "eyespasm.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 6590,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "eyespasm.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "left" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 6590,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    },
+
+    {
+      "image" : "eyespasm.png:<color>.<frame>",
+      "imagePosition" : [0, 0],
+      "frames" : 3,
+      "animationCycle" : 0.3,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "right" ],
+  
+      "touchDamage" : {
+        "poly" : [ [0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0] ],
+        "damage" : 6590,
+
+        "damageType" : "Environment",
+        "damageSourceKind" : "electric"
+      }
+    }
+  ]
+}

@@ -50,6 +50,10 @@
       },
       {
         "item": "itemuraniumglass"
+      },
+      {
+        "item": "eyespasmtrap",
+        "price": 24000
       }
     ]
   },

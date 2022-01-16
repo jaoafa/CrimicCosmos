@@ -1,0 +1,18 @@
+{
+	"itemName" : "fu_t10_fueldershoggotht10_mission2beacon","price" : 1000,
+	"level" : 10,
+	"maxStack" : 1,
+	"rarity" : "Legendary",
+	"category" : "tool",
+	"description" : "Teleports the user to the ^orange;the Dark Delta Freya II^reset; in the Nightmare World.\n^red;Environmental Hazards^reset;:\nExtreme Maddening Atmosphere\nLethal Cold",
+	"shortdescription" : "Beacon: ^orange;Delta Freya II^reset;",
+	"twoHanded" : true,
+    "animation": "hardmodebeacon.animation",
+
+	"inventoryIcon" : "/items/generic/crafting/mythos/elderrelic9.png",
+	"scripts" : ["hardmodebeacon.lua"],
+
+	"fireTime" : 2.0,
+	"fireOffset" : [1.0, 0.0],
+	"warpAction":"instanceworld:fueldershoggotht10"
+}

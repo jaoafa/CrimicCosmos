@@ -1,13 +1,13 @@
 {
-  "itemName": "nztile",
+  "itemName": "nzhullpanel",
   "price": 0,
   "category": "block",
   "rarity": "Common",
-  "inventoryIcon": "nztile.png",
+  "inventoryIcon": "nzhullpanel.png",
   "description": "a Tile used in NakaZashi HD buildings.",
-  "shortdescription": "NZ Tile",
+  "shortdescription": "NZ Panel",
   "glitchdescription": "a Tile used in NakaZashi HD buildings.",
   "florandescription": "a Tile used in NakaZashi HD buildings.",
   "novakiddescription": "a Tile used in NakaZashi HD buildings.",
-  "materialId": 1708
+  "materialId": 1751
 }

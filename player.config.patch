@@ -353,6 +353,13 @@
     "op": "add",
     "path": "/defaultBlueprints/tier1/-",
     "value": {
+      "item": "crimesound"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
       "item": "fu_t10_fueldershoggotht10_mission2beacon"
     }
   },

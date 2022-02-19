@@ -1,12 +1,262 @@
 [
   {
     "op": "add",
-    "path": "/terrestrialHorizonGraphics/crimic",
+    "path": "/planetaryTypes/crimest_planetary",
     "value": {
-      "baseImages": "/celestial/system/terrestrial/horizon/textures/crimic_<selector>.png",
-      "maskPerPlanetRange": [
-        0,
-        0
+      "satelliteProbability": 0.4,
+      "maxSatelliteCount": 3,
+      "baseParameters": {
+        "worldType": "Terrestrial",
+        "description": "Crimest Planet",
+        "smallImage": "/celestial/system/planet_small.png",
+        "terrestrialType": [
+          "crimic",
+          "crimic",
+          "terminusland"
+        ]
+      },
+      "variationParameters": [
+        {
+          "imageScale": 0.075,
+          "smallImageScale": 0.4,
+          "worldSize": "small"
+        },
+        {
+          "imageScale": 0.1,
+          "smallImageScale": 0.5,
+          "worldSize": "medium"
+        },
+        {
+          "imageScale": 0.125,
+          "smallImageScale": 0.6,
+          "worldSize": "large"
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/satelliteTypes/crimest_satellite",
+    "value": {
+      "baseParameters": {
+        "worldType": "Terrestrial",
+        "description": "Crimest Moons",
+        "smallImage": "/celestial/system/planet_small.png",
+        "terrestrialType": [
+          "crimic",
+          "crimic",
+          "terminusland"
+        ]
+      },
+      "variationParameters": [
+        {
+          "imageScale": 0.06,
+          "worldSize": "small"
+        },
+        {
+          "imageScale": 0.075,
+          "worldSize": "medium"
+        }
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/systemTypeBins/-",
+    "value": [
+      0.075,
+      "crimest_star"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/systemTypes/crimest_star",
+    "value": {
+      "selectionWeight": 1,
+      "baseParameters": {
+        "typeName": "crimest_star",
+        "image": "/celestial/system/crimest_star.png",
+        "twinkleTime": [
+          1,
+          1.5
+        ],
+        "spaceThreatLevel": 5
+      },
+      "variationParameters": [
+        {
+          "magnitude": 3,
+          "description": "Small Crimest Star",
+          "imageScale": 0.04,
+          "twinkleFrames": "/celestial/stars/star7pxCrimest.png",
+          "twinkleBackground": "/celestial/stars/backgrounds/star7px.png",
+          "brightness": [
+            1,
+            1
+          ]
+        },
+        {
+          "magnitude": 5,
+          "description": "Medium Crimest Star",
+          "imageScale": 0.055,
+          "twinkleFrames": "/celestial/stars/star13pxCrimest.png",
+          "twinkleBackground": "/celestial/stars/backgrounds/star13px.png",
+          "brightness": [
+            1,
+            1
+          ]
+        },
+        {
+          "magnitude": 7,
+          "description": "Large Crimest Star",
+          "imageScale": 0.075,
+          "twinkleFrames": "/celestial/stars/star17pxCrimest.png",
+          "twinkleBackground": "/celestial/stars/backgrounds/star17px.png",
+          "brightness": [
+            1,
+            1
+          ]
+        }
+      ],
+      "orbitRegions": [
+        {
+          "regionName": "Tier6Inner",
+          "orbitRange": [
+            2,
+            5
+          ],
+          "bodyProbability": 0.5,
+          "planetaryTypes": [
+            {
+              "weight": 0.1,
+              "item": "Tier6"
+            },
+            {
+              "weight": 0.8,
+              "item": "crimest_planetary"
+            },
+            {
+              "weight": 0.05,
+              "item": "Barren"
+            },
+            {
+              "weight": 0.05,
+              "item": "AsteroidField"
+            }
+          ],
+          "satelliteTypes": [
+            {
+              "weight": 0.5,
+              "item": "Moon"
+            },
+            {
+              "weight": 0.5,
+              "item": "crimest_satellite"
+            }
+          ]
+        },
+        {
+          "regionName": "Tier6Mid",
+          "orbitRange": [
+            6,
+            7
+          ],
+          "bodyProbability": 0.25,
+          "planetaryTypes": [
+            {
+              "weight": 0.9,
+              "item": "GasGiant"
+            },
+            {
+              "weight": 0.05,
+              "item": "Barren"
+            },
+            {
+              "weight": 0.05,
+              "item": "AsteroidField"
+            }
+          ],
+          "satelliteTypes": [
+            {
+              "weight": 0.1,
+              "item": "Moon"
+            },
+            {
+              "weight": 0.1,
+              "item": "Tier6"
+            },
+            {
+              "weight": 0.05,
+              "item": "Tier1"
+            },
+            {
+              "weight": 0.75,
+              "item": "crimest_satellite"
+            }
+          ]
+        },
+        {
+          "regionName": "Tier6Outer",
+          "orbitRange": [
+            8,
+            10
+          ],
+          "bodyProbability": 0.5,
+          "planetaryTypes": [
+            {
+              "weight": 0.15,
+              "item": "Tier6"
+            },
+            {
+              "weight": 0.75,
+              "item": "crimest_planetary"
+            },
+            {
+              "weight": 0.05,
+              "item": "Barren"
+            },
+            {
+              "weight": 0.05,
+              "item": "AsteroidField"
+            }
+          ],
+          "satelliteTypes": [
+            {
+              "weight": 0.5,
+              "item": "Moon"
+            },
+            {
+              "weight": 0.5,
+              "item": "crimest_satellite"
+            }
+          ]
+        },
+        {
+          "regionName": "Gate",
+          "orbitRange": [
+            11,
+            11
+          ],
+          "bodyProbability": 1,
+          "planetaryTypes": [
+            {
+              "weight": 0.2,
+              "item": "AncientGateway"
+            },
+            {
+              "weight": 0.1,
+              "item": "AsteroidField"
+            },
+            {
+              "weight": 0.1,
+              "item": "Tier6"
+            },
+            {
+              "weight": 0.6,
+              "item": "crimest_planetary"
+            }
+          ],
+          "satelliteTypes": []
+        }
       ]
     }
   },
@@ -24,48 +274,6 @@
   },
   {
     "op": "add",
-    "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
-    "value": "crimic"
-  },
-  {
-    "op": "add",
-    "path": "/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
-    "value": "crimic"
-  },
-  {
-    "op": "add",
-    "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
-    "value": "crimic"
-  },
-  {
-    "op": "add",
-    "path": "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
-    "value": "crimic"
-  },
-  {
-    "op": "add",
-    "path": "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
-    "value": "crimic"
-  },
-  {
-    "op": "add",
-    "path": "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
-    "value": "crimic"
-  },
-  
-  {
-    "op": "add",
-    "path": "/terrestrialHorizonGraphics/terminusland",
-    "value": {
-      "baseImages": "/celestial/system/terrestrial/horizon/textures/terminusland_<selector>.png",
-      "maskPerPlanetRange": [
-        0,
-        0
-      ]
-    }
-  },
-  {
-    "op": "add",
     "path": "/terrestrialGraphics/terminusland",
     "value": {
       "baseImages": "/celestial/system/terrestrial/biomes/terminusland/maskie<num>.png",
@@ -78,32 +286,24 @@
   },
   {
     "op": "add",
-    "path": "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
-    "value": "terminusland"
+    "path": "/terrestrialHorizonGraphics/crimic",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/crimic_<selector>.png",
+      "maskPerPlanetRange": [
+        0,
+        0
+      ]
+    }
   },
   {
     "op": "add",
-    "path": "/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
-    "value": "terminusland"
-  },
-  {
-    "op": "add",
-    "path": "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
-    "value": "terminusland"
-  },
-  {
-    "op": "add",
-    "path": "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
-    "value": "terminusland"
-  },
-  {
-    "op": "add",
-    "path": "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
-    "value": "terminusland"
-  },
-  {
-    "op": "add",
-    "path": "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
-    "value": "terminusland"
+    "path": "/terrestrialHorizonGraphics/terminusland",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/terminusland_<selector>.png",
+      "maskPerPlanetRange": [
+        0,
+        0
+      ]
+    }
   }
 ]

@@ -1,0 +1,16 @@
+[
+    {
+      "op": "add",
+      "path": "/starTypeColors/crimest_star",
+      "value": [
+        233,
+        30,
+        99
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/starTypeNames/crimest_star",
+      "value": "Crimest Star"
+    }
+  ]

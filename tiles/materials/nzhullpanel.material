@@ -1,0 +1,28 @@
+{
+  "materialId": 1751,
+  "materialName": "nzhullpanel",
+  "particleColor": [
+    124,
+    145,
+    86,
+    255
+  ],
+  "itemDrop": "nzhullpanel",
+  "description": "Cheap, resilient panelling widely used for ship and station construction.",
+  "glitchDescription": "a Tile used in NakaZashi HD buildings.",
+  "floranDescription": "a Tile used in NakaZashi HD buildings.",
+  "novakidDescription": "a Tile used in NakaZashi HD buildings.",
+  "shortdescription": "NZ Panel",
+  "footstepSound": "/sfx/blocks/footstep_lightmetal.ogg",
+  "health": 16,
+  "category": "materials",
+  "renderTemplate": "/tiles/slopedmaterialtemplate.config",
+  "renderParameters": {
+    "texture": "nzhullpanel.png",
+    "variants": 5,
+    "lightTransparent": false,
+    "occludesBelow": true,
+    "multiColored": false,
+    "zLevel": 5000
+  }
+}

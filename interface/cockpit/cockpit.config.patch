@@ -2,6 +2,20 @@
   [
     {
       "op": "add",
+      "path": "/starTypeColors/crimest_star",
+      "value": [
+        233,
+        30,
+        99
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/starTypeNames/crimest_star",
+      "value": "Crimest Star"
+    },
+    {
+      "op": "add",
       "path": "/visitableTypeDescription/crimic",
       "value": [
         "A very dangerous planet. Crime. You had better not to go. People who visit here are crazy. ^red;It would be unwise to explore the surface of here, even if it was unavoidable."
@@ -21,8 +35,7 @@
         60
       ]
     },
-	
-	{
+    {
       "op": "add",
       "path": "/visitableTypeDescription/terminusland",
       "value": [

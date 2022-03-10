@@ -1,4 +1,4 @@
-# Starbound-ZakuroHatMod
+# CrimicCosmos
 
 Starbound ZakuroHat サーバに導入されている Mod のプロジェクトリポジトリです。
 

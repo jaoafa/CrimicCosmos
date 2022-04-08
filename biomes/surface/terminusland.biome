@@ -46,39 +46,55 @@
         "select": 10,
         "pool": [
           [
-            0.1111,
-            "crabcano"
+            0.8,
+            "shoggoth2"
           ],
           [
-            0.1111,
-            "pyromantle"
+            0.8,
+            "warbot"
           ],
           [
-            0.1111,
-            "ignome"
+            0.8,
+            "fufatalcircuit2"
           ],
           [
-            0.1111,
-            "fennix"
+            0.8,
+            "fufatalcircuit"
           ],
           [
-            0.1111,
-            "magmaslime"
+            0.8,
+            "titan"
           ],
           [
-            0.8111,
-            "firetop"
+            0.8,
+            "gorillaking"
           ],
           [
-            0.3111,
-            "crisper"
+            0.8,
+            "fubahamut"
           ],
           [
-            0.1111,
+            0.8,
+            "kluexsentry2"
+          ],
+          [
+            0.8,
+            "dragonboss"
+          ],
+          [
+            0.8,
+            "bighairyfrankboss"
+          ],
+          [
+            0.8,
+            "megaburrower"
+          ],
+          [
+            0.8,
             "gasbag"
           ],
           [
-            0.1111,
+            0.8,
             "gasbagstat"
           ]
         ]

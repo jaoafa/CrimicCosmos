@@ -1,0 +1,34 @@
+{
+  "itemName" : "toomachicontroller",
+  "level" : 1,
+  "price" : 30000,
+  "rarity" : "Legendary",
+  "category" : "vehicleController",
+  "description" : "Tomachi-chan, departure progress!",
+  "shortdescription" : "Locomotive Toomachi Controller",
+  "twoHanded" : true,
+  "maxStack" : 1,
+  "itemTags" : ["vehiclecontroller"],
+
+  "animation" : "vehiclecontroller.animation",
+  "scripts" : ["vehiclecontroller.lua"],
+  "animationScripts" : ["vehiclecursor.lua"],
+  "filled" : true,
+  "tooltipKind" : "vehicle",
+  "largeImage" : "toomachi.png",
+
+  "respawnTime" : 1.0,
+
+  //=============Item specifc bits.
+  "vehicleType" : "toomachi",
+  "vehicleBoundingBox" : [-5, -3, 5, 5],
+  "vehicleImage" : "toomachi.png",
+
+  "animationParts" : {
+    "casing" : "toomachicontroller.png"
+  },
+
+  "inventoryIcon" : "toomachicontroller.png:full",
+  "emptyInventoryIcon" : "/items/active/vehiclecontroller/toomachicontroller.png:empty",
+  "filledInventoryIcon" : "/items/active/vehiclecontroller/toomachicontroller.png:full"
+}

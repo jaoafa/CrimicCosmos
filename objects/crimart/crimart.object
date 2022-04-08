@@ -46,10 +46,17 @@
         "item": "throwingtungstencube"
       },
       {
+        "item": "toomachicontroller",
+      }.
+      {
         "item": "kaebin"
       },
       {
         "item": "itemuraniumglass"
+      },
+      {
+        "item": "nztile",
+        "price": 10
       },
       {
         "item": "eyespasmtrap",

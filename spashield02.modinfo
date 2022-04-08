@@ -1,10 +1,10 @@
 {
-  "name": "zakurohat",
+  "name": "crimiccosmos",
   "path": ".",
   "dependencies": [],
   "metadata": {
     "author": "Micni",
-    "version": "1.10",
-    "description": "Zakurohat."
+    "version": "1.11",
+    "description": "Very Crimy Mod."
   }
 }

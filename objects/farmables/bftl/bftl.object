@@ -1,0 +1,56 @@
+{
+  "objectName" : "ftlseed",
+  "colonyTags" : ["nature"],
+  "rarity" : "Common",
+  "category" : "seed",
+  "description" : "What do you use it for?",
+  "shortdescription" : "Broken Small FTL Drive Seed",
+  "objectType" : "farmable",
+  "printable" : false,
+  "price" : 0,
+
+  "apexDescription" : "What do you use it for?",
+  "avianDescription" : "What do you use it for?",
+  "floranDescription" : "What do you use it for?",
+  "glitchDescription" : "What do you use it for?",
+  "humanDescription" : "What do you use it for?",
+  "hylotlDescription" : "What do you use it for?",
+  "novakidDescription" : "What do you use it for?",
+
+  "inventoryIcon" : "ftlseedicon.png",
+
+  "tooltipKind" : "seed",
+  "largeImage" : "ftlseed.png:default.2.0",
+
+
+  "orientations" : [
+    {
+      "dualImage" : "ftlseed.png:<color>.<stage>.<alt>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaces" : [ [0, 0], [0, 1] ],
+      "requireTilledAnchors" : true,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "radioMessagesOnPickup" : [ "pickupseed" ],
+
+  "stages" : [
+    {
+      "duration" : [570, 630]
+    },
+    {
+      "duration" : [570, 630]
+    },
+    {
+      "alts" : 5,
+      "harvestPool" : "fu_ftldrivesmall_broken"
+    }
+  ],
+
+  "maxImmersion" : 0.25
+}

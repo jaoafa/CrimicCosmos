@@ -20,7 +20,6 @@
     "pandorasboxweakdoomed",
     "pandorasboxstrongdoomed",
     "pandorasboxmoderatedoomed",
-    "weakpoison",
     "biomeairless",
     "biomeradiation",
     "radioactiveweathernew",
@@ -28,14 +27,31 @@
     "radioactiveweathernew3",
     "protoweather",
     "protoweather2",
-    "biomepoison1",
-    "biomepoison2",
-    "biomepoison3",
-    "biomepoisongas",
-    "poisonweathernew",
     "sulphuricweatherstorm",
     "sulphuricweatherstorm2",
     "sulphuricweatherstorm3",
+    "superdarkstatsuperlargeUnblockable",
+    "ffbiomecold4",
+    "ffbiomecold3",
+    "ffbiomecold2",
+    "ffbiomecold1",
+    "ffbiomecold0",
+    "coldweathernew",
+    "suddenchill1",
+    "suddenchill2",
+    "suddenchill3",
+    "gasworld3",
+    "gasworld2",
+    "gasworld1",
+    "insanitynew3",
+    "erchiussickness3",
+    "aetherweathernew2",
+    "aetherweathernew",
+    "aetherweathernew3",
+    "ffbiomeelectric1",
+    "ffbiomeelectric3",
+    "ffbiomeelectric2",
+    "futimeweather",
     "heatwave3",
     "heatwave2",
     "heatwave1"
@@ -47,19 +63,7 @@
         "pool": [
           [
             0.8,
-            "shoggoth2"
-          ],
-          [
-            0.8,
             "warbot"
-          ],
-          [
-            0.8,
-            "fufatalcircuit2"
-          ],
-          [
-            0.8,
-            "fufatalcircuit"
           ],
           [
             0.8,
@@ -104,11 +108,11 @@
       "colors": "magma",
       "statusSettings": {
         "stats": {
-          "lavaImmunity" : {
-            "baseValue" : 1.0
+          "lavaImmunity": {
+            "baseValue": 1.0
           },
-          "fireStatusImmunity" : {
-            "baseValue" : 1.0
+          "fireStatusImmunity": {
+            "baseValue": 1.0
           }
         }
       }
@@ -128,15 +132,64 @@
       ]
     ]
   ],
-  "skyOptions" : [
+  "skyOptions": [
     {
       // light reddish
-      "mainColor" : [255, 0, 0],
-
-      "morningColors" : [ [201, 42, 14], [125, 27, 10] ],
-      "dayColors" : [ [201, 42, 14], [125, 27, 10] ],
-      "eveningColors" : [ [201, 42, 14], [125, 27, 10] ],
-      "nightColors" : [ [117, 4, 4, 60], [51, 1, 1, 160] ],
+      "mainColor": [
+        255,
+        0,
+        0
+      ],
+      "morningColors": [
+        [
+          201,
+          42,
+          14
+        ],
+        [
+          125,
+          27,
+          10
+        ]
+      ],
+      "dayColors": [
+        [
+          201,
+          42,
+          14
+        ],
+        [
+          125,
+          27,
+          10
+        ]
+      ],
+      "eveningColors": [
+        [
+          201,
+          42,
+          14
+        ],
+        [
+          125,
+          27,
+          10
+        ]
+      ],
+      "nightColors": [
+        [
+          117,
+          4,
+          4,
+          60
+        ],
+        [
+          51,
+          1,
+          1,
+          160
+        ]
+      ],
       "morningLightColor": [
         255,
         0,
@@ -287,7 +340,6 @@
         ]
       }
       // MICRO DUNGEONS
-      
     ]
   },
   "undergroundPlaceables": {

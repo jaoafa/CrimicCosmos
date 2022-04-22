@@ -1,0 +1,28 @@
+{
+  "input": [
+    {
+      "item": "platematerial",
+      "count": 5
+    },
+    {
+      "item": "tomato",
+      "count": 1
+    },
+    {
+      "item": "corn",
+      "count": 1
+    },
+    {
+      "item": "carrot",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "tinplatesalad",
+    "count": 1
+  },
+  "groups": [
+    "craftingfood",
+    "sides"
+  ]
+}

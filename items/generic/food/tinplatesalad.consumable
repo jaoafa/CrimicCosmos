@@ -1,0 +1,28 @@
+{
+  "itemName": "tinplatesalad",
+  "rarity": "Common",
+  "price": 60,
+  "category": "preparedFood",
+  "inventoryIcon": "tinplatesalad.png",
+  "description": "A juicy salad traditionally eaten in Nikomachenko. ^orange;Type: Vegetables + Robot^reset;",
+  "shortdescription": "Tinplate Juicy Salad",
+  "foodValue": 40,
+  "tooltipKind": "food",
+  "builder": "/items/buildscripts/buildfood.lua",
+  "maxStack": 1,
+  "effects": [
+    [
+      "plant_food"
+    ],
+    [
+      "robot_food"
+    ]
+  ],
+  "itemAgingScripts": [
+    "/scripts/items/rotting.lua"
+  ],
+  "rottingMultiplier": 1.0,
+  "blockingEffects": [
+    "wellfed"
+  ]
+}

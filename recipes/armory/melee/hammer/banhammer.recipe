@@ -1,0 +1,45 @@
+{
+  "input": [
+    {
+      "item": "tungstenbar",
+      "count": 1000
+    },
+    {
+      "item": "kaebin",
+      "count": 300
+    },
+    {
+      "item": "poopiumbar",
+      "count": 100
+    },
+    {
+      "item": "neutronium",
+      "count": 10
+    },
+    {
+      "item": "antineutronium",
+      "count": 10
+    },
+    {
+      "item": "eyespasmtrap",
+      "count": 1
+    },
+    {
+      "item": "wtfisthis",
+      "count": 1
+    },
+    {
+      "item": "ancientpowerconduit",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "banhammer",
+    "count": 1
+  },
+  "groups": [
+    "armory2",
+    "melee2",
+    "all"
+  ]
+}

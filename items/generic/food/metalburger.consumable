@@ -1,0 +1,28 @@
+{
+  "itemName": "metalburger",
+  "rarity": "Common",
+  "price": 200,
+  "category": "preparedFood",
+  "inventoryIcon": "metalburger.png",
+  "description": "A hamburger sandwiched between metal plates traditionally eaten in Nikomachenko. ^orange;Type: Cooked Meat + Vegetables + Robot^reset;",
+  "shortdescription": "Metal Plate Hamburger",
+  "foodValue": 95,
+  "tooltipKind": "food",
+  "builder": "/items/buildscripts/buildfood.lua",
+  "maxStack": 1,
+  "effects": [
+    [
+      "meatc_plant_meal"
+    ],
+    [
+      "robot_food"
+    ]
+  ],
+  "itemAgingScripts": [
+    "/scripts/items/rotting.lua"
+  ],
+  "rottingMultiplier": 1.0,
+  "blockingEffects": [
+    "wellfed"
+  ]
+}

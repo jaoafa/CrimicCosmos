@@ -1,0 +1,46 @@
+{
+  "itemName": "banhammer",
+  "price": 8000,
+  "level": 4,
+  "maxStack": 1,
+  "rarity": "legendary",
+  "description": "Let's BAN KICK!",
+  "shortdescription": "BAN Hammer",
+  "tooltipKind": "hammer",
+  "category": "hammer",
+  "twoHanded": true,
+  "itemTags": [
+    "weapon",
+    "melee",
+    "hammer",
+    "upgradeableWeapon"
+  ],
+  "inventoryIcon": "banhammer.png",
+  "animation": "/items/active/weapons/melee/hammer/hammer.animation",
+  "animationParts": {
+    "handle": "",
+    "blade": "banhammer.png"
+  },
+  "animationCustom": {
+    "sounds": {
+      "fire": [
+        "/sfx/weapons/swing_hammer_ban.ogg"
+      ]
+    }
+  },
+  "scripts": [
+    "/items/active/weapons/melee/meleeweapon.lua"
+  ],
+  "elementalType": "physical",
+  "primaryAbilityType": "hammersmash",
+  "primaryAbility": {
+    "fireTime": 1.2,
+    "baseDps": 180
+  },
+  "palette": "/items/active/weapons/colors/tier1melee.weaponcolors",
+  "altAbilityType": "physicalshockwave",
+  "critChance": 6,
+  "critBonus": 10,
+  "builder": "/items/buildscripts/buildunrandweapon.lua",
+  "stunChance": 18
+}

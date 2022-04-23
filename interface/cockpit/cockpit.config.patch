@@ -55,6 +55,27 @@
         62,
         0
       ]
+    },
+    {
+      "op": "add",
+      "path": "/visitableTypeDescription/critainlush",
+      "value": [
+        "Critainlush, a shortened form of Crime-Tainted-Lush. This is a very dangerous place disguised as a very peaceful and lovely place. Crime."
+      ]
+    },
+    {
+      "op": "add",
+      "path": "/planetTypeNames/critainlush",
+      "value": "Critainlush"
+    },
+    {
+      "op": "add",
+      "path": "/planetTypeColors/critainlush",
+      "value": [
+        26,
+        188,
+        156
+      ]
     }
   ]
 ]

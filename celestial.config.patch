@@ -12,6 +12,8 @@
         "terrestrialType": [
           "crimic",
           "crimic",
+          "crimic",
+          "critainlush",
           "terminusland"
         ]
       },
@@ -45,6 +47,8 @@
         "terrestrialType": [
           "crimic",
           "crimic",
+          "crimic",
+          "critainlush",
           "terminusland"
         ]
       },
@@ -164,7 +168,7 @@
           "planetaryTypes": [
             {
               "weight": 0.9,
-              "item": "GasGiant"
+              "item": "fugasplanet"
             },
             {
               "weight": 0.05,
@@ -274,9 +278,20 @@
   },
   {
     "op": "add",
-    "path": "/terrestrialGraphics/terminusland",
+    "path": "/terrestrialHorizonGraphics/crimic",
     "value": {
-      "baseImages": "/celestial/system/terrestrial/biomes/terminusland/maskie<num>.png",
+      "baseImages": "/celestial/system/terrestrial/horizon/textures/crimic_<selector>.png",
+      "maskPerPlanetRange": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/critainlush",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/crimic/maskie<num>.png",
       "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
       "dynamicsRange": [
         1,
@@ -286,12 +301,24 @@
   },
   {
     "op": "add",
-    "path": "/terrestrialHorizonGraphics/crimic",
+    "path": "/terrestrialHorizonGraphics/critainlush",
     "value": {
       "baseImages": "/celestial/system/terrestrial/horizon/textures/crimic_<selector>.png",
       "maskPerPlanetRange": [
         0,
         0
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "path": "/terrestrialGraphics/terminusland",
+    "value": {
+      "baseImages": "/celestial/system/terrestrial/biomes/terminusland/maskie<num>.png",
+      "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+      "dynamicsRange": [
+        1,
+        4
       ]
     }
   },

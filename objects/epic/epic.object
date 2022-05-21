@@ -1,0 +1,35 @@
+{
+  "objectName": "epic",
+  "colonyTags": [
+    "pretty"
+  ],
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 401,
+  "apexDescription": "E.",
+  "avianDescription": "E.",
+  "floranDescription": "E.",
+  "glitchDescription": "E.",
+  "humanDescription": "E.",
+  "hylotlDescription": "E.",
+  "novakidDescription": "E.",
+  "description": "E.",
+  "shortdescription": "Rush E",
+  "race": "generic",
+  "inventoryIcon": "epicicon.png",
+  "orientations": [
+    {
+      "image": "epic.png:<color>",
+      "imagePosition": [
+        -48,
+        -32
+      ],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "anchors": [
+        "background"
+      ]
+    }
+  ]
+}

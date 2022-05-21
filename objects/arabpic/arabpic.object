@@ -1,0 +1,35 @@
+{
+  "objectName": "arabpic",
+  "colonyTags": [
+    "pretty"
+  ],
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 401,
+  "apexDescription": "Cool.",
+  "avianDescription": "Cool.",
+  "floranDescription": "Cool.",
+  "glitchDescription": "Cool.",
+  "humanDescription": "Cool.",
+  "hylotlDescription": "Cool.",
+  "novakidDescription": "Cool.",
+  "description": "Cool.",
+  "shortdescription": "ARABU",
+  "race": "generic",
+  "inventoryIcon": "arabpicicon.png",
+  "orientations": [
+    {
+      "image": "arabpic.png:<color>",
+      "imagePosition": [
+        -48,
+        -32
+      ],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "anchors": [
+        "background"
+      ]
+    }
+  ]
+}

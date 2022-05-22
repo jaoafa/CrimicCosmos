@@ -1,61 +1,61 @@
 {
-  "objectName": "tomasign",
-  "colonyTags": [
-    "light"
-  ],
-  "rarity": "Common",
-  "category": "light",
-  "lightColor": [
-    180,
-    180,
-    180
-  ],
-  "price": 135,
-  "description": "Big Toma is All Seeing!",
-  "shortdescription": "Big Toma Poster",
-  "race": "apex",
-  "apexDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
-  "avianDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
-  "floranDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
-  "glitchDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
-  "humanDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
-  "hylotlDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
-  "novakidDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
-  "inventoryIcon": "tomasignicon.png",
-  "orientations": [
-    {
-      "image": "tomasign.png:<color>.<frame>",
-      "imagePosition": [
+    "objectName": "tomasign",
+    "colonyTags": [
+        "light"
+    ],
+    "rarity": "Common",
+    "category": "light",
+    "lightColor": [
+        180,
+        180,
+        180
+    ],
+    "price": 135,
+    "description": "Big Toma is All Seeing!",
+    "shortdescription": "Big Toma Poster",
+    "race": "apex",
+    "apexDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
+    "avianDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
+    "floranDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
+    "glitchDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
+    "humanDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
+    "hylotlDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
+    "novakidDescription": "Tomachichi Code!! Tomachichi Code!! Woooooooooo!!!! The Tomachichi Code Accelerates!!!!",
+    "inventoryIcon": "tomasignicon.png",
+    "orientations": [
+        {
+            "image": "tomasign.png:<color>.<frame>",
+            "imagePosition": [
+                -16,
+                -16
+            ],
+            "direction": "right",
+            "spaceScan": 0.1,
+            "anchors": [
+                "background"
+            ]
+        }
+    ],
+    "soundEffect": "/sfx/objects/fluorescent_light_quiet.ogg",
+    "soundEffectRangeMultiplier": 0.5,
+    "animation": "/objects/wired/light/lighttogglebgfullbright.animation",
+    "animationParts": {
+        "bg": "tomasign.png",
+        "fg": "tomasignlit.png"
+    },
+    "animationPosition": [
         -16,
         -16
-      ],
-      "direction": "right",
-      "spaceScan": 0.1,
-      "anchors": [
-        "background"
-      ]
-    }
-  ],
-  "soundEffect": "/sfx/objects/fluorescent_light_quiet.ogg",
-  "soundEffectRangeMultiplier": 0.5,
-  "animation": "/objects/wired/light/lighttogglebgfullbright.animation",
-  "animationParts": {
-    "bg": "tomasign.png",
-    "fg": "tomasignlit.png"
-  },
-  "animationPosition": [
-    -16,
-    -16
-  ],
-  "scripts": [
-    "/objects/wired/light/light.lua"
-  ],
-  "scriptDelta": 60,
-  "interactive": false,
-  "inputNodes": [
-    [
-      0,
-      0
+    ],
+    "scripts": [
+        "/objects/wired/light/light.lua"
+    ],
+    "scriptDelta": 60,
+    "interactive": false,
+    "inputNodes": [
+        [
+            0,
+            0
+        ]
     ]
-  ]
 }

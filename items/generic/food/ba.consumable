@@ -1,25 +1,25 @@
 {
-  "itemName": "ba",
-  "rarity": "Common",
-  "price": 10,
-  "category": "preparedFood",
-  "inventoryIcon": "ba.png",
-  "description": "A yogurt-flavored Polish stick bar filled with dried fruits. ^green;Type: Vegetables^reset;",
-  "shortdescription": "BA!",
-  "foodValue": 17,
-  "tooltipKind": "food",
-  "builder": "/items/buildscripts/buildfood.lua",
-  "maxStack": 10,
-  "effects": [
-    [
-      "plant_food"
+    "itemName": "ba",
+    "rarity": "Common",
+    "price": 10,
+    "category": "preparedFood",
+    "inventoryIcon": "ba.png",
+    "description": "A yogurt-flavored Polish stick bar filled with dried fruits. ^green;Type: Vegetables^reset;",
+    "shortdescription": "BA!",
+    "foodValue": 17,
+    "tooltipKind": "food",
+    "builder": "/items/buildscripts/buildfood.lua",
+    "maxStack": 10,
+    "effects": [
+        [
+            "plant_food"
+        ]
+    ],
+    "itemAgingScripts": [
+        "/scripts/items/rotting.lua"
+    ],
+    "rottingMultiplier": 1.0,
+    "blockingEffects": [
+        "wellfed"
     ]
-  ],
-  "itemAgingScripts": [
-    "/scripts/items/rotting.lua"
-  ],
-  "rottingMultiplier": 1.0,
-  "blockingEffects": [
-    "wellfed"
-  ]
 }

@@ -1,18 +1,18 @@
 {
-  "input": [
-    {
-      "item": "itemuraniumglass",
-      "count": 1
-    }
-  ],
-  "output": {
-    "item": "uranglass",
-    "count": 10
-  },
-  "duration": 0.25,
-  "groups": [
-    "craftingfurniture",
-    "materials",
-    "all"
-  ]
+    "input": [
+        {
+            "item": "itemuraniumglass",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "uranglass",
+        "count": 10
+    },
+    "duration": 0.25,
+    "groups": [
+        "craftingfurniture",
+        "materials",
+        "all"
+    ]
 }

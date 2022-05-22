@@ -1,41 +1,44 @@
 {
-  "objectName" : "t10station",
-  "colonyTags" : ["crafting"],
-  "printable" : false,
-  "price" : 100,
-  "rarity" : "Rare",
-  "category" : "crafting",
-  "interactAction" : "OpenCraftingInterface",
-  "interactData" : {
-    "config" : "/interface/windowconfig/t10station.config",
-    "filter" : [ "t10station" ]
-  },
-  "description" : "Use this to create Tier 10 mission items.",
-  "shortdescription" : "T10 Mission Station",
-  "race" : "generic",
-
-  "apexDescription" : "Use this to create Tier 10 mission items.",
-  "avianDescription" : "Use this to create Tier 10 mission items.",
-  "floranDescription" : "Use this to create Tier 10 mission items.",
-  "glitchDescription" : "Use this to create Tier 10 mission items.",
-  "humanDescription" : "Use this to create Tier 10 mission items.",
-  "hylotlDescription" : "Use this to create Tier 10 mission items.",
-  "novakidDescription" : "Use this to create Tier 10 mission items.",
-
-  "inventoryIcon" : "t10stationicon.png",
-  "orientations" : [
-    {
-      "dualImage" : "t10station.png:<color>",
-
-      "imagePosition" : [-16, 0],
-      "frames" : 1,
-      "animationCycle" : 1.0,
-
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ]
-
-    }
-  ],
-
-  "npcToy" : {}
+    "objectName": "t10station",
+    "colonyTags": [
+        "crafting"
+    ],
+    "printable": false,
+    "price": 100,
+    "rarity": "Rare",
+    "category": "crafting",
+    "interactAction": "OpenCraftingInterface",
+    "interactData": {
+        "config": "/interface/windowconfig/t10station.config",
+        "filter": [
+            "t10station"
+        ]
+    },
+    "description": "Use this to create Tier 10 mission items.",
+    "shortdescription": "T10 Mission Station",
+    "race": "generic",
+    "apexDescription": "Use this to create Tier 10 mission items.",
+    "avianDescription": "Use this to create Tier 10 mission items.",
+    "floranDescription": "Use this to create Tier 10 mission items.",
+    "glitchDescription": "Use this to create Tier 10 mission items.",
+    "humanDescription": "Use this to create Tier 10 mission items.",
+    "hylotlDescription": "Use this to create Tier 10 mission items.",
+    "novakidDescription": "Use this to create Tier 10 mission items.",
+    "inventoryIcon": "t10stationicon.png",
+    "orientations": [
+        {
+            "dualImage": "t10station.png:<color>",
+            "imagePosition": [
+                -16,
+                0
+            ],
+            "frames": 1,
+            "animationCycle": 1.0,
+            "spaceScan": 0.1,
+            "anchors": [
+                "bottom"
+            ]
+        }
+    ],
+    "npcToy": {}
 }

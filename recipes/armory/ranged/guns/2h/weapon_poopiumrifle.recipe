@@ -1,12 +1,25 @@
 {
-  "input" : [
-    { "item" : "poopiumbar", "count" : 5 },
-    { "item" : "poop", "count" : 50 },
-    { "item" : "ff_plastic", "count" : 3 }
-  ],
-  "output" : {
-    "item" : "poopiumrifle",
-    "count" : 1
-  },
-  "groups" : [ "armory2", "ranged2", "all" ]
+    "input": [
+        {
+            "item": "poopiumbar",
+            "count": 5
+        },
+        {
+            "item": "poop",
+            "count": 50
+        },
+        {
+            "item": "ff_plastic",
+            "count": 3
+        }
+    ],
+    "output": {
+        "item": "poopiumrifle",
+        "count": 1
+    },
+    "groups": [
+        "armory2",
+        "ranged2",
+        "all"
+    ]
 }

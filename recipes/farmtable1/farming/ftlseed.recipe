@@ -1,11 +1,20 @@
 {
-  "input" : [
-    { "item" : "automatoseed", "count" : 10 },
-    { "item" : "fu_ftldrivesmall_broken", "count" : 1 }
-  ],
-  "output" : {
-    "item" : "ftlseed",
-    "count" : 1
-  },
-  "groups" : [ "craftingfarm", "farming" ]
+    "input": [
+        {
+            "item": "automatoseed",
+            "count": 10
+        },
+        {
+            "item": "fu_ftldrivesmall_broken",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "ftlseed",
+        "count": 1
+    },
+    "groups": [
+        "craftingfarm",
+        "farming"
+    ]
 }

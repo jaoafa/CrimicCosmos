@@ -1,101 +1,101 @@
 {
-  "objectName": "coogieshop",
-  "colonyTags": [
-    "commerce"
-  ],
-  "rarity": "Common",
-  "category": "other",
-  "description": "gie!",
-  "shortdescription": "Aunt Zakuro's Coogie shop",
-  "race": "generic",
-  "apexDescription": "gie!",
-  "avianDescription": "gie!",
-  "floranDescription": "gie!",
-  "glitchDescription": "gie!",
-  "humanDescription": "gie!",
-  "hylotlDescription": "gie!",
-  "novakidDescription": "gie!",
-  "interactAction": "OpenMerchantInterface",
-  "interactData": {
-    "config": "/interface/windowconfig/merchant.config",
-    "paneLayoutOverride": {
-      "windowtitle": {
-        "title": " Aunt Zakuro's Coogie shop",
-        "subtitle": " ^#b9b5b2;Coogie is a baked confectionery made by Aunt Zakuro's secret recipe!"
-      }
+    "objectName": "coogieshop",
+    "colonyTags": [
+        "commerce"
+    ],
+    "rarity": "Common",
+    "category": "other",
+    "description": "gie!",
+    "shortdescription": "Aunt Zakuro's Coogie shop",
+    "race": "generic",
+    "apexDescription": "gie!",
+    "avianDescription": "gie!",
+    "floranDescription": "gie!",
+    "glitchDescription": "gie!",
+    "humanDescription": "gie!",
+    "hylotlDescription": "gie!",
+    "novakidDescription": "gie!",
+    "interactAction": "OpenMerchantInterface",
+    "interactData": {
+        "config": "/interface/windowconfig/merchant.config",
+        "paneLayoutOverride": {
+            "windowtitle": {
+                "title": " Aunt Zakuro's Coogie shop",
+                "subtitle": " ^#b9b5b2;Coogie is a baked confectionery made by Aunt Zakuro's secret recipe!"
+            }
+        },
+        "buyFactor": 6.5,
+        "sellFactor": 0.2,
+        "items": [
+            {
+                "item": "flailcookie"
+            },
+            {
+                "item": "coogie"
+            },
+            {
+                "item": "plutoniumcookie"
+            },
+            {
+                "item": "uraniumcookie"
+            },
+            {
+                "item": "tearnutbuttercookie"
+            },
+            {
+                "item": "fleshcookie"
+            },
+            {
+                "item": "magmacookie"
+            },
+            {
+                "item": "icecookie"
+            },
+            {
+                "item": "sentientcookie"
+            },
+            {
+                "item": "solariumcookie"
+            },
+            {
+                "item": "eldercookie"
+            }
+        ]
     },
-    "buyFactor": 6.5,
-    "sellFactor": 0.2,
-    "items": [
-      {
-        "item": "flailcookie"
-      },
-      {
-        "item": "coogie"
-      },
-      {
-        "item": "plutoniumcookie"
-      },
-      {
-        "item": "uraniumcookie"
-      },
-      {
-        "item": "tearnutbuttercookie"
-      },
-      {
-        "item": "fleshcookie"
-      },
-      {
-        "item": "magmacookie"
-      },
-      {
-        "item": "icecookie"
-      },
-      {
-        "item": "sentientcookie"
-      },
-      {
-        "item": "solariumcookie"
-      },
-      {
-        "item": "eldercookie"
-      }
+    "printable": false,
+    "lightColor": [
+        220,
+        220,
+        220
+    ],
+    // Masking Fullbright Transparency Values: 0% brightness on lights, 75% brightness on posters in window, 70% on window
+    "inventoryIcon": "icon.png",
+    "orientations": [
+        {
+            "image": "coogieshop.png:<color>.<frame>",
+            "imagePosition": [
+                -56,
+                0
+            ],
+            "direction": "right",
+            "lightPosition": [
+                -6,
+                5
+            ],
+            "frames": 13,
+            "animationCycle": 1.3,
+            "spaceScan": 0.1,
+            "anchors": [
+                "bottom"
+            ],
+            "mouthPosition": [
+                -2.5,
+                -5
+            ],
+            "questIndicatorPosition": [
+                -2.5,
+                -5
+            ]
+        }
     ]
-  },
-  "printable": false,
-  "lightColor": [
-    220,
-    220,
-    220
-  ],
-  // Masking Fullbright Transparency Values: 0% brightness on lights, 75% brightness on posters in window, 70% on window
-  "inventoryIcon": "icon.png",
-  "orientations": [
-    {
-      "image": "coogieshop.png:<color>.<frame>",
-      "imagePosition": [
-        -56,
-        0
-      ],
-      "direction": "right",
-      "lightPosition": [
-        -6,
-        5
-      ],
-      "frames": 13,
-      "animationCycle": 1.3,
-      "spaceScan": 0.1,
-      "anchors": [
-        "bottom"
-      ],
-      "mouthPosition": [
-        -2.5,
-        -5
-      ],
-      "questIndicatorPosition": [
-        -2.5,
-        -5
-      ]
-    }
-  ]
 }

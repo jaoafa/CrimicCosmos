@@ -1,35 +1,35 @@
 {
-  "objectName": "nakazashihdsignsmall",
-  "colonyTags": [
-    "Crime"
-  ],
-  "rarity": "Common",
-  "category": "decorative",
-  "price": 0,
-  "description": "A very crime company sign.",
-  "shortdescription": "NakaZashiHD Small Sign",
-  "race": "generic",
-  "apexDescription": "A very crime company sign.",
-  "avianDescription": "A very crime company sign.",
-  "floranDescription": "A very crime company sign.",
-  "glitchDescription": "A very crime company sign.",
-  "humanDescription": "A very crime company sign.",
-  "hylotlDescription": "A very crime company sign.",
-  "novakidDescription": "A very crime company sign.",
-  "inventoryIcon": "nakazashisignicon.png",
-  "orientations": [
-    {
-      "image": "nakazashisignsmall.png",
-      "imagePosition": [
-        -20,
-        -8
-      ],
-      "frames": 1,
-      "animationCycle": 0.5,
-      "spaceScan": 0.1,
-      "anchors": [
-        "background"
-      ]
-    }
-  ]
+    "objectName": "nakazashihdsignsmall",
+    "colonyTags": [
+        "Crime"
+    ],
+    "rarity": "Common",
+    "category": "decorative",
+    "price": 0,
+    "description": "A very crime company sign.",
+    "shortdescription": "NakaZashiHD Small Sign",
+    "race": "generic",
+    "apexDescription": "A very crime company sign.",
+    "avianDescription": "A very crime company sign.",
+    "floranDescription": "A very crime company sign.",
+    "glitchDescription": "A very crime company sign.",
+    "humanDescription": "A very crime company sign.",
+    "hylotlDescription": "A very crime company sign.",
+    "novakidDescription": "A very crime company sign.",
+    "inventoryIcon": "nakazashisignicon.png",
+    "orientations": [
+        {
+            "image": "nakazashisignsmall.png",
+            "imagePosition": [
+                -20,
+                -8
+            ],
+            "frames": 1,
+            "animationCycle": 0.5,
+            "spaceScan": 0.1,
+            "anchors": [
+                "background"
+            ]
+        }
+    ]
 }

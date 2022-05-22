@@ -1,17 +1,17 @@
 {
-  "input": [
-    {
-      "item": "piabiap",
-      "count": 1
-    }
-  ],
-  "output": {
-    "item": "crimesound",
-    "count": 1
-  },
-  "groups": [
-    "craftinganvil",
-    "weapons",
-    "all"
-  ]
+    "input": [
+        {
+            "item": "piabiap",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "crimesound",
+        "count": 1
+    },
+    "groups": [
+        "craftinganvil",
+        "weapons",
+        "all"
+    ]
 }

@@ -1,21 +1,21 @@
 {
-  "input": [
-    {
-      "item": "uraniumore",
-      "count": 1
+    "input": [
+        {
+            "item": "uraniumore",
+            "count": 1
+        },
+        {
+            "item": "tungstenbar",
+            "count": 1
+        }
+    ],
+    "duration": 2,
+    "output": {
+        "item": "zakurohat",
+        "count": 1
     },
-    {
-      "item": "tungstenbar",
-      "count": 1
-    }
-  ],
-  "duration": 2,
-  "output": {
-    "item": "zakurohat",
-    "count": 1
-  },
-  "groups": [
-    "craftingwheel",
-    "clothes"
-  ]
+    "groups": [
+        "craftingwheel",
+        "clothes"
+    ]
 }

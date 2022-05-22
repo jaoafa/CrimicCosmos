@@ -1,9 +1,24 @@
 {
-  "input" : [
-    { "item" : "poopiumbar", "count" : 3 },
-    { "item" : "antineutronium", "count" : 1 },
-    { "item" : "neutronium", "count" : 1 }
-  ],
-  "output" : { "item" : "fu_t10_gaterepairbeacon", "count" : 1 },
-  "groups" : [ "t10station", "all" ]
+    "input": [
+        {
+            "item": "poopiumbar",
+            "count": 3
+        },
+        {
+            "item": "antineutronium",
+            "count": 1
+        },
+        {
+            "item": "neutronium",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "fu_t10_gaterepairbeacon",
+        "count": 1
+    },
+    "groups": [
+        "t10station",
+        "all"
+    ]
 }

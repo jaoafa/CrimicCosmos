@@ -1,17 +1,17 @@
 {
-  "input": [
-    {
-      "item": "poop",
-      "count": 100
-    }
-  ],
-  "duration": 2,
-  "output": {
-    "item": "poopmask",
-    "count": 1
-  },
-  "groups": [
-    "craftingwheel",
-    "clothes"
-  ]
+    "input": [
+        {
+            "item": "poop",
+            "count": 100
+        }
+    ],
+    "duration": 2,
+    "output": {
+        "item": "poopmask",
+        "count": 1
+    },
+    "groups": [
+        "craftingwheel",
+        "clothes"
+    ]
 }

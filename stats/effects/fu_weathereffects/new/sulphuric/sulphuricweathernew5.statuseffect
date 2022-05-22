@@ -1,42 +1,33 @@
 {
-	"name" : "sulphuricweathernew5",
-
-	"effectConfig" : {
-		"resistanceTypes" : {
-			"physicalResistance" : 1.0
-		},
-		"resistanceThreshold" : 1.0,
-		
-
-		"healthDrain" : 50,
-		"hungerDrain" : 0,
-		"energyDrain" : 10,
-		"speedPenalty" : 10,
-		"jumpPenalty" : 10,
-
-		"debuffRate" : 1,
-		"debuffStartDelay" : 0,
-		"debuffs" : {
-			"protection" : {
-				"amount" : -16
-			}
-		},
-
-		"modifiers" : {},
-
-		"messages" : {
-			"intro" : "ffbiomesulphuric"
-		},
-
-		"configPath" : "/stats/effects/fu_weathereffects/new/sulphuric/sulphuricweathernew5.statuseffect"
-	},
-	"defaultDuration" : 5,
-
-	"scripts" : [
-		"sulphuricweathernew.lua"
-	],
-	"animationConfig" : "sulphuricweathernew.animation",
-
-	"label" : "Ultimate Acidic Atmosphere (Resist: ^#a10000;Physical^reset;)",
-	"icon" : "/interface/statuses/acid3.png"
+    "name": "sulphuricweathernew5",
+    "effectConfig": {
+        "resistanceTypes": {
+            "physicalResistance": 1.0
+        },
+        "resistanceThreshold": 1.0,
+        "healthDrain": 50,
+        "hungerDrain": 0,
+        "energyDrain": 10,
+        "speedPenalty": 10,
+        "jumpPenalty": 10,
+        "debuffRate": 1,
+        "debuffStartDelay": 0,
+        "debuffs": {
+            "protection": {
+                "amount": -16
+            }
+        },
+        "modifiers": {},
+        "messages": {
+            "intro": "ffbiomesulphuric"
+        },
+        "configPath": "/stats/effects/fu_weathereffects/new/sulphuric/sulphuricweathernew5.statuseffect"
+    },
+    "defaultDuration": 5,
+    "scripts": [
+        "sulphuricweathernew.lua"
+    ],
+    "animationConfig": "sulphuricweathernew.animation",
+    "label": "Ultimate Acidic Atmosphere (Resist: ^#a10000;Physical^reset;)",
+    "icon": "/interface/statuses/acid3.png"
 }

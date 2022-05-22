@@ -1,12 +1,25 @@
 {
-  "input" : [
-    { "item" : "rawpoopium", "count" : 2 },
-    { "item" : "uraniumrod", "count" : 5 },
-	{ "item" : "tungstenbar", "count" : 10 }
-  ],
-  "output" : {
-    "item" : "poopiumbar",
-    "count" : 1
-  },
-  "groups" : [ "craftingfurnace", "bars", "all" ]
+    "input": [
+        {
+            "item": "rawpoopium",
+            "count": 2
+        },
+        {
+            "item": "uraniumrod",
+            "count": 5
+        },
+        {
+            "item": "tungstenbar",
+            "count": 10
+        }
+    ],
+    "output": {
+        "item": "poopiumbar",
+        "count": 1
+    },
+    "groups": [
+        "craftingfurnace",
+        "bars",
+        "all"
+    ]
 }

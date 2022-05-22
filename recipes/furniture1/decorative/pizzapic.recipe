@@ -1,22 +1,22 @@
 {
-  "input": [
-    {
-      "item": "canvas",
-      "count": 8
+    "input": [
+        {
+            "item": "canvas",
+            "count": 8
+        },
+        {
+            "item": "piabiap",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "pizzapic",
+        "count": 1
     },
-    {
-      "item": "piabiap",
-      "count": 1
-    }
-  ],
-  "output": {
-    "item": "pizzapic",
-    "count": 1
-  },
-  "duration": 0.25,
-  "groups": [
-    "craftingfurniture",
-    "decoration",
-    "all"
-  ]
+    "duration": 0.25,
+    "groups": [
+        "craftingfurniture",
+        "decoration",
+        "all"
+    ]
 }

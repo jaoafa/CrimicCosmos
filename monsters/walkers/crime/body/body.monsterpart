@@ -1,8 +1,8 @@
 {
-  "name": "crime",
-  "category": "crime",
-  "type": "body",
-  "frames": {
-    "body": "crime.png"
-  }
+    "name": "crime",
+    "category": "crime",
+    "type": "body",
+    "frames": {
+        "body": "crime.png"
+    }
 }

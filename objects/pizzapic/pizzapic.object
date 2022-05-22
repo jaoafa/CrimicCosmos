@@ -1,35 +1,35 @@
 {
-  "objectName": "pizzapic",
-  "colonyTags": [
-    "pretty"
-  ],
-  "rarity": "Common",
-  "category": "decorative",
-  "price": 773,
-  "apexDescription": "It's Headset.",
-  "avianDescription": "It's Headset.",
-  "floranDescription": "It's Headset.",
-  "glitchDescription": "It's Headset.",
-  "humanDescription": "It's Headset.",
-  "hylotlDescription": "It's Headset.",
-  "novakidDescription": "It's Headset.",
-  "description": "It's Headset.",
-  "shortdescription": "PIZZA MAN",
-  "race": "generic",
-  "inventoryIcon": "pizzapicicon.png",
-  "orientations": [
-    {
-      "image": "pizzapic.png:<color>",
-      "imagePosition": [
-        -48,
-        -32
-      ],
-      "frames": 1,
-      "animationCycle": 0.5,
-      "spaceScan": 0.1,
-      "anchors": [
-        "background"
-      ]
-    }
-  ]
+    "objectName": "pizzapic",
+    "colonyTags": [
+        "pretty"
+    ],
+    "rarity": "Common",
+    "category": "decorative",
+    "price": 773,
+    "apexDescription": "It's Headset.",
+    "avianDescription": "It's Headset.",
+    "floranDescription": "It's Headset.",
+    "glitchDescription": "It's Headset.",
+    "humanDescription": "It's Headset.",
+    "hylotlDescription": "It's Headset.",
+    "novakidDescription": "It's Headset.",
+    "description": "It's Headset.",
+    "shortdescription": "PIZZA MAN",
+    "race": "generic",
+    "inventoryIcon": "pizzapicicon.png",
+    "orientations": [
+        {
+            "image": "pizzapic.png:<color>",
+            "imagePosition": [
+                -48,
+                -32
+            ],
+            "frames": 1,
+            "animationCycle": 0.5,
+            "spaceScan": 0.1,
+            "anchors": [
+                "background"
+            ]
+        }
+    ]
 }

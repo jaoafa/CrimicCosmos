@@ -1,22 +1,22 @@
 {
-  "input": [
-    {
-      "item": "itemuraniumglass",
-      "count": 2
+    "input": [
+        {
+            "item": "itemuraniumglass",
+            "count": 2
+        },
+        {
+            "item": "uraniumore",
+            "count": 3
+        }
+    ],
+    "output": {
+        "item": "uraniumwalllamp",
+        "count": 1
     },
-    {
-      "item": "uraniumore",
-      "count": 3
-    }
-  ],
-  "output": {
-    "item": "uraniumwalllamp",
-    "count": 1
-  },
-  "duration": 0.25,
-  "groups": [
-    "craftingfurniture",
-    "lights",
-    "all"
-  ]
+    "duration": 0.25,
+    "groups": [
+        "craftingfurniture",
+        "lights",
+        "all"
+    ]
 }

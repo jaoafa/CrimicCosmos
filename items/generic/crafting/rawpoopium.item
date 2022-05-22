@@ -1,10 +1,12 @@
 {
-  "itemName" : "rawpoopium",
-  "price" : 20,
-  "rarity" : "Common",
-  "category" : "craftingMaterial",
-  "inventoryIcon" : "rawpoopium.png",
-  "description" : "Unrefined Poopium.",
-  "shortdescription" : "Raw Poopium",
-  "itemTags" : [ "reagent" ]
+    "itemName": "rawpoopium",
+    "price": 20,
+    "rarity": "Common",
+    "category": "craftingMaterial",
+    "inventoryIcon": "rawpoopium.png",
+    "description": "Unrefined Poopium.",
+    "shortdescription": "Raw Poopium",
+    "itemTags": [
+        "reagent"
+    ]
 }

@@ -1,28 +1,28 @@
 {
-  "materialId": 1708,
-  "materialName": "nztile",
-  "particleColor": [
-    251,
-    255,
-    202,
-    255
-  ],
-  "itemDrop": "nztile",
-  "description": "a Tile used in NakaZashi HD buildings.",
-  "shortdescription": "NZ Tile",
-  "glitchDescription": "a Tile used in NakaZashi HD buildings.",
-  "floranDescription": "a Tile used in NakaZashi HD buildings.",
-  "novakidDescription": "a Tile used in NakaZashi HD buildings.",
-  "footstepSound": "/sfx/blocks/footstep_glass.ogg",
-  "health": 4,
-  "category": "materials",
-  "renderTemplate": "/tiles/classicmaterialtemplate.config",
-  "renderParameters": {
-    "texture": "nztile.png",
-    "variants": 5,
-    "lightTransparent": true,
-    "occludesBelow": false,
-    "multiColored": true,
-    "zLevel": 3000
-  }
+    "materialId": 1708,
+    "materialName": "nztile",
+    "particleColor": [
+        251,
+        255,
+        202,
+        255
+    ],
+    "itemDrop": "nztile",
+    "description": "a Tile used in NakaZashi HD buildings.",
+    "shortdescription": "NZ Tile",
+    "glitchDescription": "a Tile used in NakaZashi HD buildings.",
+    "floranDescription": "a Tile used in NakaZashi HD buildings.",
+    "novakidDescription": "a Tile used in NakaZashi HD buildings.",
+    "footstepSound": "/sfx/blocks/footstep_glass.ogg",
+    "health": 4,
+    "category": "materials",
+    "renderTemplate": "/tiles/classicmaterialtemplate.config",
+    "renderParameters": {
+        "texture": "nztile.png",
+        "variants": 5,
+        "lightTransparent": true,
+        "occludesBelow": false,
+        "multiColored": true,
+        "zLevel": 3000
+    }
 }

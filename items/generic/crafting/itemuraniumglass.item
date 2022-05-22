@@ -1,12 +1,12 @@
 {
-  "itemName": "itemuraniumglass",
-  "price": 10,
-  "rarity": "Common",
-  "category": "craftingMaterial",
-  "inventoryIcon": "itemuraniumglass.png",
-  "description": "Green glass containing uranium.",
-  "shortdescription": "Uranium Glass",
-  "itemTags": [
-    "reagent"
-  ]
+    "itemName": "itemuraniumglass",
+    "price": 10,
+    "rarity": "Common",
+    "category": "craftingMaterial",
+    "inventoryIcon": "itemuraniumglass.png",
+    "description": "Green glass containing uranium.",
+    "shortdescription": "Uranium Glass",
+    "itemTags": [
+        "reagent"
+    ]
 }

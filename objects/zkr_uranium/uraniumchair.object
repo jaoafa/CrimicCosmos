@@ -1,43 +1,43 @@
 {
-  "objectName": "uraniumchair",
-  "colonyTags": [
-    "uranium",
-    "misc"
-  ],
-  "printable": false,
-  "rarity": "rare",
-  "description": "A chair made from Uranium.",
-  "shortdescription": "Uranium Chair",
-  "race": "generic",
-  "category": "furniture",
-  "price": 200,
-  "apexDescription": "A chair made from Uranium.",
-  "avianDescription": "A chair made from Uranium.",
-  "floranDescription": "A chair made from Uranium.",
-  "glitchDescription": "A chair made from Uranium.",
-  "humanDescription": "A chair made from Uranium.",
-  "hylotlDescription": "A chair made from Uranium.",
-  "novakidDescription": "A chair made from Uranium.",
-  "inventoryIcon": "uraniumchairicon.png",
-  "orientations": [
-    {
-      "dualImage": "uraniumchair.png:<color>",
-      "imagePosition": [
-        -8,
-        0
-      ],
-      "frames": 1,
-      "animationCycle": 1.0,
-      "spaceScan": 0.1,
-      "anchors": [
-        "bottom"
-      ]
-    }
-  ],
-  "objectType": "loungeable",
-  "sitFlipDirection": false,
-  "sitPosition": [
-    2,
-    22
-  ]
+    "objectName": "uraniumchair",
+    "colonyTags": [
+        "uranium",
+        "misc"
+    ],
+    "printable": false,
+    "rarity": "rare",
+    "description": "A chair made from Uranium.",
+    "shortdescription": "Uranium Chair",
+    "race": "generic",
+    "category": "furniture",
+    "price": 200,
+    "apexDescription": "A chair made from Uranium.",
+    "avianDescription": "A chair made from Uranium.",
+    "floranDescription": "A chair made from Uranium.",
+    "glitchDescription": "A chair made from Uranium.",
+    "humanDescription": "A chair made from Uranium.",
+    "hylotlDescription": "A chair made from Uranium.",
+    "novakidDescription": "A chair made from Uranium.",
+    "inventoryIcon": "uraniumchairicon.png",
+    "orientations": [
+        {
+            "dualImage": "uraniumchair.png:<color>",
+            "imagePosition": [
+                -8,
+                0
+            ],
+            "frames": 1,
+            "animationCycle": 1.0,
+            "spaceScan": 0.1,
+            "anchors": [
+                "bottom"
+            ]
+        }
+    ],
+    "objectType": "loungeable",
+    "sitFlipDirection": false,
+    "sitPosition": [
+        2,
+        22
+    ]
 }

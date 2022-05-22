@@ -1,11 +1,21 @@
 {
-  "input" : [
-   { "item" : "poopiumbar", "count" : 5 },
-   { "item" : "poop", "count" : 20 }
-  ],
-  "output" : {
-    "item" : "poopiumbroadsword",
-    "count" : 1
-  },
-  "groups" : [ "armory2", "melee2", "all" ]
+    "input": [
+        {
+            "item": "poopiumbar",
+            "count": 5
+        },
+        {
+            "item": "poop",
+            "count": 20
+        }
+    ],
+    "output": {
+        "item": "poopiumbroadsword",
+        "count": 1
+    },
+    "groups": [
+        "armory2",
+        "melee2",
+        "all"
+    ]
 }

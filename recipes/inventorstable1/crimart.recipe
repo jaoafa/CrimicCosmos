@@ -1,26 +1,26 @@
 {
-  "input": [
-    {
-      "item": "tungstenbar",
-      "count": 150
+    "input": [
+        {
+            "item": "tungstenbar",
+            "count": 150
+        },
+        {
+            "item": "nakazashihdsign",
+            "count": 1
+        },
+        {
+            "item": "colonydeed",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "crimart",
+        "count": 1
     },
-    {
-      "item": "nakazashihdsign",
-      "count": 1
-    },
-    {
-      "item": "colonydeed",
-      "count": 1
-    }
-  ],
-  "output": {
-    "item": "crimart",
-    "count": 1
-  },
-  "duration": 5,
-  "groups": [
-    "inventorstable",
-    "craftingstations",
-    "all"
-  ]
+    "duration": 5,
+    "groups": [
+        "inventorstable",
+        "craftingstations",
+        "all"
+    ]
 }

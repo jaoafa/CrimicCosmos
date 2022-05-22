@@ -1,22 +1,22 @@
 {
-  "input": [
-    {
-      "item": "nztile",
-      "count": 50
+    "input": [
+        {
+            "item": "nztile",
+            "count": 50
+        },
+        {
+            "item": "durasteelbar",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "nzhullpanel",
+        "count": 50
     },
-    {
-      "item": "durasteelbar",
-      "count": 1
-    }
-  ],
-  "output": {
-    "item": "nzhullpanel",
-    "count": 50
-  },
-  "duration": 0.25,
-  "groups": [
-    "craftingfurniture",
-    "materials",
-    "all"
-  ]
+    "duration": 0.25,
+    "groups": [
+        "craftingfurniture",
+        "materials",
+        "all"
+    ]
 }

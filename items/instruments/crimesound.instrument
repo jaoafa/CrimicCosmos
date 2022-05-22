@@ -1,19 +1,25 @@
 {
-  "itemName" : "crimesound",
-  "price" : 0,
-  "category" : "musicalInstrument",
-  "inventoryIcon" : "crimesound.png",
-  "maxStack" : 1,
-  "rarity" : "Common",
-  "description" : "Loud noise pollution.",
-  "shortdescription" : "Noisy Crime",
-  "largeImage" : "crimesound.png",
-  "image" : "crimesound.png",
-  "tooltipKind" : "tool",
-  "activeImage" : "crimesound.png",
-  "activeAngle" : 0,
-  "activeHandPosition" : [0, -0.1],
-  "handPosition" : [0, 0],
-  "twoHanded" : true,
-  "kind" : "crimesound"
+    "itemName": "crimesound",
+    "price": 0,
+    "category": "musicalInstrument",
+    "inventoryIcon": "crimesound.png",
+    "maxStack": 1,
+    "rarity": "Common",
+    "description": "Loud noise pollution.",
+    "shortdescription": "Noisy Crime",
+    "largeImage": "crimesound.png",
+    "image": "crimesound.png",
+    "tooltipKind": "tool",
+    "activeImage": "crimesound.png",
+    "activeAngle": 0,
+    "activeHandPosition": [
+        0,
+        -0.1
+    ],
+    "handPosition": [
+        0,
+        0
+    ],
+    "twoHanded": true,
+    "kind": "crimesound"
 }

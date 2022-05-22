@@ -1,11 +1,17 @@
 {
-  "input" : [
-    { "item" : "poop", "count" : 1000 }
-  ],
-  "output" : {
-    "item" : "compressedpoop",
-    "count" : 1
-  },
-  "duration" : 0.25,
-  "groups"  : [ "plain", "all" ]
+    "input": [
+        {
+            "item": "poop",
+            "count": 1000
+        }
+    ],
+    "output": {
+        "item": "compressedpoop",
+        "count": 1
+    },
+    "duration": 0.25,
+    "groups": [
+        "plain",
+        "all"
+    ]
 }

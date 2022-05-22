@@ -1,21 +1,21 @@
 {
-  "input": [
-    {
-      "item": "ironbar",
-      "count": 10
+    "input": [
+        {
+            "item": "ironbar",
+            "count": 10
+        },
+        {
+            "item": "reddye",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "sovietsound",
+        "count": 1
     },
-    {
-      "item": "reddye",
-      "count": 1
-    }
-  ],
-  "output": {
-    "item": "sovietsound",
-    "count": 1
-  },
-  "groups": [
-    "craftinganvil",
-    "weapons",
-    "all"
-  ]
+    "groups": [
+        "craftinganvil",
+        "weapons",
+        "all"
+    ]
 }

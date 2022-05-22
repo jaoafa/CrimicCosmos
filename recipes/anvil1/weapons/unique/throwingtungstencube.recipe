@@ -1,17 +1,17 @@
 {
-  "input": [
-    {
-      "item": "tungstenbar",
-      "count": 20
-    }
-  ],
-  "output": {
-    "item": "throwingtungstencube",
-    "count": 5
-  },
-  "groups": [
-    "craftinganvil",
-    "weapons",
-    "all"
-  ]
+    "input": [
+        {
+            "item": "tungstenbar",
+            "count": 20
+        }
+    ],
+    "output": {
+        "item": "throwingtungstencube",
+        "count": 5
+    },
+    "groups": [
+        "craftinganvil",
+        "weapons",
+        "all"
+    ]
 }

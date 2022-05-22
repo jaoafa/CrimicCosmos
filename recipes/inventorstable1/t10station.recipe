@@ -1,26 +1,26 @@
 {
-  "input": [
-    {
-      "item": "poopiumbar",
-      "count": 10
+    "input": [
+        {
+            "item": "poopiumbar",
+            "count": 10
+        },
+        {
+            "item": "ancientpowerconduit",
+            "count": 1
+        },
+        {
+            "item": "elderrelic11",
+            "count": 1
+        }
+    ],
+    "output": {
+        "item": "t10station",
+        "count": 1
     },
-    {
-      "item": "ancientpowerconduit",
-      "count": 1
-    },
-    {
-      "item": "elderrelic11",
-      "count": 1
-    }
-  ],
-  "output": {
-    "item": "t10station",
-    "count": 1
-  },
-  "duration": 5,
-  "groups": [
-    "inventorstable",
-    "craftingstations",
-    "all"
-  ]
+    "duration": 5,
+    "groups": [
+        "inventorstable",
+        "craftingstations",
+        "all"
+    ]
 }

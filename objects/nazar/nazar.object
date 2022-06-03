@@ -1,0 +1,35 @@
+{
+  "objectName": "nazar",
+  "colonyTags": [
+    "pretty"
+  ],
+  "rarity": "Common",
+  "category": "decorative",
+  "price": 73,
+  "apexDescription": "Turkish amulets are looking at you.",
+  "avianDescription": "Turkish amulets are looking at you.",
+  "floranDescription": "Turkish amulets are looking at you.",
+  "glitchDescription": "Turkish amulets are looking at you.",
+  "humanDescription": "Turkish amulets are looking at you.",
+  "hylotlDescription": "Turkish amulets are looking at you.",
+  "novakidDescription": "Turkish amulets are looking at you.",
+  "description": "Turkish amulets are looking at you.",
+  "shortdescription": "Nazar",
+  "race": "generic",
+  "inventoryIcon": "nazaricon.png",
+  "orientations": [
+    {
+      "image": "nazar.png",
+      "imagePosition": [
+        -48,
+        -48
+      ],
+      "frames": 1,
+      "animationCycle": 0.5,
+      "spaceScan": 0.1,
+      "anchors": [
+        "background"
+      ]
+    }
+  ]
+}

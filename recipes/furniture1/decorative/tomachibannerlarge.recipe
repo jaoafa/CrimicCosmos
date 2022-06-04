@@ -1,0 +1,22 @@
+{
+  "duration": 0.25,
+  "groups": [
+    "craftingfurniture",
+    "decoration",
+    "all"
+  ],
+  "input": [
+    {
+      "item": "fabric",
+      "count": 12
+    },
+    {
+      "item": "copperbar",
+      "count": 2
+    }
+  ],
+  "output": {
+    "item": "tomachibannerlarge",
+    "count": 1
+  }
+}

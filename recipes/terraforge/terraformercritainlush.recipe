@@ -1,0 +1,20 @@
+{
+  "currencyInputs": {
+    "essence": 3000
+  },
+  "duration": 0,
+  "groups": [
+    "terraforge",
+    "all"
+  ],
+  "input": [
+    {
+      "item": "emoji",
+      "count": 95
+    }
+  ],
+  "output": {
+    "item": "terraformercritainlush",
+    "count": 1
+  }
+}

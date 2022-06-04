@@ -17,6 +17,13 @@
     "op": "add",
     "path": "/defaultBlueprints/tier1/-",
     "value": {
+      "item": "banhammer"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
       "item": "compressedpoop"
     }
   },
@@ -60,6 +67,13 @@
     "path": "/defaultBlueprints/tier1/-",
     "value": {
       "item": "fecessound"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "ftlseed"
     }
   },
   {
@@ -178,6 +192,13 @@
     "op": "add",
     "path": "/defaultBlueprints/tier1/-",
     "value": {
+      "item": "metalburger"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
       "item": "nakazashihdsign"
     }
   },
@@ -290,6 +311,34 @@
     "op": "add",
     "path": "/defaultBlueprints/tier1/-",
     "value": {
+      "item": "tinplatesalad"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "tomachibannerlarge"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "tomachibannersmall"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "tomachibattlestandard"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
       "item": "tomasign"
     }
   },
@@ -368,34 +417,6 @@
     "path": "/defaultBlueprints/tier1/-",
     "value": {
       "item": "uraniumwalllamp"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/defaultBlueprints/tier1/-",
-    "value": {
-      "item": "metalburger"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/defaultBlueprints/tier1/-",
-    "value": {
-      "item": "tinplatesalad"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/defaultBlueprints/tier1/-",
-    "value": {
-      "item": "banhammer"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/defaultBlueprints/tier1/-",
-    "value": {
-      "item": "ftlseed"
     }
   },
   {

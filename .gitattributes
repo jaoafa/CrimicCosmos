@@ -73,3 +73,6 @@
 *.unusedmonsterskill linguist-language=JSON
 *.weather linguist-language=JSON
 *.wiretool linguist-language=JSON
+
+*.patch linguist-language=JSON
+*.liquid linguist-language=JSON

@@ -5,7 +5,7 @@
 	"rarity" : "Legendary",
 	"category" : "tool",
 	"description" : "Teleports the user to the ^orange;the Dark Delta Freya II^reset; in the Nightmare World.\n^red;Environmental Hazards^reset;:\nExtreme Maddening Atmosphere\nLethal Cold",
-	"shortdescription" : "Beacon: ^orange;Delta Freya II^reset;",
+	"shortdescription" : "Beacon: ^orange;Dark Delta Freya II^reset;",
 	"twoHanded" : true,
     "animation": "hardmodebeacon.animation",
 

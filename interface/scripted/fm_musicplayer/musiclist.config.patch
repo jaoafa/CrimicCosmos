@@ -1,0 +1,17 @@
+[
+  {
+    "op": "add",
+    "path": "/CC",
+    "value": [
+      {
+        "name": "Middler Force",
+        "directory": "/music/middler-force-loop.ogg"
+      }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/##album_icons##/CC",
+    "value": "/interface/scripted/fm_musicplayer/icon_cc.png"
+  }
+]

@@ -5,7 +5,7 @@
 	"rarity" : "Legendary",
 	"category" : "tool",
 	"description" : "Teleports the user to the ^orange;the Dark Dreadwing^reset; in the Nightmare World.\n^red;Environmental Hazards^reset;:\nMaddening Atmosphere\nExtreme Cold",
-	"shortdescription" : "Beacon: ^orange;Dreadwing^reset;",
+	"shortdescription" : "Beacon: ^orange;Dark Dreadwing^reset;",
 	"twoHanded" : true,
     "animation": "hardmodebeacon.animation",
 

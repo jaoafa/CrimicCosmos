@@ -67,7 +67,6 @@
     "day": {
       "tracks": [
         "/music/tentacle-exploration1.ogg",
-        "/music/swansong.ogg",
         "/music/scorian-flow.ogg",
         "/music/lava-exploration2.ogg",
         "/music/ultramarine.ogg",
@@ -77,7 +76,6 @@
     "night": {
       "tracks": [
         "/music/tentacle-exploration1.ogg",
-        "/music/swansong.ogg",
         "/music/scorian-flow.ogg",
         "/music/lava-exploration2.ogg",
         "/music/ultramarine.ogg",

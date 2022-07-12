@@ -1,0 +1,25 @@
+{
+  "input": [
+    {
+      "item": "poopiumbar",
+      "count": 100
+    },
+    {
+      "item": "liquidmetallichydrogen",
+      "count": 1000
+    },
+    {
+      "item": "ff_plastic",
+      "count": 300
+    }
+  ],
+  "output": {
+    "item": "gasbagun",
+    "count": 1
+  },
+  "groups": [
+    "armory2",
+    "ranged2",
+    "all"
+  ]
+}

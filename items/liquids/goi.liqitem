@@ -1,0 +1,9 @@
+{
+  "itemName": "liquidmoltengoi",
+  "rarity": "Common",
+  "category": "liquid",
+  "inventoryIcon": "liquidmoltengoiicon.png",
+  "shortdescription": "Molten Goi-Power",
+  "description": "yaba",
+  "liquid": "moltengoi"
+}

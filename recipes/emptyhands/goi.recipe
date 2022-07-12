@@ -1,0 +1,21 @@
+{
+  "input": [
+    {
+      "item": "fuscienceresource",
+      "count": 1000
+    },
+    {
+      "item": "liquidwater",
+      "count": 1
+    }
+  ],
+  "output": {
+    "item": "liquidmoltengoi",
+    "count": 1
+  },
+  "duration": 0.25,
+  "groups": [
+    "plain",
+    "all"
+  ]
+}

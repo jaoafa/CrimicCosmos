@@ -1,0 +1,33 @@
+{
+    "bftlHarvest": [
+      [
+        0,
+        {
+          "pool": [
+            {
+              "weight": 0.89,
+              "item": "fu_ftldrivesmall_broken"
+            },
+            {
+              "weight": 0.01,
+              "item": "ftlseed"
+            },
+            {
+              "weight": 0.1,
+              "item": "ff_spareparts"
+            }
+          ],
+          "poolRounds": [
+            [
+              0.6,
+              1
+            ],
+            [
+              0.4,
+              2
+            ]
+          ]
+        }
+      ]
+    ]
+  }

@@ -48,7 +48,7 @@
     },
     {
       "alts" : 5,
-      "harvestPool" : "fu_ftldrivesmall_broken"
+      "harvestPool" : "bftlHarvest"
     }
   ],
 

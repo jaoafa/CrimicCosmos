@@ -16,41 +16,41 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: "14"
 
       - uses: actions/checkout@v2
         with:
-          path: Starbound-ZakuroHatMod
+          path: CrimicCosmos
 
       - uses: actions/checkout@v2
         with:
-          path: Starbound-ZakuroHatMod-main
+          path: CrimicCosmos-main
           ref: main
           fetch-depth: 0
 
       - name: Reset latest merge
         run: |
-          cd Starbound-ZakuroHatMod-main
+          cd CrimicCosmos-main
           git reset --hard HEAD~1
           cd ..
 
       - name: Get main metadata
         id: mainMetadata
         run: |
-          NAME=`cat Starbound-ZakuroHatMod-main/_metadata | jq -r .name`
-          VERSION=`cat Starbound-ZakuroHatMod-main/_metadata | jq -r .version`
-          echo "::set-output name=NAME::${NAME}"
-          echo "::set-output name=VERSION::${VERSION}"
+          NAME=`cat CrimicCosmos-main/_metadata | jq -r .name`
+          VERSION=`cat CrimicCosmos-main/_metadata | jq -r .version`
+          echo "NAME=${NAME}" >> $GITHUB_OUTPUT
+          echo "VERSION=${VERSION}" >> $GITHUB_OUTPUT
           echo "VERSION: ${VERSION}"
 
       - name: Get current metadata
         id: metadata
         run: |
-          NAME=`cat Starbound-ZakuroHatMod/_metadata | jq -r .name`
-          VERSION=`cat Starbound-ZakuroHatMod/_metadata | jq -r .version`
-          echo "::set-output name=NAME::${NAME}"
-          echo "::set-output name=VERSION::${VERSION}"
-          echo "::set-output name=FILENAME::${NAME}-${VERSION}.pak"
+          NAME=`cat CrimicCosmos/_metadata | jq -r .name`
+          VERSION=`cat CrimicCosmos/_metadata | jq -r .version`
+          echo "NAME=${NAME}" >> $GITHUB_OUTPUT
+          echo "VERSION=${VERSION}" >> $GITHUB_OUTPUT
+          echo "FILENAME=${NAME}-${VERSION}.pak" >> $GITHUB_OUTPUT
           echo "VERSION: ${VERSION}"
 
       - uses: actions/checkout@v2
@@ -68,7 +68,7 @@ jobs:
 
       - name: Pack
         if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
-        run: npx sbpak pack Starbound-ZakuroHatMod ${{ steps.metadata.outputs.FILENAME }}
+        run: npx sbpak pack CrimicCosmos ${{ steps.metadata.outputs.FILENAME }}
 
       - name: Create a Release
         if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}

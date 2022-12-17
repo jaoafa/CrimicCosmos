@@ -23,13 +23,13 @@ jobs:
         uses: actions/checkout@v2
         if: github.event.pull_request == null
         with:
-          path: Starbound-ZakuroHatMod
+          path: CrimicCosmos
 
       - name: Checkout (Pull request)
         uses: actions/checkout@v2
         if: github.event.pull_request != null
         with:
-          path: Starbound-ZakuroHatMod
+          path: CrimicCosmos
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Checkout damianb/sbpak
@@ -47,14 +47,14 @@ jobs:
       - name: Get metadata
         id: metadata
         run: |
-          NAME=`cat Starbound-ZakuroHatMod/_metadata | jq -r .name`
-          VERSION=`cat Starbound-ZakuroHatMod/_metadata | jq -r .version`
-          echo "::set-output name=NAME::${NAME}"
-          echo "::set-output name=VERSION::${VERSION}"
-          echo "::set-output name=FILENAME::${NAME}-${VERSION}.pak"
+          NAME=`cat CrimicCosmos/_metadata | jq -r .name`
+          VERSION=`cat CrimicCosmos/_metadata | jq -r .version`
+          echo "NAME=${NAME}" >> $GITHUB_OUTPUT
+          echo "VERSION=${VERSION}" >> $GITHUB_OUTPUT
+          echo "FILENAME=${NAME}-${VERSION}.pak" >> $GITHUB_OUTPUT
 
       - name: Pack
-        run: npx sbpak pack Starbound-ZakuroHatMod ${{ steps.metadata.outputs.FILENAME }}
+        run: npx sbpak pack CrimicCosmos ${{ steps.metadata.outputs.FILENAME }}
 
       - uses: actions/upload-artifact@v2
         with:

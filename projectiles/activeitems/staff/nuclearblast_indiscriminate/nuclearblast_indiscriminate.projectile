@@ -1,0 +1,23 @@
+{
+  "actionOnReap": [
+    {
+      "action": "config",
+      "file": "/projectiles/explosions/nuclearexplosion/nuclearexplosion.config"
+    }
+  ],
+  "bounces": -1,
+  "damageKind": "radioactive",
+  "damagePoly": [
+
+  ],
+  "image": "/projectiles/invisibleprojectile/invisibleprojectile.png",
+  "orientationLocked": true,
+  "physics": "nocollision",
+  "power": 30,
+  "projectileName": "nuclearblast_indiscriminate",
+  "scripts": [
+    "/projectiles/activeitems/staff/staffprojectile.lua"
+  ],
+  "speed": 0,
+  "timeToLive": 0.01
+}

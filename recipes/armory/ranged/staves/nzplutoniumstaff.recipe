@@ -1,0 +1,29 @@
+{
+  "groups": [
+    "armory3",
+    "staff",
+    "all"
+  ],
+  "input": [
+    {
+      "item": "advancealloy",
+      "count": 5
+    },
+    {
+      "item": "enrichedplutonium",
+      "count": 6
+    },
+    {
+      "item": "solariumstar",
+      "count": 4
+    },
+    {
+      "item": "poopiumbar",
+      "count": 12
+    }
+  ],
+  "output": {
+    "item": "nzplutoniumstaff",
+    "count": 1
+  }
+}

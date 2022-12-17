@@ -1,0 +1,102 @@
+{
+  "altAbility": {
+    "type": "elementblast",
+    "scripts": [
+      "/items/active/weapons/staff/abilities/aimedprojectile/aimedprojectile.lua"
+    ],
+    "class": "AimedProjectile",
+    "energyCost": 60,
+    "maxCastRange": 25,
+    "projectileType": "radioactiveblast2",
+    "projectileParameters": {
+      "baseDamage": 18
+    }
+  },
+  "altAbilityType": "elementblast",
+  "animation": "/items/active/weapons/staff/staff.animation",
+  "animationCustom": {
+    "particleEmitters": {
+      "radioactivecharge": {
+        "offsetRegion": [
+          -0.5,
+          1.75,
+          0.5,
+          3.25
+        ]
+      }
+    }
+  },
+  "animationParts": {
+    "staff": "nzplutoniumstaff.png",
+    "stone": "/items/active/weapons/staff/generated/stone/plutoniumstaff.png",
+    "chargeEffect": "/items/active/weapons/staff/generated/glow/radioactive.png"
+  },
+  "builder": "/items/buildscripts/buildunrandweapon.lua",
+  "category": "staff",
+  "description": "Even more radioactive staff.",
+  "elementalType": "radioactive",
+  "inventoryIcon": "nzplutoniumstaff.png",
+  "itemName": "nzplutoniumstaff",
+  "itemTags": [
+    "weapon",
+    "staff",
+    "upgradeableWeapon",
+    "plutonium",
+    "radioactive",
+    "crime"
+  ],
+  "level": 4,
+  "maxStack": 1,
+  "price": 1100,
+  "primaryAbility": {
+    "name": "Nuclear Burst II"
+  },
+  "primaryAbilityType": "nuclearburst_indiscriminate",
+  "rarity": "legendary",
+  "scripts": [
+    "/items/active/weapons/staff/staff.lua"
+  ],
+  "shortdescription": "NakaZashi Nuclear Staff",
+  "stances": {
+    "idle": {
+      "armRotation": -90,
+      "weaponRotation": 0,
+      "twoHanded": false,
+      "allowRotate": false,
+      "allowFlip": true
+    },
+    "charge": {
+      "duration": 1.3,
+      "armRotation": 20,
+      "weaponRotation": -20,
+      "twoHanded": true,
+      "allowRotate": false,
+      "allowFlip": true
+    },
+    "charged": {
+      "armRotation": 20,
+      "weaponRotation": -20,
+      "twoHanded": true,
+      "allowRotate": false,
+      "allowFlip": false
+    },
+    "discharge": {
+      "duration": 0.5,
+      "armRotation": 20,
+      "weaponRotation": -20,
+      "twoHanded": true,
+      "allowRotate": false,
+      "allowFlip": false
+    },
+    "cooldown": {
+      "duration": 0.5,
+      "armRotation": -45,
+      "weaponRotation": 0,
+      "twoHanded": true,
+      "allowRotate": false,
+      "allowFlip": false
+    }
+  },
+  "tooltipKind": "staff",
+  "twoHanded": true
+}

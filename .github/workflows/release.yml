@@ -14,15 +14,15 @@ jobs:
 
     steps:
       - name: Setup node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: "14"
+          node-version: 18
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           path: CrimicCosmos
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           path: CrimicCosmos-main
           ref: main
@@ -53,52 +53,37 @@ jobs:
           echo "FILENAME=${NAME}-${VERSION}.pak" >> $GITHUB_OUTPUT
           echo "VERSION: ${VERSION}"
 
-      - uses: actions/checkout@v2
-        if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
-        with:
-          repository: damianb/sbpak
-          path: sbpak
-
-      - name: Install sbpak
-        if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
-        run: |
-          cd sbpak
-          npm i
-          cd ..
-
       - name: Pack
         if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
         run: npx sbpak pack CrimicCosmos ${{ steps.metadata.outputs.FILENAME }}
 
-      - name: Create a Release
+      - name: Generate changelog
         if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
+        run: |
+          gh api "repos/{owner}/{repo}/releases/generate-notes" -f tag_name='v${{ steps.metadata.outputs.VERSION }}' -f previous_tag_name='v${{ steps.mainMetadata.outputs.VERSION }}' | jq -r .body > ../changelog.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Release
         id: create_release
-        uses: actions/create-release@v1
+        if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
+        uses: ncipollo/release-action@v1.12.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v${{ steps.metadata.outputs.VERSION }}
-          release_name: v${{ steps.metadata.outputs.VERSION }}
+          tag: v${{ steps.metadata.outputs.VERSION }}
+          name: v${{ steps.metadata.outputs.VERSION }}
+          bodyFile: changelog.md
           draft: false
           prerelease: false
-
-      - name: Upload Release Asset
-        if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
-        uses: actions/upload-release-asset@v1.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ${{ steps.metadata.outputs.FILENAME }}
-          asset_name: ${{ steps.metadata.outputs.FILENAME }}
-          asset_content_type: application/octet-stream
+          artifacts: ${{ steps.metadata.outputs.FILENAME }}
 
       - name: Released comment
         if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
-        uses: actions/github-script@v4
+        uses: actions/github-script@v6
         with:
           script: |
-            github.issues.createComment({
+            github.rest.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,

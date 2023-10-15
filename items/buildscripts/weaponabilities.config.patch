@@ -1,0 +1,7 @@
+[
+    {
+      "op": "add",
+      "path": "/nuclearburst_indiscriminate",
+      "value": "/items/active/weapons/staff/abilities/controlprojectile/nuclearburst_indiscriminate.weaponability"
+    }
+]

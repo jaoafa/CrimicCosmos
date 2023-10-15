@@ -38,20 +38,6 @@
     "op": "add",
     "path": "/defaultBlueprints/tier1/-",
     "value": {
-      "item": "gasbagun"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/defaultBlueprints/tier1/-",
-    "value": {
-      "item": "liquidmoltengoi"
-    }
-  },
-  {
-    "op": "add",
-    "path": "/defaultBlueprints/tier1/-",
-    "value": {
       "item": "coogiesign"
     }
   },
@@ -178,6 +164,13 @@
     "op": "add",
     "path": "/defaultBlueprints/tier1/-",
     "value": {
+      "item": "gasbagun"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
       "item": "hambanner"
     }
   },
@@ -193,6 +186,13 @@
     "path": "/defaultBlueprints/tier1/-",
     "value": {
       "item": "liquidgeri"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "liquidmoltengoi"
     }
   },
   {
@@ -228,6 +228,13 @@
     "path": "/defaultBlueprints/tier1/-",
     "value": {
       "item": "nzhullpanel"
+    }
+  },
+  {
+    "op": "add",
+    "path": "/defaultBlueprints/tier1/-",
+    "value": {
+      "item": "nzplutoniumstaff"
     }
   },
   {

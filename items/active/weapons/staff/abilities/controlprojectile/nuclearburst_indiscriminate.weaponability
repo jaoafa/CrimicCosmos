@@ -1,0 +1,16 @@
+{
+  "ability": {
+    "type": "nuclearburst_indiscriminate",
+    "name": "Nuclear Burst",
+    "scripts": [
+      "/items/active/weapons/staff/abilities/controlprojectile/controlprojectile.lua"
+    ],
+    "class": "ControlProjectile",
+    "energyCost": 82,
+    "maxCastRange": 50,
+    "projectileType": "nuclearblast_indiscriminate",
+    "projectileParameters": {
+      "baseDamage": 13
+    }
+  }
+}

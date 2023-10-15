@@ -1,0 +1,121 @@
+{
+  "name" : "crimicchaos",
+
+  
+
+  "projectiles" : [
+    {
+      "projectile" : "coconut",
+      "parameters" : {
+        "power" : 1
+      },
+      "velocity" : [0, -50],
+      "ratePerX" : 0.4,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    },
+    {
+      "projectile" : "throwingtungstencube",
+      "parameters" : {
+        "power" : 1
+      },
+      "velocity" : [0, -50],
+      "ratePerX" : 0.06,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    },
+    {
+      "projectile" : "kaebin",
+      "parameters" : {
+        "power" : 1
+      },
+      "velocity" : [0, -50],
+      "ratePerX" : 0.01,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    },
+    {
+      "projectile" : "lavabubblestorm",
+      "parameters" : {
+        "power" : 1
+      },
+      "velocity" : [0, -50],
+      "ratePerX" : 0.05,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    },
+    {
+      "projectile" : "water",
+      "parameters" : {
+        "power" : 0
+      },
+      "velocity" : [0, -30],
+      "ratePerX" : 0.05,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    },
+        {
+      "projectile" : "poptoprain",
+      "parameters" : {
+        "power" : 0
+      },
+      "velocity" : [0, -15],
+      "ratePerX" : 0.01,
+      "spawnAboveRegion" : 30,
+      "spawnHorizontalPad" : 30,
+      "windAffectAmount" : 1.0
+    },
+    {
+  "projectile" : "sandstorm",
+  "parameters" : {
+    "power" : 0
+  },
+  "velocity" : [0, 0],
+  "ratePerX" : 0.005,
+  "spawnAboveRegion" : 10,
+  "spawnHorizontalPad" : 10,
+  "windAffectAmount" : 1.0
+},
+{
+"projectile" : "hail1",
+"parameters" : {
+"power" : 0
+},
+"velocity" : [0, -15],
+"ratePerX" : 0.4,
+"spawnAboveRegion" : 30,
+"spawnHorizontalPad" : 30,
+"windAffectAmount" : 1.0
+},
+{
+"projectile" : "junksatellite2",
+"parameters" : {
+"power" : 0
+},
+"velocity" : [0, -15],
+"ratePerX" : 0.075,
+"spawnAboveRegion" : 30,
+"spawnHorizontalPad" : 30,
+"windAffectAmount" : 1.0
+},
+{
+"projectile" : "junkrocket1",
+"parameters" : {
+"power" : 0
+},
+"velocity" : [0, -15],
+"ratePerX" : 0.075,
+"spawnAboveRegion" : 30,
+"spawnHorizontalPad" : 30,
+"windAffectAmount" : 1.0
+}
+  ],
+
+  "duration" : [50, 400],
+  "maximumWind" : 15.0
+}

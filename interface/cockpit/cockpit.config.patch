@@ -76,6 +76,57 @@
         188,
         156
       ]
-    }
+    },
+
+    {
+      "op": "add",
+      "path": "/displayWeathers/coconutshower",
+      "value": {
+        "displayName": 
+          "Coconut Shower"
+        ,
+        "icon": 
+          "/interface/cockpit/weather/coconutshower.png"
+        }},
+        {
+          "op": "add",
+          "path": "/displayWeathers/crimicchaos",
+          "value": {
+            "displayName": 
+              "Crimic Chaos"
+            ,
+            "icon": 
+              "/interface/cockpit/weather/crimicchaos.png"
+            }},
+            {
+              "op": "add",
+              "path": "/displayWeathers/gasexplosionshower",
+              "value": {
+                "displayName": 
+                  "Gas Explosion Shower"
+                ,
+                "icon": 
+                  "/interface/cockpit/weather/gasexplosionshower.png"
+                }},
+                {
+                  "op": "add",
+                  "path": "/displayWeathers/tungstenrain",
+                  "value": {
+                    "displayName": 
+                      "Tungsten Rain"
+                    ,
+                    "icon": 
+                      "/interface/cockpit/weather/tungstenrain.png"
+                    }},
+                    {
+                      "op": "add",
+                      "path": "/displayWeathers/spacejunk_severe",
+                      "value": {
+                        "displayName": 
+                          "Severe Spacejunk"
+                        ,
+                        "icon": 
+                          "/interface/cockpit/weather/spacejunk.png"
+                        }}
   ]
 ]

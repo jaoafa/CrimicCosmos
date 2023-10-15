@@ -1,0 +1,25 @@
+{
+  "name": "tungstenrain",
+  "projectiles": [
+    {
+      "projectile": "throwingtungstencube",
+      "parameters" : {
+        "power": 16.0,
+  "damageKind": "hammer"
+      },
+      "velocity": [
+        30,
+        -30
+      ],
+      "ratePerX": 0.03,
+      "spawnAboveRegion": 30,
+      "spawnHorizontalPad": 30,
+      "windAffectAmount": 0.0
+    }
+  ],
+  "duration": [
+    30,
+    60
+  ],
+  "maximumWind": 15.0
+}

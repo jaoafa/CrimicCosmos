@@ -59,6 +59,7 @@ jobs:
 
       - name: Generate changelog
         if: ${{ steps.mainMetadata.outputs.VERSION != steps.metadata.outputs.VERSION }}
+        working-directory: CrimicCosmos
         run: |
           gh api "repos/{owner}/{repo}/releases/generate-notes" -f tag_name='v${{ steps.metadata.outputs.VERSION }}' -f previous_tag_name='v${{ steps.mainMetadata.outputs.VERSION }}' | jq -r .body > ../changelog.md
         env:

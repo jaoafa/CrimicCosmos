@@ -9,19 +9,19 @@
       ],
       [
         0.1,
-        "ironstorm"
+        "tungstenrain"
       ],
       [
         0.1,
         "heavyrain"
       ],
       [
-        0.1,
+        0.09,
         "sandstorm"
       ],
       [
         0.1,
-        "spacejunk"
+        "spacejunk_severe"
       ],
       [
         0.1,
@@ -33,15 +33,19 @@
       ],
       [
         0.1,
-        "cosmicblast"
+        "coconutshower"
       ],
       [
-        0.1,
+        0.09,
         "insanitystorm"
       ],
       [
-        0.1,
+        0.09,
         "crystalstormmajor"
+      ],
+      [
+        0.03,
+        "crimicchaos"
       ]
     ]
   },
@@ -50,28 +54,8 @@
     "path": "/terminusland",
     "value": [
       [
-        0.1,
-        "meteorshower"
-      ],
-      [
-        0.3,
-        "largemeteor"
-      ],
-      [
-        0.1,
-        "fuearthquake"
-      ],
-      [
-        0.1,
-        "darkblast"
-      ],
-      [
-        0.3,
-        "fuearthquakesevere"
-      ],
-      [
-        0.1,
-        "ironstorm"
+        1.0,
+        "gasexplosionshower"
       ]
     ]
   }

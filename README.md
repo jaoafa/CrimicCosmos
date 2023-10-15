@@ -4,7 +4,13 @@ Starbound ZakuroHat サーバに導入されている Mod のプロジェクト�
 
 ## Installation
 
-Mod をインストールするには、以下二つの方法があります。
+Mod をインストールするには、以下の方法があります。
+
+### Steamワークショップからサブスクライブしてインストール
+
+1. Starbound を起動している場合は止める
+2. [Steamワークショップ(限定公開)](https://steamcommunity.com/sharedfiles/filedetails/?id=2791351318) からサブスクライブ
+3. Starbound を起動し、Mod が使用可能かを確認
 
 ### pak ファイルをダウンロードしてインストール
 

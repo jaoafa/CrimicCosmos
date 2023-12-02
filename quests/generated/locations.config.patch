@@ -1,0 +1,13 @@
+[
+    {
+      "op" : "add",
+      "path" : "/ccencounters",
+      "value" : {
+        "nzbuilding" : {
+          "name" : "nakazashi building",
+          "tags" : [ "generic" ],
+          "range" : 600
+        }
+      }
+    }
+]  

@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "name": "nzbuilding",
+    "species": "generic",
+    "rules": [],
+    "anchor": [
+      "nz_placed"
+    ],
+    "gravity": 80,
+    "maxRadius": 1000000,
+    "maxParts": 100,
+    "protected": false
+  },
+  "parts": [
+    {
+      "name": "nz_placed",
+      "rules": [
+        [
+          "maxSpawnCount",
+          [
+            1
+          ]
+        ]
+      ],
+      "def": [
+        "tmx",
+        "nz_placed.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "objectName" : "nzbuilder",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Common",
+  "description" : "Places NakaZashi Building. This will be quest location.",
+  "shortdescription" : "NakaZashi Builder",
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 50000,
+
+  "apexDescription" : "N/A",
+  "avianDescription" : "N/A",
+  "floranDescription" : "N/A",
+  "glitchDescription" : "N/A",
+  "humanDescription" : "N/A",
+  "hylotlDescription" : "N/A",
+  "novakidDescription" : "N/A",
+
+  "inventoryIcon" : "/objects/nakazashisign/nakazashisignicon.png",
+  "orientations" : [
+    {
+      "image" : "/objects/nzbuilder/nzbuilder.png:<color>",
+
+      "imagePosition" : [0, 272],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaces" : [[0,0]],
+      "anchors" : [ ]
+    }
+  ],
+  
+  "dungeon" : "nzbuilding",
+  "scripts" : ["/dungeons/microdungeons/nzbuilding/nz_placed.lua"],
+  "scriptDelta" : 5
+}

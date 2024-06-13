@@ -73,6 +73,10 @@
       {
         "item": "eyespasmtrap",
         "price": 24000
+      },
+      {
+        "item": "partytimeaugment",
+        "price": 65900
       }
     ]
   },

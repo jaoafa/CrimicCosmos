@@ -1,0 +1,22 @@
+{
+  "itemName" : "partytimeaugment",
+  "price" : 1,
+  "rarity" : "Legendary",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "partytimeaugment.png",
+  "description" : "....wtf?",
+  "shortdescription" : "PLUR Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "partytimeaugment",
+    "displayName" : "PLUR Augment",
+    "displayIcon" : "/items/augments/pet/extraresistanceaugment.png",
+    "effects" : [ "partytime2" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

@@ -12,8 +12,31 @@ on:
       - synchronize
 
 jobs:
+  post-approval-request:
+    runs-on: ubuntu-latest
+    # pull_request_target イベントのときのみ承認リクエストを投稿する
+    if: github.event_name == 'pull_request_target'
+    permissions:
+      pull-requests: write
+    steps:
+      - name: 承認リクエストコメントを投稿
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ## Environment 承認待ち
+
+            この PR のビルドを実行するには、Environment `pr-preview` の承認が必要です。
+
+            [Actions run を確認して承認してください](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}?pr=${{ github.event.pull_request.number }})
+
   pack:
     runs-on: ubuntu-latest
+    needs: post-approval-request
+    # post-approval-request が skipped（push イベント）または success（pull_request_target）のときのみ実行する
+    if: always() && (needs.post-approval-request.result == 'success' || needs.post-approval-request.result == 'skipped')
+    # pull_request_target（フォーク PR）の場合は Environment で手動承認が必要
+    environment: ${{ github.event_name == 'pull_request_target' && 'pr-preview' || null }}
 
     steps:
       - name: Setup node

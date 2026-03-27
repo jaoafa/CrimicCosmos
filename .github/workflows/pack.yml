@@ -19,7 +19,7 @@ jobs:
     permissions:
       pull-requests: write
     steps:
-      - name: 既存の承認リクエストコメントを検索
+      - name: Find existing approval request comment
         id: find-comment
         uses: peter-evans/find-comment@v3
         with:
@@ -27,7 +27,7 @@ jobs:
           comment-author: github-actions[bot]
           body-includes: Environment 承認待ち
 
-      - name: 承認リクエストコメントを投稿または更新
+      - name: Post or update approval request comment
         uses: peter-evans/create-or-update-comment@v4
         with:
           comment-id: ${{ steps.find-comment.outputs.comment-id }}
@@ -36,7 +36,7 @@ jobs:
           body: |
             ## Environment 承認待ち
 
-            この PR のビルドを実行するには、Environment `pr-preview` の承認が必要です。
+            この PR のビルドを実行するには、Environment `fork-pr-build` の承認が必要です。
 
             [Actions run を確認して承認してください](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}?pr=${{ github.event.pull_request.number }})
 
@@ -46,7 +46,7 @@ jobs:
     # post-approval-request が skipped（push イベント）または success（pull_request_target）のときのみ実行する
     if: always() && (needs.post-approval-request.result == 'success' || needs.post-approval-request.result == 'skipped')
     # フォーク PR の場合のみ Environment で手動承認が必要（同一リポジトリからの PR は不要）
-    environment: ${{ github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository && 'pr-preview' || null }}
+    environment: ${{ github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository && 'fork-pr-build' || null }}
     permissions:
       contents: read
       pull-requests: write

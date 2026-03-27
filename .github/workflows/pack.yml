@@ -35,7 +35,7 @@ jobs:
     needs: post-approval-request
     # post-approval-request が skipped（push イベント）または success（pull_request_target）のときのみ実行する
     if: always() && (needs.post-approval-request.result == 'success' || needs.post-approval-request.result == 'skipped')
-    # pull_request_target（フォーク PR）の場合は Environment で手動承認が必要
+    # pull_request_target イベントの場合は Environment で手動承認が必要（フォーク PR を含む外部コードの安全な実行のため）
     environment: ${{ github.event_name == 'pull_request_target' && 'pr-preview' || null }}
 
     steps:

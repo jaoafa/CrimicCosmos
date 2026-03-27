@@ -53,12 +53,12 @@ jobs:
 
     steps:
       - name: Setup node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 18
 
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: CrimicCosmos
           ref: ${{ github.event.pull_request.head.sha || github.sha }}

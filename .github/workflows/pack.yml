@@ -14,8 +14,8 @@ on:
 jobs:
   post-approval-request:
     runs-on: ubuntu-latest
-    # pull_request_target イベントのときのみ承認リクエストを投稿する
-    if: github.event_name == 'pull_request_target'
+    # フォーク PR のときのみ承認リクエストを投稿する（同一リポジトリからの PR は不要）
+    if: github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository
     permissions:
       pull-requests: write
     steps:
@@ -45,8 +45,8 @@ jobs:
     needs: post-approval-request
     # post-approval-request が skipped（push イベント）または success（pull_request_target）のときのみ実行する
     if: always() && (needs.post-approval-request.result == 'success' || needs.post-approval-request.result == 'skipped')
-    # pull_request_target イベントの場合は Environment で手動承認が必要（フォーク PR を含む外部コードの安全な実行のため）
-    environment: ${{ github.event_name == 'pull_request_target' && 'pr-preview' || null }}
+    # フォーク PR の場合のみ Environment で手動承認が必要（同一リポジトリからの PR は不要）
+    environment: ${{ github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository && 'pr-preview' || null }}
     permissions:
       contents: read
       pull-requests: write

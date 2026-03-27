@@ -19,10 +19,20 @@ jobs:
     permissions:
       pull-requests: write
     steps:
-      - name: 承認リクエストコメントを投稿
-        uses: peter-evans/create-or-update-comment@v4
+      - name: 既存の承認リクエストコメントを検索
+        id: find-comment
+        uses: peter-evans/find-comment@v3
         with:
           issue-number: ${{ github.event.pull_request.number }}
+          comment-author: github-actions[bot]
+          body-includes: Environment 承認待ち
+
+      - name: 承認リクエストコメントを投稿または更新
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          comment-id: ${{ steps.find-comment.outputs.comment-id }}
+          issue-number: ${{ github.event.pull_request.number }}
+          edit-mode: replace
           body: |
             ## Environment 承認待ち
 
@@ -37,6 +47,9 @@ jobs:
     if: always() && (needs.post-approval-request.result == 'success' || needs.post-approval-request.result == 'skipped')
     # pull_request_target イベントの場合は Environment で手動承認が必要（フォーク PR を含む外部コードの安全な実行のため）
     environment: ${{ github.event_name == 'pull_request_target' && 'pr-preview' || null }}
+    permissions:
+      contents: read
+      pull-requests: write
 
     steps:
       - name: Setup node

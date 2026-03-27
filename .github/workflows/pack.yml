@@ -63,7 +63,7 @@ jobs:
         run: npx sbpak pack CrimicCosmos ${{ steps.metadata.outputs.FILENAME }}
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.metadata.outputs.FILENAME }}
           path: ${{ steps.metadata.outputs.FILENAME }}

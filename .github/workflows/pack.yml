@@ -46,7 +46,7 @@ jobs:
     # post-approval-request が skipped（push イベント）または success（pull_request_target）のときのみ実行する
     if: always() && (needs.post-approval-request.result == 'success' || needs.post-approval-request.result == 'skipped')
     # フォーク PR の場合のみ Environment で手動承認が必要（同一リポジトリからの PR は不要）
-    environment: ${{ github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository && 'fork-pr-build' || null }}
+    environment: ${{ github.event_name == 'pull_request_target' && github.event.pull_request.head.repo.full_name != github.repository && 'fork-pr-build' || '' }}
     permissions:
       contents: read
       pull-requests: write
